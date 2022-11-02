@@ -1,0 +1,6334 @@
+﻿
+
+STATE_PL = {		
+
+	type = state
+
+	text = {
+		trigger = { 
+			exists = s:STATE_MINSK
+			state_region = s:STATE_MINSK
+		}
+		localization_key = STATE_MINSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ALASKA
+			state_region = s:STATE_ALASKA
+		}
+		localization_key = STATE_ALASKA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WASHINGTON
+			state_region = s:STATE_WASHINGTON
+		}
+		localization_key = STATE_WASHINGTON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_OREGON
+			state_region = s:STATE_OREGON
+		}
+		localization_key = STATE_OREGON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_IDAHO
+			state_region = s:STATE_IDAHO
+		}
+		localization_key = STATE_IDAHO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_COLORADO
+			state_region = s:STATE_COLORADO
+		}
+		localization_key = STATE_COLORADO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WYOMING
+			state_region = s:STATE_WYOMING
+		}
+		localization_key = STATE_WYOMING
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MONTANA
+			state_region = s:STATE_MONTANA
+		}
+		localization_key = STATE_MONTANA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_DAKOTA
+			state_region = s:STATE_NORTH_DAKOTA
+		}
+		localization_key = STATE_NORTH_DAKOTA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_DAKOTA
+			state_region = s:STATE_SOUTH_DAKOTA
+		}
+		localization_key = STATE_SOUTH_DAKOTA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NEBRASKA
+			state_region = s:STATE_NEBRASKA
+		}
+		localization_key = STATE_NEBRASKA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KANSAS
+			state_region = s:STATE_KANSAS
+		}
+		localization_key = STATE_KANSAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_OKLAHOMA
+			state_region = s:STATE_OKLAHOMA
+		}
+		localization_key = STATE_OKLAHOMA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LOUISIANA
+			state_region = s:STATE_LOUISIANA
+		}
+		localization_key = STATE_LOUISIANA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARKANSAS
+			state_region = s:STATE_ARKANSAS
+		}
+		localization_key = STATE_ARKANSAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MISSOURI
+			state_region = s:STATE_MISSOURI
+		}
+		localization_key = STATE_MISSOURI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_IOWA
+			state_region = s:STATE_IOWA
+		}
+		localization_key = STATE_IOWA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MINNESOTA
+			state_region = s:STATE_MINNESOTA
+		}
+		localization_key = STATE_MINNESOTA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WISCONSIN
+			state_region = s:STATE_WISCONSIN
+		}
+		localization_key = STATE_WISCONSIN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NEW_YORK
+			state_region = s:STATE_NEW_YORK
+		}
+		localization_key = STATE_NEW_YORK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INDIANA
+			state_region = s:STATE_INDIANA
+		}
+		localization_key = STATE_INDIANA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MICHIGAN
+			state_region = s:STATE_MICHIGAN
+		}
+		localization_key = STATE_MICHIGAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_OHIO
+			state_region = s:STATE_OHIO
+		}
+		localization_key = STATE_OHIO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KENTUCKY
+			state_region = s:STATE_KENTUCKY
+		}
+		localization_key = STATE_KENTUCKY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TENNESSEE
+			state_region = s:STATE_TENNESSEE
+		}
+		localization_key = STATE_TENNESSEE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MISSISSIPPI
+			state_region = s:STATE_MISSISSIPPI
+		}
+		localization_key = STATE_MISSISSIPPI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ALABAMA
+			state_region = s:STATE_ALABAMA
+		}
+		localization_key = STATE_ALABAMA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_FLORIDA
+			state_region = s:STATE_FLORIDA
+		}
+		localization_key = STATE_FLORIDA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GEORGIA
+			state_region = s:STATE_GEORGIA
+		}
+		localization_key = STATE_GEORGIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_VIRGINIA
+			state_region = s:STATE_VIRGINIA
+		}
+		localization_key = STATE_VIRGINIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DISTRICT_OF_COLUMBIA
+			state_region = s:STATE_DISTRICT_OF_COLUMBIA
+		}
+		localization_key = STATE_DISTRICT_OF_COLUMBIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_VIRGINIA
+			state_region = s:STATE_WEST_VIRGINIA
+		}
+		localization_key = STATE_WEST_VIRGINIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MARYLAND
+			state_region = s:STATE_MARYLAND
+		}
+		localization_key = STATE_MARYLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DELAWARE
+			state_region = s:STATE_DELAWARE
+		}
+		localization_key = STATE_DELAWARE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PENNSYLVANIA
+			state_region = s:STATE_PENNSYLVANIA
+		}
+		localization_key = STATE_PENNSYLVANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NEW_JERSEY
+			state_region = s:STATE_NEW_JERSEY
+		}
+		localization_key = STATE_NEW_JERSEY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ILLINOIS
+			state_region = s:STATE_ILLINOIS
+		}
+		localization_key = STATE_ILLINOIS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MASSACHUSETTS
+			state_region = s:STATE_MASSACHUSETTS
+		}
+		localization_key = STATE_MASSACHUSETTS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NEW_HAMPSHIRE
+			state_region = s:STATE_NEW_HAMPSHIRE
+		}
+		localization_key = STATE_NEW_HAMPSHIRE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CONNECTICUT
+			state_region = s:STATE_CONNECTICUT
+		}
+		localization_key = STATE_CONNECTICUT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RHODE_ISLAND
+			state_region = s:STATE_RHODE_ISLAND
+		}
+		localization_key = STATE_RHODE_ISLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_VERMONT
+			state_region = s:STATE_VERMONT
+		}
+		localization_key = STATE_VERMONT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MAINE
+			state_region = s:STATE_MAINE
+		}
+		localization_key = STATE_MAINE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_CAROLINA
+			state_region = s:STATE_NORTH_CAROLINA
+		}
+		localization_key = STATE_NORTH_CAROLINA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TEXAS
+			state_region = s:STATE_TEXAS
+		}
+		localization_key = STATE_TEXAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_YUKON_TERRITORY
+			state_region = s:STATE_YUKON_TERRITORY
+		}
+		localization_key = STATE_YUKON_TERRITORY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTHWEST_TERRITORIES
+			state_region = s:STATE_NORTHWEST_TERRITORIES
+		}
+		localization_key = STATE_NORTHWEST_TERRITORIES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NUNAVUT
+			state_region = s:STATE_NUNAVUT
+		}
+		localization_key = STATE_NUNAVUT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BRITISH_COLUMBIA
+			state_region = s:STATE_BRITISH_COLUMBIA
+		}
+		localization_key = STATE_BRITISH_COLUMBIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ALBERTA
+			state_region = s:STATE_ALBERTA
+		}
+		localization_key = STATE_ALBERTA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SASKATCHEWAN
+			state_region = s:STATE_SASKATCHEWAN
+		}
+		localization_key = STATE_SASKATCHEWAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MANITOBA
+			state_region = s:STATE_MANITOBA
+		}
+		localization_key = STATE_MANITOBA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ONTARIO
+			state_region = s:STATE_ONTARIO
+		}
+		localization_key = STATE_ONTARIO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_QUEBEC
+			state_region = s:STATE_QUEBEC
+		}
+		localization_key = STATE_QUEBEC
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NEWFOUNDLAND
+			state_region = s:STATE_NEWFOUNDLAND
+		}
+		localization_key = STATE_NEWFOUNDLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GUATEMALA
+			state_region = s:STATE_GUATEMALA
+		}
+		localization_key = STATE_GUATEMALA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HONDURAS
+			state_region = s:STATE_HONDURAS
+		}
+		localization_key = STATE_HONDURAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NICARAGUA
+			state_region = s:STATE_NICARAGUA
+		}
+		localization_key = STATE_NICARAGUA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_COSTA_RICA
+			state_region = s:STATE_COSTA_RICA
+		}
+		localization_key = STATE_COSTA_RICA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PANAMA
+			state_region = s:STATE_PANAMA
+		}
+		localization_key = STATE_PANAMA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CUBA
+			state_region = s:STATE_CUBA
+		}
+		localization_key = STATE_CUBA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_URUGUAY
+			state_region = s:STATE_URUGUAY
+		}
+		localization_key = STATE_URUGUAY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ECUADOR
+			state_region = s:STATE_ECUADOR
+		}
+		localization_key = STATE_ECUADOR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SANTO_DOMINGO
+			state_region = s:STATE_SANTO_DOMINGO
+		}
+		localization_key = STATE_SANTO_DOMINGO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HAITI
+			state_region = s:STATE_HAITI
+		}
+		localization_key = STATE_HAITI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GOTLAND
+			state_region = s:STATE_GOTLAND
+		}
+		localization_key = STATE_GOTLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GOTALAND
+			state_region = s:STATE_GOTALAND
+		}
+		localization_key = STATE_GOTALAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SCANIA
+			state_region = s:STATE_SCANIA
+		}
+		localization_key = STATE_SCANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORRLAND
+			state_region = s:STATE_NORRLAND
+		}
+		localization_key = STATE_NORRLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SVEALAND
+			state_region = s:STATE_SVEALAND
+		}
+		localization_key = STATE_SVEALAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SICILY
+			state_region = s:STATE_SICILY
+		}
+		localization_key = STATE_SICILY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PELOPONNESE
+			state_region = s:STATE_PELOPONNESE
+		}
+		localization_key = STATE_PELOPONNESE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_IONIAN_ISLANDS
+			state_region = s:STATE_IONIAN_ISLANDS
+		}
+		localization_key = STATE_IONIAN_ISLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ALBANIA
+			state_region = s:STATE_ALBANIA
+		}
+		localization_key = STATE_ALBANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BOSNIA
+			state_region = s:STATE_BOSNIA
+		}
+		localization_key = STATE_BOSNIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NAVARRA
+			state_region = s:STATE_NAVARRA
+		}
+		localization_key = STATE_NAVARRA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTHERN_TRANSYLVANIA
+			state_region = s:STATE_SOUTHERN_TRANSYLVANIA
+		}
+		localization_key = STATE_SOUTHERN_TRANSYLVANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HAWAIIAN_ISLANDS
+			state_region = s:STATE_HAWAIIAN_ISLANDS
+		}
+		localization_key = STATE_HAWAIIAN_ISLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTHERN_TRANSYLVANIA
+			state_region = s:STATE_NORTHERN_TRANSYLVANIA
+		}
+		localization_key = STATE_NORTHERN_TRANSYLVANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MOLDAVIA
+			state_region = s:STATE_MOLDAVIA
+		}
+		localization_key = STATE_MOLDAVIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WALLACHIA
+			state_region = s:STATE_WALLACHIA
+		}
+		localization_key = STATE_WALLACHIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GALICIA
+			state_region = s:STATE_GALICIA
+		}
+		localization_key = STATE_GALICIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ASTURIAS
+			state_region = s:STATE_ASTURIAS
+		}
+		localization_key = STATE_ASTURIAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CASTILE
+			state_region = s:STATE_CASTILE
+		}
+		localization_key = STATE_CASTILE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARAGON
+			state_region = s:STATE_ARAGON
+		}
+		localization_key = STATE_ARAGON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CATALONIA
+			state_region = s:STATE_CATALONIA
+		}
+		localization_key = STATE_CATALONIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BALEARES
+			state_region = s:STATE_BALEARES
+		}
+		localization_key = STATE_BALEARES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NEW_SOUTH_WALES
+			state_region = s:STATE_NEW_SOUTH_WALES
+		}
+		localization_key = STATE_NEW_SOUTH_WALES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_VICTORIA
+			state_region = s:STATE_VICTORIA
+		}
+		localization_key = STATE_VICTORIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TASMANIA
+			state_region = s:STATE_TASMANIA
+		}
+		localization_key = STATE_TASMANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_QUEENSLAND
+			state_region = s:STATE_QUEENSLAND
+		}
+		localization_key = STATE_QUEENSLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_AUSTRALIA
+			state_region = s:STATE_SOUTH_AUSTRALIA
+		}
+		localization_key = STATE_SOUTH_AUSTRALIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WESTERN_AUSTRALIA
+			state_region = s:STATE_WESTERN_AUSTRALIA
+		}
+		localization_key = STATE_WESTERN_AUSTRALIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTHERN_TERRITORY
+			state_region = s:STATE_NORTHERN_TERRITORY
+		}
+		localization_key = STATE_NORTHERN_TERRITORY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ISLAND
+			state_region = s:STATE_NORTH_ISLAND
+		}
+		localization_key = STATE_NORTH_ISLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ISLAND
+			state_region = s:STATE_SOUTH_ISLAND
+		}
+		localization_key = STATE_SOUTH_ISLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_MICRONESIA
+			state_region = s:STATE_WEST_MICRONESIA
+		}
+		localization_key = STATE_WEST_MICRONESIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_MICRONESIA
+			state_region = s:STATE_EAST_MICRONESIA
+		}
+		localization_key = STATE_EAST_MICRONESIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_JAVA
+			state_region = s:STATE_WEST_JAVA
+		}
+		localization_key = STATE_WEST_JAVA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_JAVA
+			state_region = s:STATE_EAST_JAVA
+		}
+		localization_key = STATE_EAST_JAVA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CENTRAL_JAVA
+			state_region = s:STATE_CENTRAL_JAVA
+		}
+		localization_key = STATE_CENTRAL_JAVA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CEYLON
+			state_region = s:STATE_CEYLON
+		}
+		localization_key = STATE_CEYLON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_URGA
+			state_region = s:STATE_URGA
+		}
+		localization_key = STATE_URGA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ULIASTAI
+			state_region = s:STATE_ULIASTAI
+		}
+		localization_key = STATE_ULIASTAI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_OMAN
+			state_region = s:STATE_OMAN
+		}
+		localization_key = STATE_OMAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ABU_DHABI
+			state_region = s:STATE_ABU_DHABI
+		}
+		localization_key = STATE_ABU_DHABI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_YEMEN
+			state_region = s:STATE_YEMEN
+		}
+		localization_key = STATE_YEMEN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HEDJAZ
+			state_region = s:STATE_HEDJAZ
+		}
+		localization_key = STATE_HEDJAZ
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TUNISIA
+			state_region = s:STATE_TUNISIA
+		}
+		localization_key = STATE_TUNISIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GUINEA
+			state_region = s:STATE_GUINEA
+		}
+		localization_key = STATE_GUINEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GHANA
+			state_region = s:STATE_GHANA
+		}
+		localization_key = STATE_GHANA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TOGO
+			state_region = s:STATE_TOGO
+		}
+		localization_key = STATE_TOGO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DAHOMEY
+			state_region = s:STATE_DAHOMEY
+		}
+		localization_key = STATE_DAHOMEY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DEIR_EZ_ZOR
+			state_region = s:STATE_DEIR_EZ_ZOR
+		}
+		localization_key = STATE_DEIR_EZ_ZOR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GABON
+			state_region = s:STATE_GABON
+		}
+		localization_key = STATE_GABON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BOTSWANA
+			state_region = s:STATE_BOTSWANA
+		}
+		localization_key = STATE_BOTSWANA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ZAMBIA
+			state_region = s:STATE_ZAMBIA
+		}
+		localization_key = STATE_ZAMBIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CAMBODIA
+			state_region = s:STATE_CAMBODIA
+		}
+		localization_key = STATE_CAMBODIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SAVOY
+			state_region = s:STATE_SAVOY
+		}
+		localization_key = STATE_SAVOY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LIBERIA
+			state_region = s:STATE_LIBERIA
+		}
+		localization_key = STATE_LIBERIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EMILIA
+			state_region = s:STATE_EMILIA
+		}
+		localization_key = STATE_EMILIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TUSCANY
+			state_region = s:STATE_TUSCANY
+		}
+		localization_key = STATE_TUSCANY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ROMAGNA
+			state_region = s:STATE_ROMAGNA
+		}
+		localization_key = STATE_ROMAGNA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LAZIO
+			state_region = s:STATE_LAZIO
+		}
+		localization_key = STATE_LAZIO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NEVADA
+			state_region = s:STATE_NEVADA
+		}
+		localization_key = STATE_NEVADA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARIZONA
+			state_region = s:STATE_ARIZONA
+		}
+		localization_key = STATE_ARIZONA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NEW_MEXICO
+			state_region = s:STATE_NEW_MEXICO
+		}
+		localization_key = STATE_NEW_MEXICO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CALIFORNIA
+			state_region = s:STATE_CALIFORNIA
+		}
+		localization_key = STATE_CALIFORNIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BAJA_CALIFORNIA
+			state_region = s:STATE_BAJA_CALIFORNIA
+		}
+		localization_key = STATE_BAJA_CALIFORNIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SONORA
+			state_region = s:STATE_SONORA
+		}
+		localization_key = STATE_SONORA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CHIHUAHUA
+			state_region = s:STATE_CHIHUAHUA
+		}
+		localization_key = STATE_CHIHUAHUA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RIO_GRANDE
+			state_region = s:STATE_RIO_GRANDE
+		}
+		localization_key = STATE_RIO_GRANDE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GUERRERO
+			state_region = s:STATE_GUERRERO
+		}
+		localization_key = STATE_GUERRERO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DURANGO
+			state_region = s:STATE_DURANGO
+		}
+		localization_key = STATE_DURANGO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_YUCATAN
+			state_region = s:STATE_YUCATAN
+		}
+		localization_key = STATE_YUCATAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MEXICO
+			state_region = s:STATE_MEXICO
+		}
+		localization_key = STATE_MEXICO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_JALISCO
+			state_region = s:STATE_JALISCO
+		}
+		localization_key = STATE_JALISCO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ZACATECAS
+			state_region = s:STATE_ZACATECAS
+		}
+		localization_key = STATE_ZACATECAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GUAYANA
+			state_region = s:STATE_GUAYANA
+		}
+		localization_key = STATE_GUAYANA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ZULIA
+			state_region = s:STATE_ZULIA
+		}
+		localization_key = STATE_ZULIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MIRANDA
+			state_region = s:STATE_MIRANDA
+		}
+		localization_key = STATE_MIRANDA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BOLIVAR
+			state_region = s:STATE_BOLIVAR
+		}
+		localization_key = STATE_BOLIVAR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ANTIOQUIA
+			state_region = s:STATE_ANTIOQUIA
+		}
+		localization_key = STATE_ANTIOQUIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GUAVIARE
+			state_region = s:STATE_GUAVIARE
+		}
+		localization_key = STATE_GUAVIARE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CUNDINAMARCA
+			state_region = s:STATE_CUNDINAMARCA
+		}
+		localization_key = STATE_CUNDINAMARCA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CAUCA
+			state_region = s:STATE_CAUCA
+		}
+		localization_key = STATE_CAUCA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PASTAZA
+			state_region = s:STATE_PASTAZA
+		}
+		localization_key = STATE_PASTAZA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CAJAMARCA
+			state_region = s:STATE_CAJAMARCA
+		}
+		localization_key = STATE_CAJAMARCA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LIMA
+			state_region = s:STATE_LIMA
+		}
+		localization_key = STATE_LIMA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ICA
+			state_region = s:STATE_ICA
+		}
+		localization_key = STATE_ICA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_AREQUIPA
+			state_region = s:STATE_AREQUIPA
+		}
+		localization_key = STATE_AREQUIPA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_AMAZONAS
+			state_region = s:STATE_AMAZONAS
+		}
+		localization_key = STATE_AMAZONAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MATO_GROSSO
+			state_region = s:STATE_MATO_GROSSO
+		}
+		localization_key = STATE_MATO_GROSSO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RIO_GRANDE_DO_SUL
+			state_region = s:STATE_RIO_GRANDE_DO_SUL
+		}
+		localization_key = STATE_RIO_GRANDE_DO_SUL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PARANA
+			state_region = s:STATE_PARANA
+		}
+		localization_key = STATE_PARANA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SAO_PAULO
+			state_region = s:STATE_SAO_PAULO
+		}
+		localization_key = STATE_SAO_PAULO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MINAS_GERAIS
+			state_region = s:STATE_MINAS_GERAIS
+		}
+		localization_key = STATE_MINAS_GERAIS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RIO_DE_JANEIRO
+			state_region = s:STATE_RIO_DE_JANEIRO
+		}
+		localization_key = STATE_RIO_DE_JANEIRO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TAHITI
+			state_region = s:STATE_TAHITI
+		}
+		localization_key = STATE_TAHITI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TONGA
+			state_region = s:STATE_TONGA
+		}
+		localization_key = STATE_TONGA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BAHIA
+			state_region = s:STATE_BAHIA
+		}
+		localization_key = STATE_BAHIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RIO_GRANDE_DO_NORTE
+			state_region = s:STATE_RIO_GRANDE_DO_NORTE
+		}
+		localization_key = STATE_RIO_GRANDE_DO_NORTE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PERNAMBUCO
+			state_region = s:STATE_PERNAMBUCO
+		}
+		localization_key = STATE_PERNAMBUCO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MARANHAO
+			state_region = s:STATE_MARANHAO
+		}
+		localization_key = STATE_MARANHAO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PARA
+			state_region = s:STATE_PARA
+		}
+		localization_key = STATE_PARA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ALTO_PARAGUAY
+			state_region = s:STATE_ALTO_PARAGUAY
+		}
+		localization_key = STATE_ALTO_PARAGUAY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BAJO_PARAGUAY
+			state_region = s:STATE_BAJO_PARAGUAY
+		}
+		localization_key = STATE_BAJO_PARAGUAY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BUENOS_AIRES
+			state_region = s:STATE_BUENOS_AIRES
+		}
+		localization_key = STATE_BUENOS_AIRES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PATAGONIA
+			state_region = s:STATE_PATAGONIA
+		}
+		localization_key = STATE_PATAGONIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RIO_NEGRO
+			state_region = s:STATE_RIO_NEGRO
+		}
+		localization_key = STATE_RIO_NEGRO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LA_PAMPA
+			state_region = s:STATE_LA_PAMPA
+		}
+		localization_key = STATE_LA_PAMPA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SANTA_FE
+			state_region = s:STATE_SANTA_FE
+		}
+		localization_key = STATE_SANTA_FE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CORRIENTES
+			state_region = s:STATE_CORRIENTES
+		}
+		localization_key = STATE_CORRIENTES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TUCUMAN
+			state_region = s:STATE_TUCUMAN
+		}
+		localization_key = STATE_TUCUMAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CHACO
+			state_region = s:STATE_CHACO
+		}
+		localization_key = STATE_CHACO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_JUJUY
+			state_region = s:STATE_JUJUY
+		}
+		localization_key = STATE_JUJUY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SANTA_CRUZ
+			state_region = s:STATE_SANTA_CRUZ
+		}
+		localization_key = STATE_SANTA_CRUZ
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LA_PAZ
+			state_region = s:STATE_LA_PAZ
+		}
+		localization_key = STATE_LA_PAZ
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_POTOSI
+			state_region = s:STATE_POTOSI
+		}
+		localization_key = STATE_POTOSI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SANTIAGO
+			state_region = s:STATE_SANTIAGO
+		}
+		localization_key = STATE_SANTIAGO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LOS_RIOS
+			state_region = s:STATE_LOS_RIOS
+		}
+		localization_key = STATE_LOS_RIOS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARAUCANIA
+			state_region = s:STATE_ARAUCANIA
+		}
+		localization_key = STATE_ARAUCANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_ISLANDS
+			state_region = s:STATE_SOUTH_ATLANTIC_ISLANDS
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_ISLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ICELAND
+			state_region = s:STATE_ICELAND
+		}
+		localization_key = STATE_ICELAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GREENLAND
+			state_region = s:STATE_GREENLAND
+		}
+		localization_key = STATE_GREENLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_SAHARA
+			state_region = s:STATE_EAST_SAHARA
+		}
+		localization_key = STATE_EAST_SAHARA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MARRAKECH
+			state_region = s:STATE_MARRAKECH
+		}
+		localization_key = STATE_MARRAKECH
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_FEZ
+			state_region = s:STATE_FEZ
+		}
+		localization_key = STATE_FEZ
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_AL_RIF
+			state_region = s:STATE_AL_RIF
+		}
+		localization_key = STATE_AL_RIF
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INNER_MOROCCO
+			state_region = s:STATE_INNER_MOROCCO
+		}
+		localization_key = STATE_INNER_MOROCCO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TLEMCEN
+			state_region = s:STATE_TLEMCEN
+		}
+		localization_key = STATE_TLEMCEN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_SAHARA
+			state_region = s:STATE_WEST_SAHARA
+		}
+		localization_key = STATE_WEST_SAHARA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SAHARA
+			state_region = s:STATE_SAHARA
+		}
+		localization_key = STATE_SAHARA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ALGIERS
+			state_region = s:STATE_ALGIERS
+		}
+		localization_key = STATE_ALGIERS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CONSTANTINE
+			state_region = s:STATE_CONSTANTINE
+		}
+		localization_key = STATE_CONSTANTINE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TRIPOLI
+			state_region = s:STATE_TRIPOLI
+		}
+		localization_key = STATE_TRIPOLI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LIBYAN_DESERT
+			state_region = s:STATE_LIBYAN_DESERT
+		}
+		localization_key = STATE_LIBYAN_DESERT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LIBYA
+			state_region = s:STATE_LIBYA
+		}
+		localization_key = STATE_LIBYA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_UPPER_EGYPT
+			state_region = s:STATE_UPPER_EGYPT
+		}
+		localization_key = STATE_UPPER_EGYPT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EGYPTIAN_DESERT
+			state_region = s:STATE_EGYPTIAN_DESERT
+		}
+		localization_key = STATE_EGYPTIAN_DESERT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LOWER_EGYPT
+			state_region = s:STATE_LOWER_EGYPT
+		}
+		localization_key = STATE_LOWER_EGYPT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MATRUH
+			state_region = s:STATE_MATRUH
+		}
+		localization_key = STATE_MATRUH
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MIDDLE_EGYPT
+			state_region = s:STATE_MIDDLE_EGYPT
+		}
+		localization_key = STATE_MIDDLE_EGYPT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SINAI
+			state_region = s:STATE_SINAI
+		}
+		localization_key = STATE_SINAI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DONGOLA
+			state_region = s:STATE_DONGOLA
+		}
+		localization_key = STATE_DONGOLA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KORDOFAN
+			state_region = s:STATE_KORDOFAN
+		}
+		localization_key = STATE_KORDOFAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DARFUR
+			state_region = s:STATE_DARFUR
+		}
+		localization_key = STATE_DARFUR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BLUE_NILE
+			state_region = s:STATE_BLUE_NILE
+		}
+		localization_key = STATE_BLUE_NILE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NEW_BRUNSWICK
+			state_region = s:STATE_NEW_BRUNSWICK
+		}
+		localization_key = STATE_NEW_BRUNSWICK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ANGOLA
+			state_region = s:STATE_NORTH_ANGOLA
+		}
+		localization_key = STATE_NORTH_ANGOLA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ANGOLA
+			state_region = s:STATE_SOUTH_ANGOLA
+		}
+		localization_key = STATE_SOUTH_ANGOLA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_ANGOLA
+			state_region = s:STATE_EAST_ANGOLA
+		}
+		localization_key = STATE_EAST_ANGOLA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INDIAN_OCEAN_TERRITORY
+			state_region = s:STATE_INDIAN_OCEAN_TERRITORY
+		}
+		localization_key = STATE_INDIAN_OCEAN_TERRITORY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LOURENCO_MARQUES
+			state_region = s:STATE_LOURENCO_MARQUES
+		}
+		localization_key = STATE_LOURENCO_MARQUES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MOCAMBIQUE
+			state_region = s:STATE_MOCAMBIQUE
+		}
+		localization_key = STATE_MOCAMBIQUE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ZAMBEZIA
+			state_region = s:STATE_ZAMBEZIA
+		}
+		localization_key = STATE_ZAMBEZIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTERN_CAPE
+			state_region = s:STATE_EASTERN_CAPE
+		}
+		localization_key = STATE_EASTERN_CAPE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CAPE_COLONY
+			state_region = s:STATE_CAPE_COLONY
+		}
+		localization_key = STATE_CAPE_COLONY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTHERN_CAPE
+			state_region = s:STATE_NORTHERN_CAPE
+		}
+		localization_key = STATE_NORTHERN_CAPE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HOME_COUNTIES
+			state_region = s:STATE_HOME_COUNTIES
+		}
+		localization_key = STATE_HOME_COUNTIES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LANCASHIRE
+			state_region = s:STATE_LANCASHIRE
+		}
+		localization_key = STATE_LANCASHIRE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WALES
+			state_region = s:STATE_WALES
+		}
+		localization_key = STATE_WALES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_YORKSHIRE
+			state_region = s:STATE_YORKSHIRE
+		}
+		localization_key = STATE_YORKSHIRE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HIGHLANDS
+			state_region = s:STATE_HIGHLANDS
+		}
+		localization_key = STATE_HIGHLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MIDLANDS
+			state_region = s:STATE_MIDLANDS
+		}
+		localization_key = STATE_MIDLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_ANGLIA
+			state_region = s:STATE_EAST_ANGLIA
+		}
+		localization_key = STATE_EAST_ANGLIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_COUNTRY
+			state_region = s:STATE_WEST_COUNTRY
+		}
+		localization_key = STATE_WEST_COUNTRY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LOWLANDS
+			state_region = s:STATE_LOWLANDS
+		}
+		localization_key = STATE_LOWLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ULSTER
+			state_region = s:STATE_ULSTER
+		}
+		localization_key = STATE_ULSTER
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MUNSTER
+			state_region = s:STATE_MUNSTER
+		}
+		localization_key = STATE_MUNSTER
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LEINSTER
+			state_region = s:STATE_LEINSTER
+		}
+		localization_key = STATE_LEINSTER
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LANGUEDOC
+			state_region = s:STATE_LANGUEDOC
+		}
+		localization_key = STATE_LANGUEDOC
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RHONE
+			state_region = s:STATE_RHONE
+		}
+		localization_key = STATE_RHONE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LOIRE
+			state_region = s:STATE_LOIRE
+		}
+		localization_key = STATE_LOIRE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PICARDY
+			state_region = s:STATE_PICARDY
+		}
+		localization_key = STATE_PICARDY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PROVENCE
+			state_region = s:STATE_PROVENCE
+		}
+		localization_key = STATE_PROVENCE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ALSACE_LORRAINE
+			state_region = s:STATE_ALSACE_LORRAINE
+		}
+		localization_key = STATE_ALSACE_LORRAINE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORMANDY
+			state_region = s:STATE_NORMANDY
+		}
+		localization_key = STATE_NORMANDY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_POITOU
+			state_region = s:STATE_POITOU
+		}
+		localization_key = STATE_POITOU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARMAGNAC
+			state_region = s:STATE_ARMAGNAC
+		}
+		localization_key = STATE_ARMAGNAC
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LIMOUSIN
+			state_region = s:STATE_LIMOUSIN
+		}
+		localization_key = STATE_LIMOUSIN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BRITTANY
+			state_region = s:STATE_BRITTANY
+		}
+		localization_key = STATE_BRITTANY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BURGUNDY
+			state_region = s:STATE_BURGUNDY
+		}
+		localization_key = STATE_BURGUNDY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CHAMPAGNE
+			state_region = s:STATE_CHAMPAGNE
+		}
+		localization_key = STATE_CHAMPAGNE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_FRANCHE_COMTE
+			state_region = s:STATE_FRANCHE_COMTE
+		}
+		localization_key = STATE_FRANCHE_COMTE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_AUVERGNE
+			state_region = s:STATE_AUVERGNE
+		}
+		localization_key = STATE_AUVERGNE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_AQUITAINE
+			state_region = s:STATE_AQUITAINE
+		}
+		localization_key = STATE_AQUITAINE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ORLEANS
+			state_region = s:STATE_ORLEANS
+		}
+		localization_key = STATE_ORLEANS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ILE_DE_FRANCE
+			state_region = s:STATE_ILE_DE_FRANCE
+		}
+		localization_key = STATE_ILE_DE_FRANCE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ELBE
+			state_region = s:STATE_ELBE
+		}
+		localization_key = STATE_ELBE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BEIRA
+			state_region = s:STATE_BEIRA
+		}
+		localization_key = STATE_BEIRA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ESTREMADURA
+			state_region = s:STATE_ESTREMADURA
+		}
+		localization_key = STATE_ESTREMADURA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ALENTEJO
+			state_region = s:STATE_ALENTEJO
+		}
+		localization_key = STATE_ALENTEJO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CAPE_VERDE
+			state_region = s:STATE_CAPE_VERDE
+		}
+		localization_key = STATE_CAPE_VERDE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MADEIRA
+			state_region = s:STATE_MADEIRA
+		}
+		localization_key = STATE_MADEIRA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CANARY_ISLANDS
+			state_region = s:STATE_CANARY_ISLANDS
+		}
+		localization_key = STATE_CANARY_ISLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_AZORES
+			state_region = s:STATE_AZORES
+		}
+		localization_key = STATE_AZORES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GRANADA
+			state_region = s:STATE_GRANADA
+		}
+		localization_key = STATE_GRANADA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ANDALUSIA
+			state_region = s:STATE_ANDALUSIA
+		}
+		localization_key = STATE_ANDALUSIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BADAJOZ
+			state_region = s:STATE_BADAJOZ
+		}
+		localization_key = STATE_BADAJOZ
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_VALENCIA
+			state_region = s:STATE_VALENCIA
+		}
+		localization_key = STATE_VALENCIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TOLEDO
+			state_region = s:STATE_TOLEDO
+		}
+		localization_key = STATE_TOLEDO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WALLONIA
+			state_region = s:STATE_WALLONIA
+		}
+		localization_key = STATE_WALLONIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_FLANDERS
+			state_region = s:STATE_FLANDERS
+		}
+		localization_key = STATE_FLANDERS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HOLLAND
+			state_region = s:STATE_HOLLAND
+		}
+		localization_key = STATE_HOLLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_FRIESLAND
+			state_region = s:STATE_FRIESLAND
+		}
+		localization_key = STATE_FRIESLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GELRE
+			state_region = s:STATE_GELRE
+		}
+		localization_key = STATE_GELRE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_JUTLAND
+			state_region = s:STATE_JUTLAND
+		}
+		localization_key = STATE_JUTLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ZEALAND
+			state_region = s:STATE_ZEALAND
+		}
+		localization_key = STATE_ZEALAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WESTERN_NORWAY
+			state_region = s:STATE_WESTERN_NORWAY
+		}
+		localization_key = STATE_WESTERN_NORWAY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTHERN_NORWAY
+			state_region = s:STATE_NORTHERN_NORWAY
+		}
+		localization_key = STATE_NORTHERN_NORWAY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTERN_NORWAY
+			state_region = s:STATE_EASTERN_NORWAY
+		}
+		localization_key = STATE_EASTERN_NORWAY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_SWITZERLAND
+			state_region = s:STATE_EAST_SWITZERLAND
+		}
+		localization_key = STATE_EAST_SWITZERLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_SWITZERLAND
+			state_region = s:STATE_WEST_SWITZERLAND
+		}
+		localization_key = STATE_WEST_SWITZERLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PUERTO_RICO
+			state_region = s:STATE_PUERTO_RICO
+		}
+		localization_key = STATE_PUERTO_RICO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CRETE
+			state_region = s:STATE_CRETE
+		}
+		localization_key = STATE_CRETE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_INDIES
+			state_region = s:STATE_WEST_INDIES
+		}
+		localization_key = STATE_WEST_INDIES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BERMUDA
+			state_region = s:STATE_BERMUDA
+		}
+		localization_key = STATE_BERMUDA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BAHAMAS
+			state_region = s:STATE_BAHAMAS
+		}
+		localization_key = STATE_BAHAMAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_JAMAICA
+			state_region = s:STATE_JAMAICA
+		}
+		localization_key = STATE_JAMAICA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BALUCHISTAN
+			state_region = s:STATE_BALUCHISTAN
+		}
+		localization_key = STATE_BALUCHISTAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ORISSA
+			state_region = s:STATE_ORISSA
+		}
+		localization_key = STATE_ORISSA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SINDH
+			state_region = s:STATE_SINDH
+		}
+		localization_key = STATE_SINDH
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RAJPUTANA
+			state_region = s:STATE_RAJPUTANA
+		}
+		localization_key = STATE_RAJPUTANA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CIRCARS
+			state_region = s:STATE_CIRCARS
+		}
+		localization_key = STATE_CIRCARS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PUNJAB
+			state_region = s:STATE_PUNJAB
+		}
+		localization_key = STATE_PUNJAB
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NAGPUR
+			state_region = s:STATE_NAGPUR
+		}
+		localization_key = STATE_NAGPUR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MYSORE
+			state_region = s:STATE_MYSORE
+		}
+		localization_key = STATE_MYSORE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TRAVANCORE
+			state_region = s:STATE_TRAVANCORE
+		}
+		localization_key = STATE_TRAVANCORE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MADRAS
+			state_region = s:STATE_MADRAS
+		}
+		localization_key = STATE_MADRAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KASHMIR
+			state_region = s:STATE_KASHMIR
+		}
+		localization_key = STATE_KASHMIR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HYDERABAD
+			state_region = s:STATE_HYDERABAD
+		}
+		localization_key = STATE_HYDERABAD
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GUJARAT
+			state_region = s:STATE_GUJARAT
+		}
+		localization_key = STATE_GUJARAT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CENTRAL_INDIA
+			state_region = s:STATE_CENTRAL_INDIA
+		}
+		localization_key = STATE_CENTRAL_INDIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BOMBAY
+			state_region = s:STATE_BOMBAY
+		}
+		localization_key = STATE_BOMBAY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BIHAR
+			state_region = s:STATE_BIHAR
+		}
+		localization_key = STATE_BIHAR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_BENGAL
+			state_region = s:STATE_SOUTH_BENGAL
+		}
+		localization_key = STATE_SOUTH_BENGAL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_BENGAL
+			state_region = s:STATE_NORTH_BENGAL
+		}
+		localization_key = STATE_NORTH_BENGAL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ASSAM
+			state_region = s:STATE_ASSAM
+		}
+		localization_key = STATE_ASSAM
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DELHI
+			state_region = s:STATE_DELHI
+		}
+		localization_key = STATE_DELHI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_AWADH
+			state_region = s:STATE_AWADH
+		}
+		localization_key = STATE_AWADH
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TENASSERIM
+			state_region = s:STATE_TENASSERIM
+		}
+		localization_key = STATE_TENASSERIM
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KACHIN
+			state_region = s:STATE_KACHIN
+		}
+		localization_key = STATE_KACHIN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SHAN_STATES
+			state_region = s:STATE_SHAN_STATES
+		}
+		localization_key = STATE_SHAN_STATES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PEGU
+			state_region = s:STATE_PEGU
+		}
+		localization_key = STATE_PEGU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_SUMATRA
+			state_region = s:STATE_NORTH_SUMATRA
+		}
+		localization_key = STATE_NORTH_SUMATRA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_SUMATRA
+			state_region = s:STATE_SOUTH_SUMATRA
+		}
+		localization_key = STATE_SOUTH_SUMATRA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CELEBES
+			state_region = s:STATE_CELEBES
+		}
+		localization_key = STATE_CELEBES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ACEH
+			state_region = s:STATE_ACEH
+		}
+		localization_key = STATE_ACEH
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WESTERN_NEW_GUINEA
+			state_region = s:STATE_WESTERN_NEW_GUINEA
+		}
+		localization_key = STATE_WESTERN_NEW_GUINEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MOLUCCAS
+			state_region = s:STATE_MOLUCCAS
+		}
+		localization_key = STATE_MOLUCCAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_BORNEO
+			state_region = s:STATE_WEST_BORNEO
+		}
+		localization_key = STATE_WEST_BORNEO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_BORNEO
+			state_region = s:STATE_EAST_BORNEO
+		}
+		localization_key = STATE_EAST_BORNEO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SUNDA_ISLANDS
+			state_region = s:STATE_SUNDA_ISLANDS
+		}
+		localization_key = STATE_SUNDA_ISLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MALAYA
+			state_region = s:STATE_MALAYA
+		}
+		localization_key = STATE_MALAYA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_BORNEO
+			state_region = s:STATE_NORTH_BORNEO
+		}
+		localization_key = STATE_NORTH_BORNEO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MINDANAO
+			state_region = s:STATE_MINDANAO
+		}
+		localization_key = STATE_MINDANAO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LUZON
+			state_region = s:STATE_LUZON
+		}
+		localization_key = STATE_LUZON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_VISAYAS
+			state_region = s:STATE_VISAYAS
+		}
+		localization_key = STATE_VISAYAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ATTICA
+			state_region = s:STATE_ATTICA
+		}
+		localization_key = STATE_ATTICA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SKOPIA
+			state_region = s:STATE_SKOPIA
+		}
+		localization_key = STATE_SKOPIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MACEDONIA
+			state_region = s:STATE_MACEDONIA
+		}
+		localization_key = STATE_MACEDONIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_THESSALIA
+			state_region = s:STATE_THESSALIA
+		}
+		localization_key = STATE_THESSALIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WESTERN_THRACE
+			state_region = s:STATE_WESTERN_THRACE
+		}
+		localization_key = STATE_WESTERN_THRACE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTHERN_THRACE
+			state_region = s:STATE_NORTHERN_THRACE
+		}
+		localization_key = STATE_NORTHERN_THRACE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BULGARIA
+			state_region = s:STATE_BULGARIA
+		}
+		localization_key = STATE_BULGARIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DOBRUDJA
+			state_region = s:STATE_DOBRUDJA
+		}
+		localization_key = STATE_DOBRUDJA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_MADAGASCAR
+			state_region = s:STATE_SOUTH_MADAGASCAR
+		}
+		localization_key = STATE_SOUTH_MADAGASCAR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_MADAGASCAR
+			state_region = s:STATE_NORTH_MADAGASCAR
+		}
+		localization_key = STATE_NORTH_MADAGASCAR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_OROMIA
+			state_region = s:STATE_OROMIA
+		}
+		localization_key = STATE_OROMIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_AMHARA
+			state_region = s:STATE_AMHARA
+		}
+		localization_key = STATE_AMHARA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GONDER
+			state_region = s:STATE_GONDER
+		}
+		localization_key = STATE_GONDER
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KAZEMBE
+			state_region = s:STATE_KAZEMBE
+		}
+		localization_key = STATE_KAZEMBE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ERITREA
+			state_region = s:STATE_ERITREA
+		}
+		localization_key = STATE_ERITREA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOMALILAND
+			state_region = s:STATE_SOMALILAND
+		}
+		localization_key = STATE_SOMALILAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NAMAQUALAND
+			state_region = s:STATE_NAMAQUALAND
+		}
+		localization_key = STATE_NAMAQUALAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HEREROLAND
+			state_region = s:STATE_HEREROLAND
+		}
+		localization_key = STATE_HEREROLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ZAMBEZI
+			state_region = s:STATE_ZAMBEZI
+		}
+		localization_key = STATE_ZAMBEZI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KENYA
+			state_region = s:STATE_KENYA
+		}
+		localization_key = STATE_KENYA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RIFT_VALLEY
+			state_region = s:STATE_RIFT_VALLEY
+		}
+		localization_key = STATE_RIFT_VALLEY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CHAD
+			state_region = s:STATE_CHAD
+		}
+		localization_key = STATE_CHAD
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WADDAI
+			state_region = s:STATE_WADDAI
+		}
+		localization_key = STATE_WADDAI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LINDI
+			state_region = s:STATE_LINDI
+		}
+		localization_key = STATE_LINDI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ZANZIBAR
+			state_region = s:STATE_ZANZIBAR
+		}
+		localization_key = STATE_ZANZIBAR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TANGANYIKA
+			state_region = s:STATE_TANGANYIKA
+		}
+		localization_key = STATE_TANGANYIKA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MAURITANIA
+			state_region = s:STATE_MAURITANIA
+		}
+		localization_key = STATE_MAURITANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INNER_MAURITANIA
+			state_region = s:STATE_INNER_MAURITANIA
+		}
+		localization_key = STATE_INNER_MAURITANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTERN_MALI
+			state_region = s:STATE_EASTERN_MALI
+		}
+		localization_key = STATE_EASTERN_MALI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WESTERN_MALI
+			state_region = s:STATE_WESTERN_MALI
+		}
+		localization_key = STATE_WESTERN_MALI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TIMBUKTU
+			state_region = s:STATE_TIMBUKTU
+		}
+		localization_key = STATE_TIMBUKTU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HAUSALAND
+			state_region = s:STATE_HAUSALAND
+		}
+		localization_key = STATE_HAUSALAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BENIN
+			state_region = s:STATE_BENIN
+		}
+		localization_key = STATE_BENIN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_YORUBA_STATES
+			state_region = s:STATE_YORUBA_STATES
+		}
+		localization_key = STATE_YORUBA_STATES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NIGER_DELTA
+			state_region = s:STATE_NIGER_DELTA
+		}
+		localization_key = STATE_NIGER_DELTA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_OUTER_HAUSALAND
+			state_region = s:STATE_OUTER_HAUSALAND
+		}
+		localization_key = STATE_OUTER_HAUSALAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NIGER
+			state_region = s:STATE_NIGER
+		}
+		localization_key = STATE_NIGER
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BORNU
+			state_region = s:STATE_BORNU
+		}
+		localization_key = STATE_BORNU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NIGERIA
+			state_region = s:STATE_NIGERIA
+		}
+		localization_key = STATE_NIGERIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_HAUSALAND
+			state_region = s:STATE_EAST_HAUSALAND
+		}
+		localization_key = STATE_EAST_HAUSALAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KATANGA
+			state_region = s:STATE_KATANGA
+		}
+		localization_key = STATE_KATANGA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CONGO_ORIENTALE
+			state_region = s:STATE_CONGO_ORIENTALE
+		}
+		localization_key = STATE_CONGO_ORIENTALE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KASAI
+			state_region = s:STATE_KASAI
+		}
+		localization_key = STATE_KASAI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BAS_CONGO
+			state_region = s:STATE_BAS_CONGO
+		}
+		localization_key = STATE_BAS_CONGO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EQUATEUR
+			state_region = s:STATE_EQUATEUR
+		}
+		localization_key = STATE_EQUATEUR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_UGANDA
+			state_region = s:STATE_UGANDA
+		}
+		localization_key = STATE_UGANDA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EQUATORIA
+			state_region = s:STATE_EQUATORIA
+		}
+		localization_key = STATE_EQUATORIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_VOLTA
+			state_region = s:STATE_VOLTA
+		}
+		localization_key = STATE_VOLTA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_CAMEROON
+			state_region = s:STATE_NORTH_CAMEROON
+		}
+		localization_key = STATE_NORTH_CAMEROON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_CAMEROON
+			state_region = s:STATE_SOUTH_CAMEROON
+		}
+		localization_key = STATE_SOUTH_CAMEROON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_UBANGI_SHARI
+			state_region = s:STATE_UBANGI_SHARI
+		}
+		localization_key = STATE_UBANGI_SHARI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CONGO
+			state_region = s:STATE_CONGO
+		}
+		localization_key = STATE_CONGO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_IVORY_COAST
+			state_region = s:STATE_IVORY_COAST
+		}
+		localization_key = STATE_IVORY_COAST
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WINDWARD_COAST
+			state_region = s:STATE_WINDWARD_COAST
+		}
+		localization_key = STATE_WINDWARD_COAST
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SENEGAL
+			state_region = s:STATE_SENEGAL
+		}
+		localization_key = STATE_SENEGAL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GAMBIA
+			state_region = s:STATE_GAMBIA
+		}
+		localization_key = STATE_GAMBIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SIERRA_LEONE
+			state_region = s:STATE_SIERRA_LEONE
+		}
+		localization_key = STATE_SIERRA_LEONE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ZULULAND
+			state_region = s:STATE_ZULULAND
+		}
+		localization_key = STATE_ZULULAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_VRYSTAAT
+			state_region = s:STATE_VRYSTAAT
+		}
+		localization_key = STATE_VRYSTAAT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TRANSVAAL
+			state_region = s:STATE_TRANSVAAL
+		}
+		localization_key = STATE_TRANSVAAL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTERN_NEW_GUINEA
+			state_region = s:STATE_EASTERN_NEW_GUINEA
+		}
+		localization_key = STATE_EASTERN_NEW_GUINEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MELANESIA
+			state_region = s:STATE_MELANESIA
+		}
+		localization_key = STATE_MELANESIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_FIJI
+			state_region = s:STATE_FIJI
+		}
+		localization_key = STATE_FIJI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_VANUATU
+			state_region = s:STATE_VANUATU
+		}
+		localization_key = STATE_VANUATU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KANAK
+			state_region = s:STATE_KANAK
+		}
+		localization_key = STATE_KANAK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BOUGAINVILLE
+			state_region = s:STATE_BOUGAINVILLE
+		}
+		localization_key = STATE_BOUGAINVILLE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOLOMON_ISLANDS
+			state_region = s:STATE_SOLOMON_ISLANDS
+		}
+		localization_key = STATE_SOLOMON_ISLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NAURU
+			state_region = s:STATE_NAURU
+		}
+		localization_key = STATE_NAURU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HAIL
+			state_region = s:STATE_HAIL
+		}
+		localization_key = STATE_HAIL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NEJD
+			state_region = s:STATE_NEJD
+		}
+		localization_key = STATE_NEJD
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TRANSJORDAN
+			state_region = s:STATE_TRANSJORDAN
+		}
+		localization_key = STATE_TRANSJORDAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PALESTINE
+			state_region = s:STATE_PALESTINE
+		}
+		localization_key = STATE_PALESTINE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LEBANON
+			state_region = s:STATE_LEBANON
+		}
+		localization_key = STATE_LEBANON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SYRIA
+			state_region = s:STATE_SYRIA
+		}
+		localization_key = STATE_SYRIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ALEPPO
+			state_region = s:STATE_ALEPPO
+		}
+		localization_key = STATE_ALEPPO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BAGHDAD
+			state_region = s:STATE_BAGHDAD
+		}
+		localization_key = STATE_BAGHDAD
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BASRA
+			state_region = s:STATE_BASRA
+		}
+		localization_key = STATE_BASRA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MOSUL
+			state_region = s:STATE_MOSUL
+		}
+		localization_key = STATE_MOSUL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LARISTAN
+			state_region = s:STATE_LARISTAN
+		}
+		localization_key = STATE_LARISTAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SISTAN
+			state_region = s:STATE_SISTAN
+		}
+		localization_key = STATE_SISTAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KHORASAN
+			state_region = s:STATE_KHORASAN
+		}
+		localization_key = STATE_KHORASAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KHUZESTAN
+			state_region = s:STATE_KHUZESTAN
+		}
+		localization_key = STATE_KHUZESTAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_FARS
+			state_region = s:STATE_FARS
+		}
+		localization_key = STATE_FARS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ISFAHAN
+			state_region = s:STATE_ISFAHAN
+		}
+		localization_key = STATE_ISFAHAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MAZANDARAN
+			state_region = s:STATE_MAZANDARAN
+		}
+		localization_key = STATE_MAZANDARAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_IRAKAJEMI
+			state_region = s:STATE_IRAKAJEMI
+		}
+		localization_key = STATE_IRAKAJEMI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TABRIZ
+			state_region = s:STATE_TABRIZ
+		}
+		localization_key = STATE_TABRIZ
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LURISTAN
+			state_region = s:STATE_LURISTAN
+		}
+		localization_key = STATE_LURISTAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARMENIA
+			state_region = s:STATE_ARMENIA
+		}
+		localization_key = STATE_ARMENIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_AZERBAIJAN
+			state_region = s:STATE_AZERBAIJAN
+		}
+		localization_key = STATE_AZERBAIJAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GREATER_CAUCASUS
+			state_region = s:STATE_GREATER_CAUCASUS
+		}
+		localization_key = STATE_GREATER_CAUCASUS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MONTENEGRO
+			state_region = s:STATE_MONTENEGRO
+		}
+		localization_key = STATE_MONTENEGRO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTHERN_SERBIA
+			state_region = s:STATE_NORTHERN_SERBIA
+		}
+		localization_key = STATE_NORTHERN_SERBIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTHERN_SERBIA
+			state_region = s:STATE_SOUTHERN_SERBIA
+		}
+		localization_key = STATE_SOUTHERN_SERBIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTERN_THRACE
+			state_region = s:STATE_EASTERN_THRACE
+		}
+		localization_key = STATE_EASTERN_THRACE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HUDAVENDIGAR
+			state_region = s:STATE_HUDAVENDIGAR
+		}
+		localization_key = STATE_HUDAVENDIGAR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_AYDIN
+			state_region = s:STATE_AYDIN
+		}
+		localization_key = STATE_AYDIN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KONYA
+			state_region = s:STATE_KONYA
+		}
+		localization_key = STATE_KONYA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KASTAMONU
+			state_region = s:STATE_KASTAMONU
+		}
+		localization_key = STATE_KASTAMONU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CYPRUS
+			state_region = s:STATE_CYPRUS
+		}
+		localization_key = STATE_CYPRUS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TRABZON
+			state_region = s:STATE_TRABZON
+		}
+		localization_key = STATE_TRABZON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_AEGEAN_ISLANDS
+			state_region = s:STATE_WEST_AEGEAN_ISLANDS
+		}
+		localization_key = STATE_WEST_AEGEAN_ISLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_AEGEAN_ISLANDS
+			state_region = s:STATE_EAST_AEGEAN_ISLANDS
+		}
+		localization_key = STATE_EAST_AEGEAN_ISLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ANKARA
+			state_region = s:STATE_ANKARA
+		}
+		localization_key = STATE_ANKARA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WESTERN_AFGHANISTAN
+			state_region = s:STATE_WESTERN_AFGHANISTAN
+		}
+		localization_key = STATE_WESTERN_AFGHANISTAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DIYARBAKIR
+			state_region = s:STATE_DIYARBAKIR
+		}
+		localization_key = STATE_DIYARBAKIR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ERZURUM
+			state_region = s:STATE_ERZURUM
+		}
+		localization_key = STATE_ERZURUM
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KARS
+			state_region = s:STATE_KARS
+		}
+		localization_key = STATE_KARS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTERN_AFGHANISTAN
+			state_region = s:STATE_EASTERN_AFGHANISTAN
+		}
+		localization_key = STATE_EASTERN_AFGHANISTAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BANGKOK
+			state_region = s:STATE_BANGKOK
+		}
+		localization_key = STATE_BANGKOK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MEKONG
+			state_region = s:STATE_MEKONG
+		}
+		localization_key = STATE_MEKONG
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TONKIN
+			state_region = s:STATE_TONKIN
+		}
+		localization_key = STATE_TONKIN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ANNAM
+			state_region = s:STATE_ANNAM
+		}
+		localization_key = STATE_ANNAM
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LAOS
+			state_region = s:STATE_LAOS
+		}
+		localization_key = STATE_LAOS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CHIANG_MAI
+			state_region = s:STATE_CHIANG_MAI
+		}
+		localization_key = STATE_CHIANG_MAI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NAKHON_RATCHASIMA
+			state_region = s:STATE_NAKHON_RATCHASIMA
+		}
+		localization_key = STATE_NAKHON_RATCHASIMA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SEOUL
+			state_region = s:STATE_SEOUL
+		}
+		localization_key = STATE_SEOUL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BUSAN
+			state_region = s:STATE_BUSAN
+		}
+		localization_key = STATE_BUSAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SARIWON
+			state_region = s:STATE_SARIWON
+		}
+		localization_key = STATE_SARIWON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PYONGYANG
+			state_region = s:STATE_PYONGYANG
+		}
+		localization_key = STATE_PYONGYANG
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_YANGHO
+			state_region = s:STATE_YANGHO
+		}
+		localization_key = STATE_YANGHO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HOKKAIDO
+			state_region = s:STATE_HOKKAIDO
+		}
+		localization_key = STATE_HOKKAIDO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TOHOKU
+			state_region = s:STATE_TOHOKU
+		}
+		localization_key = STATE_TOHOKU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KANTO
+			state_region = s:STATE_KANTO
+		}
+		localization_key = STATE_KANTO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CHUBU
+			state_region = s:STATE_CHUBU
+		}
+		localization_key = STATE_CHUBU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KANSAI
+			state_region = s:STATE_KANSAI
+		}
+		localization_key = STATE_KANSAI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KYUSHU
+			state_region = s:STATE_KYUSHU
+		}
+		localization_key = STATE_KYUSHU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RYUKYU_ISLANDS
+			state_region = s:STATE_RYUKYU_ISLANDS
+		}
+		localization_key = STATE_RYUKYU_ISLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CHUGOKU
+			state_region = s:STATE_CHUGOKU
+		}
+		localization_key = STATE_CHUGOKU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SHIKOKU
+			state_region = s:STATE_SHIKOKU
+		}
+		localization_key = STATE_SHIKOKU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LHASA
+			state_region = s:STATE_LHASA
+		}
+		localization_key = STATE_LHASA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NGARI
+			state_region = s:STATE_NGARI
+		}
+		localization_key = STATE_NGARI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HIMALAYAS
+			state_region = s:STATE_HIMALAYAS
+		}
+		localization_key = STATE_HIMALAYAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DZUNGARIA
+			state_region = s:STATE_DZUNGARIA
+		}
+		localization_key = STATE_DZUNGARIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TIANSHAN
+			state_region = s:STATE_TIANSHAN
+		}
+		localization_key = STATE_TIANSHAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SICHUAN
+			state_region = s:STATE_SICHUAN
+		}
+		localization_key = STATE_SICHUAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_YUNNAN
+			state_region = s:STATE_YUNNAN
+		}
+		localization_key = STATE_YUNNAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GUIZHOU
+			state_region = s:STATE_GUIZHOU
+		}
+		localization_key = STATE_GUIZHOU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SHAOZHOU
+			state_region = s:STATE_SHAOZHOU
+		}
+		localization_key = STATE_SHAOZHOU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HINGGAN
+			state_region = s:STATE_HINGGAN
+		}
+		localization_key = STATE_HINGGAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ALXA
+			state_region = s:STATE_ALXA
+		}
+		localization_key = STATE_ALXA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GUANGXI
+			state_region = s:STATE_GUANGXI
+		}
+		localization_key = STATE_GUANGXI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTHERN_MANCHURIA
+			state_region = s:STATE_SOUTHERN_MANCHURIA
+		}
+		localization_key = STATE_SOUTHERN_MANCHURIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTHERN_MANCHURIA
+			state_region = s:STATE_NORTHERN_MANCHURIA
+		}
+		localization_key = STATE_NORTHERN_MANCHURIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SHANDONG
+			state_region = s:STATE_SHANDONG
+		}
+		localization_key = STATE_SHANDONG
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BEIJING
+			state_region = s:STATE_BEIJING
+		}
+		localization_key = STATE_BEIJING
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SHANXI
+			state_region = s:STATE_SHANXI
+		}
+		localization_key = STATE_SHANXI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_XIAN
+			state_region = s:STATE_XIAN
+		}
+		localization_key = STATE_XIAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NINGXIA
+			state_region = s:STATE_NINGXIA
+		}
+		localization_key = STATE_NINGXIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GANSU
+			state_region = s:STATE_GANSU
+		}
+		localization_key = STATE_GANSU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_QINGHAI
+			state_region = s:STATE_QINGHAI
+		}
+		localization_key = STATE_QINGHAI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CHONGQING
+			state_region = s:STATE_CHONGQING
+		}
+		localization_key = STATE_CHONGQING
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GUANGDONG
+			state_region = s:STATE_GUANGDONG
+		}
+		localization_key = STATE_GUANGDONG
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_FUJIAN
+			state_region = s:STATE_FUJIAN
+		}
+		localization_key = STATE_FUJIAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ZHEJIANG
+			state_region = s:STATE_ZHEJIANG
+		}
+		localization_key = STATE_ZHEJIANG
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SUZHOU
+			state_region = s:STATE_SUZHOU
+		}
+		localization_key = STATE_SUZHOU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_JIANGSU
+			state_region = s:STATE_JIANGSU
+		}
+		localization_key = STATE_JIANGSU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NANJING
+			state_region = s:STATE_NANJING
+		}
+		localization_key = STATE_NANJING
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HENAN
+			state_region = s:STATE_HENAN
+		}
+		localization_key = STATE_HENAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ZHILI
+			state_region = s:STATE_ZHILI
+		}
+		localization_key = STATE_ZHILI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_JIANGXI
+			state_region = s:STATE_JIANGXI
+		}
+		localization_key = STATE_JIANGXI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTHERN_ANHUI
+			state_region = s:STATE_SOUTHERN_ANHUI
+		}
+		localization_key = STATE_SOUTHERN_ANHUI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTHERN_ANHUI
+			state_region = s:STATE_NORTHERN_ANHUI
+		}
+		localization_key = STATE_NORTHERN_ANHUI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WESTERN_HUBEI
+			state_region = s:STATE_WESTERN_HUBEI
+		}
+		localization_key = STATE_WESTERN_HUBEI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTERN_HUBEI
+			state_region = s:STATE_EASTERN_HUBEI
+		}
+		localization_key = STATE_EASTERN_HUBEI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HUNAN
+			state_region = s:STATE_HUNAN
+		}
+		localization_key = STATE_HUNAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_FORMOSA
+			state_region = s:STATE_FORMOSA
+		}
+		localization_key = STATE_FORMOSA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTHERN_FINLAND
+			state_region = s:STATE_SOUTHERN_FINLAND
+		}
+		localization_key = STATE_SOUTHERN_FINLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_OSTROBOTHNIA
+			state_region = s:STATE_OSTROBOTHNIA
+		}
+		localization_key = STATE_OSTROBOTHNIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_KARELIA
+			state_region = s:STATE_WEST_KARELIA
+		}
+		localization_key = STATE_WEST_KARELIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ESTONIA
+			state_region = s:STATE_ESTONIA
+		}
+		localization_key = STATE_ESTONIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LATVIA
+			state_region = s:STATE_LATVIA
+		}
+		localization_key = STATE_LATVIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LITHUANIA
+			state_region = s:STATE_LITHUANIA
+		}
+		localization_key = STATE_LITHUANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CHUKOTKA
+			state_region = s:STATE_CHUKOTKA
+		}
+		localization_key = STATE_CHUKOTKA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NENETSIA
+			state_region = s:STATE_NENETSIA
+		}
+		localization_key = STATE_NENETSIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_KARELIA
+			state_region = s:STATE_EAST_KARELIA
+		}
+		localization_key = STATE_EAST_KARELIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARKHANGELSK
+			state_region = s:STATE_ARKHANGELSK
+		}
+		localization_key = STATE_ARKHANGELSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TARTARIA
+			state_region = s:STATE_TARTARIA
+		}
+		localization_key = STATE_TARTARIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_OUTER_MANCHURIA
+			state_region = s:STATE_OUTER_MANCHURIA
+		}
+		localization_key = STATE_OUTER_MANCHURIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_UZBEKIA
+			state_region = s:STATE_UZBEKIA
+		}
+		localization_key = STATE_UZBEKIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KHIVA
+			state_region = s:STATE_KHIVA
+		}
+		localization_key = STATE_KHIVA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TAJIKISTAN
+			state_region = s:STATE_TAJIKISTAN
+		}
+		localization_key = STATE_TAJIKISTAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KIRGHIZIA
+			state_region = s:STATE_KIRGHIZIA
+		}
+		localization_key = STATE_KIRGHIZIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_URALSK
+			state_region = s:STATE_URALSK
+		}
+		localization_key = STATE_URALSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TURKMENIA
+			state_region = s:STATE_TURKMENIA
+		}
+		localization_key = STATE_TURKMENIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SEMIRECHE
+			state_region = s:STATE_SEMIRECHE
+		}
+		localization_key = STATE_SEMIRECHE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_AKMOLINSK
+			state_region = s:STATE_AKMOLINSK
+		}
+		localization_key = STATE_AKMOLINSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KAMCHATKA
+			state_region = s:STATE_KAMCHATKA
+		}
+		localization_key = STATE_KAMCHATKA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_OKHOTSK
+			state_region = s:STATE_OKHOTSK
+		}
+		localization_key = STATE_OKHOTSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_YAKUTSK
+			state_region = s:STATE_YAKUTSK
+		}
+		localization_key = STATE_YAKUTSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TRANS_BAIKAL
+			state_region = s:STATE_TRANS_BAIKAL
+		}
+		localization_key = STATE_TRANS_BAIKAL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_IRKUTSK
+			state_region = s:STATE_IRKUTSK
+		}
+		localization_key = STATE_IRKUTSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TOMSK
+			state_region = s:STATE_TOMSK
+		}
+		localization_key = STATE_TOMSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TOBOLSK
+			state_region = s:STATE_TOBOLSK
+		}
+		localization_key = STATE_TOBOLSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_UPPER_YENISEYSK
+			state_region = s:STATE_UPPER_YENISEYSK
+		}
+		localization_key = STATE_UPPER_YENISEYSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_OB
+			state_region = s:STATE_OB
+		}
+		localization_key = STATE_OB
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_URAL
+			state_region = s:STATE_URAL
+		}
+		localization_key = STATE_URAL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SAMARA
+			state_region = s:STATE_SAMARA
+		}
+		localization_key = STATE_SAMARA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KAZAN
+			state_region = s:STATE_KAZAN
+		}
+		localization_key = STATE_KAZAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PERM
+			state_region = s:STATE_PERM
+		}
+		localization_key = STATE_PERM
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GALICH
+			state_region = s:STATE_GALICH
+		}
+		localization_key = STATE_GALICH
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TVER
+			state_region = s:STATE_TVER
+		}
+		localization_key = STATE_TVER
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MOSCOW
+			state_region = s:STATE_MOSCOW
+		}
+		localization_key = STATE_MOSCOW
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DAGESTAN
+			state_region = s:STATE_DAGESTAN
+		}
+		localization_key = STATE_DAGESTAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KUBAN
+			state_region = s:STATE_KUBAN
+		}
+		localization_key = STATE_KUBAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ASTRAKHAN
+			state_region = s:STATE_ASTRAKHAN
+		}
+		localization_key = STATE_ASTRAKHAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ROSTOV
+			state_region = s:STATE_ROSTOV
+		}
+		localization_key = STATE_ROSTOV
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CRIMEA
+			state_region = s:STATE_CRIMEA
+		}
+		localization_key = STATE_CRIMEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LUHANSK
+			state_region = s:STATE_LUHANSK
+		}
+		localization_key = STATE_LUHANSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KURSK
+			state_region = s:STATE_KURSK
+		}
+		localization_key = STATE_KURSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NOVGOROD
+			state_region = s:STATE_NOVGOROD
+		}
+		localization_key = STATE_NOVGOROD
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INGRIA
+			state_region = s:STATE_INGRIA
+		}
+		localization_key = STATE_INGRIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CHERSON
+			state_region = s:STATE_CHERSON
+		}
+		localization_key = STATE_CHERSON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BESSARABIA
+			state_region = s:STATE_BESSARABIA
+		}
+		localization_key = STATE_BESSARABIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BRYANSK
+			state_region = s:STATE_BRYANSK
+		}
+		localization_key = STATE_BRYANSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SMOLENSK
+			state_region = s:STATE_SMOLENSK
+		}
+		localization_key = STATE_SMOLENSK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ORSHA
+			state_region = s:STATE_ORSHA
+		}
+		localization_key = STATE_ORSHA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CAMPANIA
+			state_region = s:STATE_CAMPANIA
+		}
+		localization_key = STATE_CAMPANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CALABRIA
+			state_region = s:STATE_CALABRIA
+		}
+		localization_key = STATE_CALABRIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ABRUZZO
+			state_region = s:STATE_ABRUZZO
+		}
+		localization_key = STATE_ABRUZZO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_APULIA
+			state_region = s:STATE_APULIA
+		}
+		localization_key = STATE_APULIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_GALICIA
+			state_region = s:STATE_WEST_GALICIA
+		}
+		localization_key = STATE_WEST_GALICIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_GALICIA
+			state_region = s:STATE_EAST_GALICIA
+		}
+		localization_key = STATE_EAST_GALICIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_SLOVAKIA
+			state_region = s:STATE_EAST_SLOVAKIA
+		}
+		localization_key = STATE_EAST_SLOVAKIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_SLOVAKIA
+			state_region = s:STATE_WEST_SLOVAKIA
+		}
+		localization_key = STATE_WEST_SLOVAKIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DALMATIA
+			state_region = s:STATE_DALMATIA
+		}
+		localization_key = STATE_DALMATIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CROATIA
+			state_region = s:STATE_CROATIA
+		}
+		localization_key = STATE_CROATIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SLAVONIA
+			state_region = s:STATE_SLAVONIA
+		}
+		localization_key = STATE_SLAVONIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BEKES
+			state_region = s:STATE_BEKES
+		}
+		localization_key = STATE_BEKES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TRANSDANUBIA
+			state_region = s:STATE_TRANSDANUBIA
+		}
+		localization_key = STATE_TRANSDANUBIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ISTRIA
+			state_region = s:STATE_ISTRIA
+		}
+		localization_key = STATE_ISTRIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_VENETIA
+			state_region = s:STATE_VENETIA
+		}
+		localization_key = STATE_VENETIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LOMBARDY
+			state_region = s:STATE_LOMBARDY
+		}
+		localization_key = STATE_LOMBARDY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BOHEMIA
+			state_region = s:STATE_BOHEMIA
+		}
+		localization_key = STATE_BOHEMIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MORAVIA
+			state_region = s:STATE_MORAVIA
+		}
+		localization_key = STATE_MORAVIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CENTRAL_HUNGARY
+			state_region = s:STATE_CENTRAL_HUNGARY
+		}
+		localization_key = STATE_CENTRAL_HUNGARY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_STYRIA
+			state_region = s:STATE_STYRIA
+		}
+		localization_key = STATE_STYRIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TYROL
+			state_region = s:STATE_TYROL
+		}
+		localization_key = STATE_TYROL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_AUSTRIA
+			state_region = s:STATE_AUSTRIA
+		}
+		localization_key = STATE_AUSTRIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_TYROL
+			state_region = s:STATE_SOUTH_TYROL
+		}
+		localization_key = STATE_SOUTH_TYROL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SLOVENIA
+			state_region = s:STATE_SLOVENIA
+		}
+		localization_key = STATE_SLOVENIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DELVIDEK
+			state_region = s:STATE_DELVIDEK
+		}
+		localization_key = STATE_DELVIDEK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_POSEN
+			state_region = s:STATE_POSEN
+		}
+		localization_key = STATE_POSEN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WESTPHALIA
+			state_region = s:STATE_WESTPHALIA
+		}
+		localization_key = STATE_WESTPHALIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ANHALT
+			state_region = s:STATE_ANHALT
+		}
+		localization_key = STATE_ANHALT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_POMERANIA
+			state_region = s:STATE_POMERANIA
+		}
+		localization_key = STATE_POMERANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_PRUSSIA
+			state_region = s:STATE_WEST_PRUSSIA
+		}
+		localization_key = STATE_WEST_PRUSSIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_PRUSSIA
+			state_region = s:STATE_EAST_PRUSSIA
+		}
+		localization_key = STATE_EAST_PRUSSIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RHINELAND
+			state_region = s:STATE_RHINELAND
+		}
+		localization_key = STATE_RHINELAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_RHINE
+			state_region = s:STATE_NORTH_RHINE
+		}
+		localization_key = STATE_NORTH_RHINE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SILESIA
+			state_region = s:STATE_SILESIA
+		}
+		localization_key = STATE_SILESIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BRANDENBURG
+			state_region = s:STATE_BRANDENBURG
+		}
+		localization_key = STATE_BRANDENBURG
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SCHLESWIG_HOLSTEIN
+			state_region = s:STATE_SCHLESWIG_HOLSTEIN
+		}
+		localization_key = STATE_SCHLESWIG_HOLSTEIN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WURTTEMBERG
+			state_region = s:STATE_WURTTEMBERG
+		}
+		localization_key = STATE_WURTTEMBERG
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BADEN
+			state_region = s:STATE_BADEN
+		}
+		localization_key = STATE_BADEN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HANNOVER
+			state_region = s:STATE_HANNOVER
+		}
+		localization_key = STATE_HANNOVER
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NASSAU
+			state_region = s:STATE_NASSAU
+		}
+		localization_key = STATE_NASSAU
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BAVARIA
+			state_region = s:STATE_BAVARIA
+		}
+		localization_key = STATE_BAVARIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_FRANCONIA
+			state_region = s:STATE_FRANCONIA
+		}
+		localization_key = STATE_FRANCONIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SAXONY
+			state_region = s:STATE_SAXONY
+		}
+		localization_key = STATE_SAXONY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HESSE
+			state_region = s:STATE_HESSE
+		}
+		localization_key = STATE_HESSE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BRUNSWICK
+			state_region = s:STATE_BRUNSWICK
+		}
+		localization_key = STATE_BRUNSWICK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GREATER_POLAND
+			state_region = s:STATE_GREATER_POLAND
+		}
+		localization_key = STATE_GREATER_POLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LESSER_POLAND
+			state_region = s:STATE_LESSER_POLAND
+		}
+		localization_key = STATE_LESSER_POLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PIEDMONT
+			state_region = s:STATE_PIEDMONT
+		}
+		localization_key = STATE_PIEDMONT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SARDINIA
+			state_region = s:STATE_SARDINIA
+		}
+		localization_key = STATE_SARDINIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SAKHALIN
+			state_region = s:STATE_SAKHALIN
+		}
+		localization_key = STATE_SAKHALIN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TARAPACA
+			state_region = s:STATE_TARAPACA
+		}
+		localization_key = STATE_TARAPACA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ANTOFAGASTA
+			state_region = s:STATE_ANTOFAGASTA
+		}
+		localization_key = STATE_ANTOFAGASTA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BREST
+			state_region = s:STATE_BREST
+		}
+		localization_key = STATE_BREST
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MAZOVIA
+			state_region = s:STATE_MAZOVIA
+		}
+		localization_key = STATE_MAZOVIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_VOLHYNIA
+			state_region = s:STATE_VOLHYNIA
+		}
+		localization_key = STATE_VOLHYNIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KIEV
+			state_region = s:STATE_KIEV
+		}
+		localization_key = STATE_KIEV
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RIAU_ISLANDS
+			state_region = s:STATE_RIAU_ISLANDS
+		}
+		localization_key = STATE_RIAU_ISLANDS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MECKLENBURG
+			state_region = s:STATE_MECKLENBURG
+		}
+		localization_key = STATE_MECKLENBURG
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MALTA
+			state_region = s:STATE_MALTA
+		}
+		localization_key = STATE_MALTA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_UMBRIA
+			state_region = s:STATE_UMBRIA
+		}
+		localization_key = STATE_UMBRIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BANAT
+			state_region = s:STATE_BANAT
+		}
+		localization_key = STATE_BANAT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CORSICA
+			state_region = s:STATE_CORSICA
+		}
+		localization_key = STATE_CORSICA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PASHTUNISTAN
+			state_region = s:STATE_PASHTUNISTAN
+		}
+		localization_key = STATE_PASHTUNISTAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_UTAH
+			state_region = s:STATE_UTAH
+		}
+		localization_key = STATE_UTAH
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_CAROLINA
+			state_region = s:STATE_SOUTH_CAROLINA
+		}
+		localization_key = STATE_SOUTH_CAROLINA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CHIAPAS
+			state_region = s:STATE_CHIAPAS
+		}
+		localization_key = STATE_CHIAPAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SAN_SALVADOR
+			state_region = s:STATE_SAN_SALVADOR
+		}
+		localization_key = STATE_SAN_SALVADOR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ADANA
+			state_region = s:STATE_ADANA
+		}
+		localization_key = STATE_ADANA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CONNAUGHT
+			state_region = s:STATE_CONNAUGHT
+		}
+		localization_key = STATE_CONNAUGHT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_TUVA
+			state_region = s:STATE_TUVA
+		}
+		localization_key = STATE_TUVA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MASCARENES
+			state_region = s:STATE_MASCARENES
+		}
+		localization_key = STATE_MASCARENES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HAWAIIAN_SEAMOUNT_CHAIN
+			state_region = s:STATE_HAWAIIAN_SEAMOUNT_CHAIN
+		}
+		localization_key = STATE_HAWAIIAN_SEAMOUNT_CHAIN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MICRONESIAN_SEA
+			state_region = s:STATE_MICRONESIAN_SEA
+		}
+		localization_key = STATE_MICRONESIAN_SEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_PACIFIC_LANE_1
+			state_region = s:STATE_SOUTH_PACIFIC_LANE_1
+		}
+		localization_key = STATE_SOUTH_PACIFIC_LANE_1
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_PACIFIC_LANE_2
+			state_region = s:STATE_SOUTH_PACIFIC_LANE_2
+		}
+		localization_key = STATE_SOUTH_PACIFIC_LANE_2
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTER_ISLAND_LANE_1
+			state_region = s:STATE_EASTER_ISLAND_LANE_1
+		}
+		localization_key = STATE_EASTER_ISLAND_LANE_1
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTER_ISLAND_LANE_2
+			state_region = s:STATE_EASTER_ISLAND_LANE_2
+		}
+		localization_key = STATE_EASTER_ISLAND_LANE_2
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTER_ISLAND_LANE_3
+			state_region = s:STATE_EASTER_ISLAND_LANE_3
+		}
+		localization_key = STATE_EASTER_ISLAND_LANE_3
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PACIFIC_LANE_01
+			state_region = s:STATE_PACIFIC_LANE_01
+		}
+		localization_key = STATE_PACIFIC_LANE_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PACIFIC_LANE_02
+			state_region = s:STATE_PACIFIC_LANE_02
+		}
+		localization_key = STATE_PACIFIC_LANE_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PACIFIC_LANE_03
+			state_region = s:STATE_PACIFIC_LANE_03
+		}
+		localization_key = STATE_PACIFIC_LANE_03
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PACIFIC_LANE_04
+			state_region = s:STATE_PACIFIC_LANE_04
+		}
+		localization_key = STATE_PACIFIC_LANE_04
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PACIFIC_LANE_05
+			state_region = s:STATE_PACIFIC_LANE_05
+		}
+		localization_key = STATE_PACIFIC_LANE_05
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PACIFIC_LANE_06
+			state_region = s:STATE_PACIFIC_LANE_06
+		}
+		localization_key = STATE_PACIFIC_LANE_06
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTHERN_OCEAN
+			state_region = s:STATE_SOUTHERN_OCEAN
+		}
+		localization_key = STATE_SOUTHERN_OCEAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_FAROE_BANK
+			state_region = s:STATE_FAROE_BANK
+		}
+		localization_key = STATE_FAROE_BANK
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GULF_OF_MAINE
+			state_region = s:STATE_GULF_OF_MAINE
+		}
+		localization_key = STATE_GULF_OF_MAINE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_HORN_OF_AFRICA
+			state_region = s:STATE_HORN_OF_AFRICA
+		}
+		localization_key = STATE_HORN_OF_AFRICA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_DAVIS_STRAIT
+			state_region = s:STATE_DAVIS_STRAIT
+		}
+		localization_key = STATE_DAVIS_STRAIT
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GALAPAGOS_RISE
+			state_region = s:STATE_GALAPAGOS_RISE
+		}
+		localization_key = STATE_GALAPAGOS_RISE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTERN_CARIBBEAN_SEA
+			state_region = s:STATE_EASTERN_CARIBBEAN_SEA
+		}
+		localization_key = STATE_EASTERN_CARIBBEAN_SEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WESTERN_CARIBBEAN_SEA
+			state_region = s:STATE_WESTERN_CARIBBEAN_SEA
+		}
+		localization_key = STATE_WESTERN_CARIBBEAN_SEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WESTERN_MEDITERRANEAN_SEA
+			state_region = s:STATE_WESTERN_MEDITERRANEAN_SEA
+		}
+		localization_key = STATE_WESTERN_MEDITERRANEAN_SEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CENTRAL_MEDITERRANEAN_SEA
+			state_region = s:STATE_CENTRAL_MEDITERRANEAN_SEA
+		}
+		localization_key = STATE_CENTRAL_MEDITERRANEAN_SEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTERN_MEDITERRANEAN_SEA
+			state_region = s:STATE_EASTERN_MEDITERRANEAN_SEA
+		}
+		localization_key = STATE_EASTERN_MEDITERRANEAN_SEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARCTIC_OCEAN
+			state_region = s:STATE_ARCTIC_OCEAN
+		}
+		localization_key = STATE_ARCTIC_OCEAN
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_01
+			state_region = s:STATE_NORTH_ATLANTIC_01
+		}
+		localization_key = STATE_NORTH_ATLANTIC_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_02
+			state_region = s:STATE_NORTH_ATLANTIC_02
+		}
+		localization_key = STATE_NORTH_ATLANTIC_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_03
+			state_region = s:STATE_NORTH_ATLANTIC_03
+		}
+		localization_key = STATE_NORTH_ATLANTIC_03
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_04
+			state_region = s:STATE_NORTH_ATLANTIC_04
+		}
+		localization_key = STATE_NORTH_ATLANTIC_04
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_05
+			state_region = s:STATE_NORTH_ATLANTIC_05
+		}
+		localization_key = STATE_NORTH_ATLANTIC_05
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_06
+			state_region = s:STATE_NORTH_ATLANTIC_06
+		}
+		localization_key = STATE_NORTH_ATLANTIC_06
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_07
+			state_region = s:STATE_NORTH_ATLANTIC_07
+		}
+		localization_key = STATE_NORTH_ATLANTIC_07
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_08
+			state_region = s:STATE_NORTH_ATLANTIC_08
+		}
+		localization_key = STATE_NORTH_ATLANTIC_08
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_09
+			state_region = s:STATE_NORTH_ATLANTIC_09
+		}
+		localization_key = STATE_NORTH_ATLANTIC_09
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_10
+			state_region = s:STATE_NORTH_ATLANTIC_10
+		}
+		localization_key = STATE_NORTH_ATLANTIC_10
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_11
+			state_region = s:STATE_NORTH_ATLANTIC_11
+		}
+		localization_key = STATE_NORTH_ATLANTIC_11
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ATLANTIC_OCEAN_01
+			state_region = s:STATE_ATLANTIC_OCEAN_01
+		}
+		localization_key = STATE_ATLANTIC_OCEAN_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ATLANTIC_OCEAN_02
+			state_region = s:STATE_ATLANTIC_OCEAN_02
+		}
+		localization_key = STATE_ATLANTIC_OCEAN_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ATLANTIC_OCEAN_03
+			state_region = s:STATE_ATLANTIC_OCEAN_03
+		}
+		localization_key = STATE_ATLANTIC_OCEAN_03
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ATLANTIC_OCEAN_04
+			state_region = s:STATE_ATLANTIC_OCEAN_04
+		}
+		localization_key = STATE_ATLANTIC_OCEAN_04
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ATLANTIC_OCEAN_05
+			state_region = s:STATE_ATLANTIC_OCEAN_05
+		}
+		localization_key = STATE_ATLANTIC_OCEAN_05
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_AFRICAN_COAST
+			state_region = s:STATE_WEST_AFRICAN_COAST
+		}
+		localization_key = STATE_WEST_AFRICAN_COAST
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_SEA_LANE_01
+			state_region = s:STATE_SOUTH_ATLANTIC_SEA_LANE_01
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_SEA_LANE_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_SEA_LANE_02
+			state_region = s:STATE_SOUTH_ATLANTIC_SEA_LANE_02
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_SEA_LANE_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_SEA_LANE_03
+			state_region = s:STATE_SOUTH_ATLANTIC_SEA_LANE_03
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_SEA_LANE_03
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_SEA_LANE_04
+			state_region = s:STATE_SOUTH_ATLANTIC_SEA_LANE_04
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_SEA_LANE_04
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_SEA_LANE_05
+			state_region = s:STATE_SOUTH_ATLANTIC_SEA_LANE_05
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_SEA_LANE_05
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_SEA_LANE_06
+			state_region = s:STATE_SOUTH_ATLANTIC_SEA_LANE_06
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_SEA_LANE_06
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_SEA_LANE_08
+			state_region = s:STATE_SOUTH_ATLANTIC_SEA_LANE_08
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_SEA_LANE_08
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_COAST_OF_SAINT_HELENA
+			state_region = s:STATE_COAST_OF_SAINT_HELENA
+		}
+		localization_key = STATE_COAST_OF_SAINT_HELENA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INDIAN_OCEAN_LANE_01
+			state_region = s:STATE_INDIAN_OCEAN_LANE_01
+		}
+		localization_key = STATE_INDIAN_OCEAN_LANE_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INDIAN_OCEAN_LANE_02
+			state_region = s:STATE_INDIAN_OCEAN_LANE_02
+		}
+		localization_key = STATE_INDIAN_OCEAN_LANE_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INDIAN_OCEAN_LANE_03
+			state_region = s:STATE_INDIAN_OCEAN_LANE_03
+		}
+		localization_key = STATE_INDIAN_OCEAN_LANE_03
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INDIAN_OCEAN_LANE_04
+			state_region = s:STATE_INDIAN_OCEAN_LANE_04
+		}
+		localization_key = STATE_INDIAN_OCEAN_LANE_04
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INDIAN_OCEAN_LANE_05
+			state_region = s:STATE_INDIAN_OCEAN_LANE_05
+		}
+		localization_key = STATE_INDIAN_OCEAN_LANE_05
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INDIAN_OCEAN_LANE_06
+			state_region = s:STATE_INDIAN_OCEAN_LANE_06
+		}
+		localization_key = STATE_INDIAN_OCEAN_LANE_06
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTER_ISLAND
+			state_region = s:STATE_EASTER_ISLAND
+		}
+		localization_key = STATE_EASTER_ISLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTERN_POLYNESIA
+			state_region = s:STATE_EASTERN_POLYNESIA
+		}
+		localization_key = STATE_EASTERN_POLYNESIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NATAL_COAST
+			state_region = s:STATE_NATAL_COAST
+		}
+		localization_key = STATE_NATAL_COAST
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_OCEAN_01
+			state_region = s:STATE_NORTH_ATLANTIC_OCEAN_01
+		}
+		localization_key = STATE_NORTH_ATLANTIC_OCEAN_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_OCEAN_02
+			state_region = s:STATE_NORTH_ATLANTIC_OCEAN_02
+		}
+		localization_key = STATE_NORTH_ATLANTIC_OCEAN_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_OCEAN_03
+			state_region = s:STATE_NORTH_ATLANTIC_OCEAN_03
+		}
+		localization_key = STATE_NORTH_ATLANTIC_OCEAN_03
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_OCEAN_04
+			state_region = s:STATE_NORTH_ATLANTIC_OCEAN_04
+		}
+		localization_key = STATE_NORTH_ATLANTIC_OCEAN_04
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_OCEAN_05
+			state_region = s:STATE_NORTH_ATLANTIC_OCEAN_05
+		}
+		localization_key = STATE_NORTH_ATLANTIC_OCEAN_05
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_ATLANTIC_OCEAN_06
+			state_region = s:STATE_NORTH_ATLANTIC_OCEAN_06
+		}
+		localization_key = STATE_NORTH_ATLANTIC_OCEAN_06
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_OCEAN_01
+			state_region = s:STATE_SOUTH_ATLANTIC_OCEAN_01
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_OCEAN_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_OCEAN_02
+			state_region = s:STATE_SOUTH_ATLANTIC_OCEAN_02
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_OCEAN_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_OCEAN_03
+			state_region = s:STATE_SOUTH_ATLANTIC_OCEAN_03
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_OCEAN_03
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_OCEAN_04
+			state_region = s:STATE_SOUTH_ATLANTIC_OCEAN_04
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_OCEAN_04
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_OCEAN_05
+			state_region = s:STATE_SOUTH_ATLANTIC_OCEAN_05
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_OCEAN_05
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_ATLANTIC_OCEAN_06
+			state_region = s:STATE_SOUTH_ATLANTIC_OCEAN_06
+		}
+		localization_key = STATE_SOUTH_ATLANTIC_OCEAN_06
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTHERN_OCEAN_01
+			state_region = s:STATE_SOUTHERN_OCEAN_01
+		}
+		localization_key = STATE_SOUTHERN_OCEAN_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTHERN_OCEAN_02
+			state_region = s:STATE_SOUTHERN_OCEAN_02
+		}
+		localization_key = STATE_SOUTHERN_OCEAN_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INDIAN_OCEAN_01
+			state_region = s:STATE_INDIAN_OCEAN_01
+		}
+		localization_key = STATE_INDIAN_OCEAN_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INDIAN_OCEAN_02
+			state_region = s:STATE_INDIAN_OCEAN_02
+		}
+		localization_key = STATE_INDIAN_OCEAN_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_INDIAN_OCEAN_03
+			state_region = s:STATE_INDIAN_OCEAN_03
+		}
+		localization_key = STATE_INDIAN_OCEAN_03
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_PACIFIC_OCEAN_01
+			state_region = s:STATE_NORTH_PACIFIC_OCEAN_01
+		}
+		localization_key = STATE_NORTH_PACIFIC_OCEAN_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_PACIFIC_OCEAN_02
+			state_region = s:STATE_NORTH_PACIFIC_OCEAN_02
+		}
+		localization_key = STATE_NORTH_PACIFIC_OCEAN_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_PACIFIC_OCEAN_03
+			state_region = s:STATE_NORTH_PACIFIC_OCEAN_03
+		}
+		localization_key = STATE_NORTH_PACIFIC_OCEAN_03
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_PACIFIC_OCEAN_04
+			state_region = s:STATE_NORTH_PACIFIC_OCEAN_04
+		}
+		localization_key = STATE_NORTH_PACIFIC_OCEAN_04
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_PACIFIC_OCEAN_05
+			state_region = s:STATE_NORTH_PACIFIC_OCEAN_05
+		}
+		localization_key = STATE_NORTH_PACIFIC_OCEAN_05
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_PACIFIC_OCEAN_06
+			state_region = s:STATE_NORTH_PACIFIC_OCEAN_06
+		}
+		localization_key = STATE_NORTH_PACIFIC_OCEAN_06
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_PACIFIC_OCEAN_07
+			state_region = s:STATE_NORTH_PACIFIC_OCEAN_07
+		}
+		localization_key = STATE_NORTH_PACIFIC_OCEAN_07
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_PACIFIC_OCEAN_08
+			state_region = s:STATE_NORTH_PACIFIC_OCEAN_08
+		}
+		localization_key = STATE_NORTH_PACIFIC_OCEAN_08
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_PACIFIC_OCEAN_09
+			state_region = s:STATE_NORTH_PACIFIC_OCEAN_09
+		}
+		localization_key = STATE_NORTH_PACIFIC_OCEAN_09
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_PACIFIC_OCEAN_10
+			state_region = s:STATE_NORTH_PACIFIC_OCEAN_10
+		}
+		localization_key = STATE_NORTH_PACIFIC_OCEAN_10
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_PACIFIC_OCEAN_11
+			state_region = s:STATE_NORTH_PACIFIC_OCEAN_11
+		}
+		localization_key = STATE_NORTH_PACIFIC_OCEAN_11
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_PACIFIC_OCEAN_01
+			state_region = s:STATE_SOUTH_PACIFIC_OCEAN_01
+		}
+		localization_key = STATE_SOUTH_PACIFIC_OCEAN_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_PACIFIC_OCEAN_02
+			state_region = s:STATE_SOUTH_PACIFIC_OCEAN_02
+		}
+		localization_key = STATE_SOUTH_PACIFIC_OCEAN_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_PACIFIC_OCEAN_03
+			state_region = s:STATE_SOUTH_PACIFIC_OCEAN_03
+		}
+		localization_key = STATE_SOUTH_PACIFIC_OCEAN_03
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_PACIFIC_OCEAN_04
+			state_region = s:STATE_SOUTH_PACIFIC_OCEAN_04
+		}
+		localization_key = STATE_SOUTH_PACIFIC_OCEAN_04
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_PACIFIC_OCEAN_05
+			state_region = s:STATE_SOUTH_PACIFIC_OCEAN_05
+		}
+		localization_key = STATE_SOUTH_PACIFIC_OCEAN_05
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_PACIFIC_OCEAN_06
+			state_region = s:STATE_SOUTH_PACIFIC_OCEAN_06
+		}
+		localization_key = STATE_SOUTH_PACIFIC_OCEAN_06
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_PACIFIC_OCEAN_07
+			state_region = s:STATE_SOUTH_PACIFIC_OCEAN_07
+		}
+		localization_key = STATE_SOUTH_PACIFIC_OCEAN_07
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_PACIFIC_OCEAN_08
+			state_region = s:STATE_SOUTH_PACIFIC_OCEAN_08
+		}
+		localization_key = STATE_SOUTH_PACIFIC_OCEAN_08
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_PACIFIC_OCEAN_09
+			state_region = s:STATE_SOUTH_PACIFIC_OCEAN_09
+		}
+		localization_key = STATE_SOUTH_PACIFIC_OCEAN_09
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PACIFIC_SEABOARD_01
+			state_region = s:STATE_PACIFIC_SEABOARD_01
+		}
+		localization_key = STATE_PACIFIC_SEABOARD_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PACIFIC_SEABOARD_02
+			state_region = s:STATE_PACIFIC_SEABOARD_02
+		}
+		localization_key = STATE_PACIFIC_SEABOARD_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BARENTS_SEA
+			state_region = s:STATE_BARENTS_SEA
+		}
+		localization_key = STATE_BARENTS_SEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARCTIC_OCEAN_01
+			state_region = s:STATE_ARCTIC_OCEAN_01
+		}
+		localization_key = STATE_ARCTIC_OCEAN_01
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARCTIC_OCEAN_02
+			state_region = s:STATE_ARCTIC_OCEAN_02
+		}
+		localization_key = STATE_ARCTIC_OCEAN_02
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARCTIC_OCEAN_04
+			state_region = s:STATE_ARCTIC_OCEAN_04
+		}
+		localization_key = STATE_ARCTIC_OCEAN_04
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARCTIC_OCEAN_05
+			state_region = s:STATE_ARCTIC_OCEAN_05
+		}
+		localization_key = STATE_ARCTIC_OCEAN_05
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARCTIC_OCEAN_06
+			state_region = s:STATE_ARCTIC_OCEAN_06
+		}
+		localization_key = STATE_ARCTIC_OCEAN_06
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARCTIC_OCEAN_07
+			state_region = s:STATE_ARCTIC_OCEAN_07
+		}
+		localization_key = STATE_ARCTIC_OCEAN_07
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ALAND
+			state_region = s:STATE_ALAND
+		}
+		localization_key = STATE_ALAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BURMA
+			state_region = s:STATE_BURMA
+		}
+		localization_key = STATE_BURMA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_PHILIPPINES_SEA
+			state_region = s:STATE_NORTH_PHILIPPINES_SEA
+		}
+		localization_key = STATE_NORTH_PHILIPPINES_SEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SOUTH_PHILIPPINES_SEA
+			state_region = s:STATE_SOUTH_PHILIPPINES_SEA
+		}
+		localization_key = STATE_SOUTH_PHILIPPINES_SEA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PATAGONIAN_LAKES
+			state_region = s:STATE_PATAGONIAN_LAKES
+		}
+		localization_key = STATE_PATAGONIAN_LAKES
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_LAKE_NICARAGUA
+			state_region = s:STATE_LAKE_NICARAGUA
+		}
+		localization_key = STATE_LAKE_NICARAGUA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_GOIAS
+			state_region = s:STATE_GOIAS
+		}
+		localization_key = STATE_GOIAS
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ACRE
+			state_region = s:STATE_ACRE
+		}
+		localization_key = STATE_ACRE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PIAUI
+			state_region = s:STATE_PIAUI
+		}
+		localization_key = STATE_PIAUI
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_CEARA
+			state_region = s:STATE_CEARA
+		}
+		localization_key = STATE_CEARA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_PARAIBA
+			state_region = s:STATE_PARAIBA
+		}
+		localization_key = STATE_PARAIBA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SANTA_CATARINA
+			state_region = s:STATE_SANTA_CATARINA
+		}
+		localization_key = STATE_SANTA_CATARINA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_VERACRUZ
+			state_region = s:STATE_VERACRUZ
+		}
+		localization_key = STATE_VERACRUZ
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SINALOA
+			state_region = s:STATE_SINALOA
+		}
+		localization_key = STATE_SINALOA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_BAJIO
+			state_region = s:STATE_BAJIO
+		}
+		localization_key = STATE_BAJIO
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_OAXACA
+			state_region = s:STATE_OAXACA
+		}
+		localization_key = STATE_OAXACA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SHENGJING
+			state_region = s:STATE_SHENGJING
+		}
+		localization_key = STATE_SHENGJING
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_JETISY
+			state_region = s:STATE_JETISY
+		}
+		localization_key = STATE_JETISY
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MECKLENBERG
+			state_region = s:STATE_MECKLENBERG
+		}
+		localization_key = STATE_MECKLENBERG
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EASTERN_TRANSYLVANIA
+			state_region = s:STATE_EASTERN_TRANSYLVANIA
+		}
+		localization_key = STATE_EASTERN_TRANSYLVANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WESTERN_TRANSYLVANIA
+			state_region = s:STATE_WESTERN_TRANSYLVANIA
+		}
+		localization_key = STATE_WESTERN_TRANSYLVANIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ULAANBAATAR
+			state_region = s:STATE_ULAANBAATAR
+		}
+		localization_key = STATE_ULAANBAATAR
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KHOVSGOL
+			state_region = s:STATE_KHOVSGOL
+		}
+		localization_key = STATE_KHOVSGOL
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NUEVO_LEON
+			state_region = s:STATE_NUEVO_LEON
+		}
+		localization_key = STATE_NUEVO_LEON
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_MORELIA
+			state_region = s:STATE_MORELIA
+		}
+		localization_key = STATE_MORELIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_SUMATRA
+			state_region = s:STATE_SUMATRA
+		}
+		localization_key = STATE_SUMATRA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTH_MACEDONIA
+			state_region = s:STATE_NORTH_MACEDONIA
+		}
+		localization_key = STATE_NORTH_MACEDONIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_WEST_MACEDONIA
+			state_region = s:STATE_WEST_MACEDONIA
+		}
+		localization_key = STATE_WEST_MACEDONIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_EAST_MACEDONIA
+			state_region = s:STATE_EAST_MACEDONIA
+		}
+		localization_key = STATE_EAST_MACEDONIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_RUMELIA
+			state_region = s:STATE_RUMELIA
+		}
+		localization_key = STATE_RUMELIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_THRACE
+			state_region = s:STATE_THRACE
+		}
+		localization_key = STATE_THRACE
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_NORTHERN_FINLAND
+			state_region = s:STATE_NORTHERN_FINLAND
+		}
+		localization_key = STATE_NORTHERN_FINLAND
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_KARELIA
+			state_region = s:STATE_KARELIA
+		}
+		localization_key = STATE_KARELIA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_VOJVODINA
+			state_region = s:STATE_VOJVODINA
+		}
+		localization_key = STATE_VOJVODINA
+	 }
+	
+	 text = {
+		trigger = { 
+			exists = s:STATE_ARCTIC_OCEAN_03
+			state_region = s:STATE_ARCTIC_OCEAN_03
+		}
+		localization_key = STATE_ARCTIC_OCEAN_03
+	 }
+	
+	 text = {
+		fallback = yes
+		localization_key = STATE_FALLBACK
+	 }
+	
+}		
+		
+STATE_PL_LOCATIVE = { 
+	parent = STATE_PL
+	suffix = _PL_LOCATIVE
+}
+
+STATE_PL_IN = { 
+	parent = STATE_PL
+	suffix = _PL_IN
+}
+
+
+
+GOODS_PL = {
+	type = goods
+	log_loc_errors = no
+
+	text = {  
+		trigger = {
+			this = g:aeroplanes
+		}
+		localization_key = aeroplanes
+	}
+	text = {  
+		trigger = {
+			this = g:ammunition
+		}
+		localization_key = ammunition
+	}
+	text = {  
+		trigger = {
+			this = g:artillery
+		}
+		localization_key = artillery
+	}
+	text = {  
+		trigger = {
+			this = g:automobiles
+		}
+		localization_key = automobiles
+	}
+	text = {  
+		trigger = {
+			this = g:clippers
+		}
+		localization_key = clippers
+	}
+	text = {  
+		trigger = {
+			this = g:clothes
+		}
+		localization_key = clothes
+	}
+	text = {  
+		trigger = {
+			this = g:coal
+		}
+		localization_key = coal
+	}
+	text = {  
+		trigger = {
+			this = g:coffee
+		}
+		localization_key = coffee
+	}
+	text = {  
+		trigger = {
+			this = g:dye
+		}
+		localization_key = dye
+	}
+	text = {  
+		trigger = {
+			this = g:electricity
+		}
+		localization_key = electricity
+	}
+	text = {  
+		trigger = {
+			this = g:engines
+		}
+		localization_key = engines
+	}
+	text = {  
+		trigger = {
+			this = g:explosives
+		}
+		localization_key = explosives
+	}
+	text = {  
+		trigger = {
+			this = g:fabric
+		}
+		localization_key = fabric
+	}
+	text = {  
+		trigger = {
+			this = g:fertilizer
+		}
+		localization_key = fertilizer
+	}
+	text = {  
+		trigger = {
+			this = g:fine_art
+		}
+		localization_key = fine_art
+	}
+	text = {  
+		trigger = {
+			this = g:fish
+		}
+		localization_key = fish
+	}
+	text = {  
+		trigger = {
+			this = g:fruit
+		}
+		localization_key = fruit
+	}
+	text = {  
+		trigger = {
+			this = g:furniture
+		}
+		localization_key = furniture
+	}
+	text = {  
+		trigger = {
+			this = g:glass
+		}
+		localization_key = glass
+	}
+	text = {  
+		trigger = {
+			this = g:gold
+		}
+		localization_key = gold
+	}
+	text = {  
+		trigger = {
+			this = g:grain
+		}
+		localization_key = grain
+	}
+	text = {  
+		trigger = {
+			this = g:groceries
+		}
+		localization_key = groceries
+	}
+	text = {  
+		trigger = {
+			this = g:hardwood
+		}
+		localization_key = hardwood
+	}
+	text = {  
+		trigger = {
+			this = g:iron
+		}
+		localization_key = iron
+	}
+	text = {  
+		trigger = {
+			this = g:ironclads
+		}
+		localization_key = ironclads
+	}
+	text = {  
+		trigger = {
+			this = g:lead
+		}
+		localization_key = lead
+	}
+	text = {  
+		trigger = {
+			this = g:liquor
+		}
+		localization_key = liquor
+	}
+	text = {  
+		trigger = {
+			this = g:luxury_clothes
+		}
+		localization_key = luxury_clothes
+	}
+	text = {  
+		trigger = {
+			this = g:luxury_furniture
+		}
+		localization_key = luxury_furniture
+	}
+	text = {  
+		trigger = {
+			this = g:manowars
+		}
+		localization_key = manowars
+	}
+	text = {  
+		trigger = {
+			this = g:meat
+		}
+		localization_key = meat
+	}
+	text = {  
+		trigger = {
+			this = g:oil
+		}
+		localization_key = oil
+	}
+	text = {  
+		trigger = {
+			this = g:opium
+		}
+		localization_key = opium
+	}
+	text = {  
+		trigger = {
+			this = g:paper
+		}
+		localization_key = paper
+	}
+	text = {  
+		trigger = {
+			this = g:porcelain
+		}
+		localization_key = porcelain
+	}
+	text = {  
+		trigger = {
+			this = g:radios
+		}
+		localization_key = radios
+	}
+	text = {  
+		trigger = {
+			this = g:rubber
+		}
+		localization_key = rubber
+	}
+	text = {  
+		trigger = {
+			this = g:services
+		}
+		localization_key = services
+	}
+	text = {  
+		trigger = {
+			this = g:silk
+		}
+		localization_key = silk
+	}
+	text = {  
+		trigger = {
+			this = g:small_arms
+		}
+		localization_key = small_arms
+	}
+	text = {  
+		trigger = {
+			this = g:steamers
+		}
+		localization_key = steamers
+	}
+	text = {  
+		trigger = {
+			this = g:steel
+		}
+		localization_key = steel
+	}
+	text = {  
+		trigger = {
+			this = g:sugar
+		}
+		localization_key = sugar
+	}
+	text = {  
+		trigger = {
+			this = g:sulfur
+		}
+		localization_key = sulfur
+	}
+	text = {  
+		trigger = {
+			this = g:tanks
+		}
+		localization_key = tanks
+	}
+	text = {  
+		trigger = {
+			this = g:tea
+		}
+		localization_key = tea
+	}
+	text = {  
+		trigger = {
+			this = g:telephones
+		}
+		localization_key = telephones
+	}
+	text = {  
+		trigger = {
+			this = g:tobacco
+		}
+		localization_key = tobacco
+	}
+	text = {  
+		trigger = {
+			this = g:tools
+		}
+		localization_key = tools
+	}
+	text = {  
+		trigger = {
+			this = g:transportation
+		}
+		localization_key = transportation
+	}
+	text = {  
+		trigger = {
+			this = g:wine
+		}
+		localization_key = wine
+	}
+	text = {  
+		trigger = {
+			this = g:wood
+		}
+		localization_key = wood
+	}
+	text = {  
+		trigger = {
+			this = g:literature
+		}
+		localization_key = literature
+	}
+
+	text = {
+		fallback = yes
+		localization_key = fallback_good
+	}
+}
+
+GOODS_PL_GENITIVE = { 
+	parent = GOODS_PL
+	suffix = _PL_GENITIVE
+}
