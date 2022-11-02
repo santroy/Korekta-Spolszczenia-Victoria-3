@@ -46,6 +46,19 @@
 
  HOVER_STATE_TOOLTIP_NON_COLONIZABLE:2 "[concept_attitude] [STATE.GetCountry.GetAltNameNoFormatting('PL_GENITIVE')] wobec nas: #tooltippable #tooltip:[STATE.GetCountry.GetTooltipTag],COUNTRY_ATTITUDE_TOOLTIP [STATE.GetCountry.GetAttitudeTowards(GetPlayer.Self).GetName]#!#! (#tooltippable #tooltip:[STATE.GetCountry.GetTooltipTag],COUNTRY_ATTITUDE_SCORE_TOOLTIP [STATE.GetCountry.GetAttitudeTowards(GetPlayer.Self).CalcScore|+0]#!#!)"
 
+ # MAP_MODE_RELATIONS_COUNTRY:0 "Pokaż [concept_relations|l] z państwem o nazwie [CountryPanel.GetCountry.GetName] na mapie"
+
+ MAP_MODE_ATTITUDE_COUNTRY:0 "Pokaż na mapie [concept_attitude|l] wobec [CountryPanel.GetCountry.GetAltName('PL_GENITIVE')]"
+ #MAP_MODE_RELATIONS_COUNTRY:0 "Pokaż na mapie [concept_relations|l] z [CountryPanel.GetCountry.GetAltName('PL_GENITIVE')]"
+
+ DIPLOMACY_HOVER_ATTITUDE_COUNTRY:0 "#header Widok [Concept('concept_attitude', 'nastawienia')] z perspektywy [Country.GetAltName('PL_GENITIVE')]#!"
+ DIPLOMACY_HOVER_RELATIONS_COUNTRY:2 "#header Widok [Concept('concept_relations', 'stosunków')] z perspektywy [Country.GetAltName('PL_GENITIVE')]#!"
+ DIPLOMACY_HOVER_INFAMY_COUNTRY:0 "#header Widok [Concept('concept_infamy', 'niesławy')] z perspektywy [Country.GetAltName('PL_GENITIVE')]#!"
+
+ DIPLO_ACTIONS:0 "[Concept('concept_diplomatic_action', '$concept_diplomatic_actions$')] skierowane [Country.GetAltNameNoFormatting('PL_IN_B')] [Country.GetAltName('PL_ACCUSATIVE')]"
+ DIPLOMATIC_PLAYS_TARGETING_COUNTRY:0 "[Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')] skierowane [Country.GetAltNameNoFormatting('PL_IN_B')] [Country.GetAltName('PL_ACCUSATIVE')]"
+
+
  # FIXES / VARIOUS FILES
 
  AND_LIST:0 " oraz "
