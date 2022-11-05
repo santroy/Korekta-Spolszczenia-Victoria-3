@@ -1,0 +1,11 @@
+﻿l_polish:
+
+ # pops_overview.gui
+
+ concept_politically_involved_POP_GUI:0 "Politycznie aktywni"
+ concept_politically_inactive_POP_GUI:0 "Politycznie nieaktywni"
+
+ # market_panel.gui
+
+ market_panel_sell_order_short:0 "[Concept('concept_sell_orders', '$concept_sell_order_short$')]"
+ market_panel_buy_order_short:0 "[Concept('concept_buy_orders', '$concept_buy_order_short$')]"
