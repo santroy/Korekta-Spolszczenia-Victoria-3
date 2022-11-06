@@ -9,3 +9,7 @@
 
  market_panel_sell_order_short:0 "[Concept('concept_sell_orders', '$concept_sell_order_short$')]"
  market_panel_buy_order_short:0 "[Concept('concept_buy_orders', '$concept_buy_order_short$')]"
+
+
+ empty_fallback:0 ""
+ true_string:0 "true"

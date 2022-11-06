@@ -6332,3 +6332,195 @@ GOODS_PL_GENITIVE = {
 	parent = GOODS_PL
 	suffix = _PL_GENITIVE
 }
+
+
+PL_COUNTRY_PLURAL = {
+	type = country
+
+	text = {
+
+		trigger = {
+
+			OR = {
+				AND = {	
+					exists = c:BAH
+					this = c:BAH
+				}
+	
+				AND = {
+					exists = c:BOH
+					this = c:BOH
+				}
+	
+				AND = {
+					exists = c:CHI
+					this = c:CHI
+				}
+	
+				AND = {
+					exists = c:CSA
+					this = c:CSA
+				}
+	
+				AND = {
+					exists = c:FSA
+					this = c:FSA
+				}
+	
+				AND = {
+					exists = c:GER
+					this = c:GER
+				}
+	
+				AND = {
+					exists = c:HUN
+					this = c:HUN
+				}
+	
+				AND = {
+					exists = c:ION
+					this = c:ION
+				}
+	
+				AND = {
+					exists = c:ITA
+					this = c:ITA
+				}
+
+				AND = {
+					exists = c:PHI
+					this = c:PHI
+				}
+
+				AND = {
+					exists = c:PRU
+					this = c:PRU
+				}
+
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+
+				AND = {
+					exists = c:WIN
+					this = c:WIN
+				}
+
+				AND = {
+					exists = c:HND
+					this = c:HND
+				}
+
+				AND = {
+					exists = c:SRB
+					this = c:SRB
+				}
+
+				AND = {
+					exists = c:UNT
+					this = c:UNT
+				}
+
+				AND = {
+					exists = c:DEI
+					this = c:DEI
+				}
+
+				AND = {
+					exists = c:USA
+					this = c:USA
+					c:USA = {		
+						any_scope_state = {
+							state_region = { NOT = { has_variable = district_of_columbia } }
+						}
+					}
+				} # dyn_c_united_states
+
+				AND = {
+					exists = c:USA
+					this = c:USA
+					coa_communist_trigger = yes
+				} # dyn_c_united_syndicates_of_america
+
+				AND = {
+					exists = c:USA
+					this = c:USA
+					coa_theocracy_trigger = yes
+				} # dyn_c_united_synods_of_america
+
+				AND = {
+					exists = c:CSA
+					this = c:CSA
+					coa_communist_trigger = yes
+				} # dyn_c_communist_states_of_america
+
+				AND = {
+					exists = c:USA
+					this = c:USA
+					coa_theocracy_trigger = yes
+				} # dyn_c_confederate_synods_of_america
+
+				AND = {
+					exists = c:NET
+					this = c:NET
+					c:NET = { 
+						owns_entire_state_region = STATE_FLANDERS
+						owns_entire_state_region = STATE_WALLONIA
+					}
+				} # dyn_c_united_netherlands
+
+				AND = {
+					exists = c:BEL
+					this = c:BEL
+					coa_republic_trigger = yes
+					NOT = { coa_communist_trigger = yes }
+				} # dyn_c_united_belgian_states
+
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+					country_has_primary_culture = cu:hungarian
+				} # dyn_c_austria-hungary
+
+				AND = {
+					exists = c:BIC
+					this = c:BIC
+					exists = c:GBR
+					c:GBR = {
+						has_diplomatic_pact = {
+							who = c:BIC
+							type = puppet
+							is_initiator = yes
+						}
+					}
+				} # dyn_c_british_raj
+
+				AND = {
+					exists = c:BIC
+					this = c:BIC
+					is_subject = no
+				} # dyn_c_east_india
+
+				AND = {
+					exists = c:PHI
+					this = c:PHI
+					exists = c:SPA
+					c:SPA = {
+						has_diplomatic_pact = {
+							who = c:PHI
+							type = puppet
+							is_initiator = yes
+						}
+					}
+				} # dyn_c_spanish_philippines
+			}
+		}
+		localization_key = true_string
+	}
+
+	text = {
+		fallback = yes
+		localization_key = empty_fallback
+	}
+}
