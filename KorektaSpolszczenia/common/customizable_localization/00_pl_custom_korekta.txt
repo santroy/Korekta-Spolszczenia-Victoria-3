@@ -6376,6 +6376,11 @@ PL_COUNTRY_PLURAL = {
 					exists = c:HUN
 					this = c:HUN
 				}
+
+				AND = {
+					exists = c:HAW
+					this = c:HAW
+				}
 	
 				AND = {
 					exists = c:ION
