@@ -13,3 +13,6 @@
 
  empty_fallback:0 ""
  true_string:0 "true"
+ PL_COUNTRY_fallback:0 "[ROOT.GetCountryDefinition.GetName]"
+ PL_COUNTRY_fallback_PL_ACCUSATIVE:0 "[ROOT.GetCountryDefinition.GetName]"
+ PL_COUNTRY_fallback_PL_GENITIVE:0 "[ROOT.GetCountryDefinition.GetName]"

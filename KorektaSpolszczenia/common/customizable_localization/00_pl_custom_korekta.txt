@@ -6529,3 +6529,4257 @@ PL_COUNTRY_PLURAL = {
 		localization_key = empty_fallback
 	}
 }
+
+
+PL_COUNTRY_DEF = {
+	type = country_definition
+
+	text = {
+		trigger = {
+			exists = cd:ABS
+			this = cd:ABS
+		}
+		localization_key = ABS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ABU
+			this = cd:ABU
+		}
+		localization_key = ABU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ACE
+			this = cd:ACE
+		}
+		localization_key = ACE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ACH
+			this = cd:ACH
+		}
+		localization_key = ACH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ADG
+			this = cd:ADG
+		}
+		localization_key = ADG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AFG
+			this = cd:AFG
+		}
+		localization_key = AFG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AGJ
+			this = cd:AGJ
+		}
+		localization_key = AGJ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AHG
+			this = cd:AHG
+		}
+		localization_key = AHG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AIR
+			this = cd:AIR
+		}
+		localization_key = AIR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ALB
+			this = cd:ALB
+		}
+		localization_key = ALB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ALD
+			this = cd:ALD
+		}
+		localization_key = ALD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AMZ
+			this = cd:AMZ
+		}
+		localization_key = AMZ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ANH
+			this = cd:ANH
+		}
+		localization_key = ANH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ANK
+			this = cd:ANK
+		}
+		localization_key = ANK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ANL
+			this = cd:ANL
+		}
+		localization_key = ANL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AOT
+			this = cd:AOT
+		}
+		localization_key = AOT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ARA
+			this = cd:ARA
+		}
+		localization_key = ARA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ARG
+			this = cd:ARG
+		}
+		localization_key = ARG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ARM
+			this = cd:ARM
+		}
+		localization_key = ARM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ASA
+			this = cd:ASA
+		}
+		localization_key = ASA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ASH
+			this = cd:ASH
+		}
+		localization_key = ASH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AST
+			this = cd:AST
+		}
+		localization_key = AST
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AUS
+			this = cd:AUS
+		}
+		localization_key = AUS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AWA
+			this = cd:AWA
+		}
+		localization_key = AWA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AWS
+			this = cd:AWS
+		}
+		localization_key = AWS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AYI
+			this = cd:AYI
+		}
+		localization_key = AYI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AZB
+			this = cd:AZB
+		}
+		localization_key = AZB
+	} 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:BAB
+	# 		this = cd:BAB
+	# 	}
+	# 	localization_key = BAB
+	# } 
+	
+	text = {
+		trigger = {
+			exists = cd:BAD
+			this = cd:BAD
+		}
+		localization_key = BAD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BAH
+			this = cd:BAH
+		}
+		localization_key = BAH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BAL
+			this = cd:BAL
+		}
+		localization_key = BAL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BAS
+			this = cd:BAS
+		}
+		localization_key = BAS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BAV
+			this = cd:BAV
+		}
+		localization_key = BAV
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BEL
+			this = cd:BEL
+		}
+		localization_key = BEL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BEN
+			this = cd:BEN
+		}
+		localization_key = BEN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BER
+			this = cd:BER
+		}
+		localization_key = BER
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BGI
+			this = cd:BGI
+		}
+		localization_key = BGI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BGL
+			this = cd:BGL
+		}
+		localization_key = BGL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BGM
+			this = cd:BGM
+		}
+		localization_key = BGM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BHO
+			this = cd:BHO
+		}
+		localization_key = BHO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BHU
+			this = cd:BHU
+		}
+		localization_key = BHU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BIC
+			this = cd:BIC
+		}
+		localization_key = BIC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BIK
+			this = cd:BIK
+		}
+		localization_key = BIK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BLA
+			this = cd:BLA
+		}
+		localization_key = BLA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BLE
+			this = cd:BLE
+		}
+		localization_key = BLE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BLG
+			this = cd:BLG
+		}
+		localization_key = BLG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BMB
+			this = cd:BMB
+		}
+		localization_key = BMB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BND
+			this = cd:BND
+		}
+		localization_key = BND
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BNG
+			this = cd:BNG
+		}
+		localization_key = BNG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BNY
+			this = cd:BNY
+		}
+		localization_key = BNY
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BOB
+			this = cd:BOB
+		}
+		localization_key = BOB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BOH
+			this = cd:BOH
+		}
+		localization_key = BOH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BOL
+			this = cd:BOL
+		}
+		localization_key = BOL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BOR
+			this = cd:BOR
+		}
+		localization_key = BOR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BOS
+			this = cd:BOS
+		}
+		localization_key = BOS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BRA
+			this = cd:BRA
+		}
+		localization_key = BRA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BRD
+			this = cd:BRD
+		}
+		localization_key = BRD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BRE
+			this = cd:BRE
+		}
+		localization_key = BRE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BRI
+			this = cd:BRI
+		}
+		localization_key = BRI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BRN
+			this = cd:BRN
+		}
+		localization_key = BRN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BRU
+			this = cd:BRU
+		}
+		localization_key = BRU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BRZ
+			this = cd:BRZ
+		}
+		localization_key = BRZ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BST
+			this = cd:BST
+		}
+		localization_key = BST
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BUG
+			this = cd:BUG
+		}
+		localization_key = BUG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BUK
+			this = cd:BUK
+		}
+		localization_key = BUK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BUL
+			this = cd:BUL
+		}
+		localization_key = BUL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BUN
+			this = cd:BUN
+		}
+		localization_key = BUN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BUR
+			this = cd:BUR
+		}
+		localization_key = BUR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BYE
+			this = cd:BYE
+		}
+		localization_key = BYE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BYZ
+			this = cd:BYZ
+		}
+		localization_key = BYZ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CAL
+			this = cd:CAL
+		}
+		localization_key = CAL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CAM
+			this = cd:CAM
+		}
+		localization_key = CAM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CAN
+			this = cd:CAN
+		}
+		localization_key = CAN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CAS
+			this = cd:CAS
+		}
+		localization_key = CAS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CAT
+			this = cd:CAT
+		}
+		localization_key = CAT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CAY
+			this = cd:CAY
+		}
+		localization_key = CAY
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CHE
+			this = cd:CHE
+		}
+		localization_key = CHE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CHI
+			this = cd:CHI
+		}
+		localization_key = CHI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CHK
+			this = cd:CHK
+		}
+		localization_key = CHK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CHL
+			this = cd:CHL
+		}
+		localization_key = CHL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CHP
+			this = cd:CHP
+		}
+		localization_key = CHP
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CLM
+			this = cd:CLM
+		}
+		localization_key = CLM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CMI
+			this = cd:CMI
+		}
+		localization_key = CMI
+	} 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:CNG
+	# 		this = cd:CNG
+	# 	}
+	# 	localization_key = CNG
+	# } 
+	
+	text = {
+		trigger = {
+			exists = cd:COB
+			this = cd:COB
+		}
+		localization_key = COB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:COL
+			this = cd:COL
+		}
+		localization_key = COL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:COM
+			this = cd:COM
+		}
+		localization_key = COM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:COS
+			this = cd:COS
+		}
+		localization_key = COS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CRE
+			this = cd:CRE
+		}
+		localization_key = CRE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CRI
+			this = cd:CRI
+		}
+		localization_key = CRI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CRO
+			this = cd:CRO
+		}
+		localization_key = CRO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CSA
+			this = cd:CSA
+		}
+		localization_key = CSA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CUB
+			this = cd:CUB
+		}
+		localization_key = CUB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CYP
+			this = cd:CYP
+		}
+		localization_key = CYP
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CZH
+			this = cd:CZH
+		}
+		localization_key = CZH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DAG
+			this = cd:DAG
+		}
+		localization_key = DAG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DAH
+			this = cd:DAH
+		}
+		localization_key = DAH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DAI
+			this = cd:DAI
+		}
+		localization_key = DAI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DAK
+			this = cd:DAK
+		}
+		localization_key = DAK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DEN
+			this = cd:DEN
+		}
+		localization_key = DEN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DES
+			this = cd:DES
+		}
+		localization_key = DES
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DFR
+			this = cd:DFR
+		}
+		localization_key = DFR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DFT
+			this = cd:DFT
+		}
+		localization_key = DFT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DKT
+			this = cd:DKT
+		}
+		localization_key = DKT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DLA
+			this = cd:DLA
+		}
+		localization_key = DLA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DNK
+			this = cd:DNK
+		}
+		localization_key = DNK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DOM
+			this = cd:DOM
+		}
+		localization_key = DOM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DZG
+			this = cd:DZG
+		}
+		localization_key = DZG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ECU
+			this = cd:ECU
+		}
+		localization_key = ECU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:EGY
+			this = cd:EGY
+		}
+		localization_key = EGY
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ELS
+			this = cd:ELS
+		}
+		localization_key = ELS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ENG
+			this = cd:ENG
+		}
+		localization_key = ENG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:EST
+			this = cd:EST
+		}
+		localization_key = EST
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ETH
+			this = cd:ETH
+		}
+		localization_key = ETH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:EWE
+			this = cd:EWE
+		}
+		localization_key = EWE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:FIN
+			this = cd:FIN
+		}
+		localization_key = FIN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:FJI
+			this = cd:FJI
+		}
+		localization_key = FJI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:FLA
+			this = cd:FLA
+		}
+		localization_key = FLA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:FNG
+			this = cd:FNG
+		}
+		localization_key = FNG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:FRA
+			this = cd:FRA
+		}
+		localization_key = FRA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:FRM
+			this = cd:FRM
+		}
+		localization_key = FRM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:FSA
+			this = cd:FSA
+		}
+		localization_key = FSA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:FTJ
+			this = cd:FTJ
+		}
+		localization_key = FTJ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:FTR
+			this = cd:FTR
+		}
+		localization_key = FTR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GAL
+			this = cd:GAL
+		}
+		localization_key = GAL
+	} 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:GAM
+	# 		this = cd:GAM
+	# 	}
+	# 	localization_key = GAM
+	# } 
+	
+	text = {
+		trigger = {
+			exists = cd:GBR
+			this = cd:GBR
+		}
+		localization_key = GBR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GCO
+			this = cd:GCO
+		}
+		localization_key = GCO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GEO
+			this = cd:GEO
+		}
+		localization_key = GEO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GER
+			this = cd:GER
+		}
+		localization_key = GER
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GGO
+			this = cd:GGO
+		}
+		localization_key = GGO
+	} 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:GGR
+	# 		this = cd:GGR
+	# 	}
+	# 	localization_key = GGR
+	# } 
+	
+	text = {
+		trigger = {
+			exists = cd:GJM
+			this = cd:GJM
+		}
+		localization_key = GJM
+	} 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:GLC
+	# 		this = cd:GLC
+	# 	}
+	# 	localization_key = GLC
+	# } 
+	
+	text = {
+		trigger = {
+			exists = cd:GLD
+			this = cd:GLD
+		}
+		localization_key = GLD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GRE
+			this = cd:GRE
+		}
+		localization_key = GRE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GRI
+			this = cd:GRI
+		}
+		localization_key = GRI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GRN
+			this = cd:GRN
+		}
+		localization_key = GRN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GUA
+			this = cd:GUA
+		}
+		localization_key = GUA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GWA
+			this = cd:GWA
+		}
+		localization_key = GWA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HAI
+			this = cd:HAI
+		}
+		localization_key = HAI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HAM
+			this = cd:HAM
+		}
+		localization_key = HAM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HAN
+			this = cd:HAN
+		}
+		localization_key = HAN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HAR
+			this = cd:HAR
+		}
+		localization_key = HAR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HAU
+			this = cd:HAU
+		}
+		localization_key = HAU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HAW
+			this = cd:HAW
+		}
+		localization_key = HAW
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HDJ
+			this = cd:HDJ
+		}
+		localization_key = HDJ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HEK
+			this = cd:HEK
+		}
+		localization_key = HEK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HES
+			this = cd:HES
+		}
+		localization_key = HES
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HHE
+			this = cd:HHE
+		}
+		localization_key = HHE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HLA
+			this = cd:HLA
+		}
+		localization_key = HLA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HMB
+			this = cd:HMB
+		}
+		localization_key = HMB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HND
+			this = cd:HND
+		}
+		localization_key = HND
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HOB
+			this = cd:HOB
+		}
+		localization_key = HOB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HOL
+			this = cd:HOL
+		}
+		localization_key = HOL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HON
+			this = cd:HON
+		}
+		localization_key = HON
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HRO
+			this = cd:HRO
+		}
+		localization_key = HRO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HUN
+			this = cd:HUN
+		}
+		localization_key = HUN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HYD
+			this = cd:HYD
+		}
+		localization_key = HYD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:IBE
+			this = cd:IBE
+		}
+		localization_key = IBE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:IBO
+			this = cd:IBO
+		}
+		localization_key = IBO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ICL
+			this = cd:ICL
+		}
+		localization_key = ICL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:IND
+			this = cd:IND
+		}
+		localization_key = IND
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ION
+			this = cd:ION
+		}
+		localization_key = ION
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:IRC
+			this = cd:IRC
+		}
+		localization_key = IRC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:IRE
+			this = cd:IRE
+		}
+		localization_key = IRE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:IRQ
+			this = cd:IRQ
+		}
+		localization_key = IRQ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ISQ
+			this = cd:ISQ
+		}
+		localization_key = ISQ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ISR
+			this = cd:ISR
+		}
+		localization_key = ISR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ITA
+			this = cd:ITA
+		}
+		localization_key = ITA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:JAI
+			this = cd:JAI
+		}
+		localization_key = JAI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:JAM
+			this = cd:JAM
+		}
+		localization_key = JAM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:JAN
+			this = cd:JAN
+		}
+		localization_key = JAN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:JAP
+			this = cd:JAP
+		}
+		localization_key = JAP
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:JAS
+			this = cd:JAS
+		}
+		localization_key = JAS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:JAV
+			this = cd:JAV
+		}
+		localization_key = JAV
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:JLF
+			this = cd:JLF
+		}
+		localization_key = JLF
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:JOD
+			this = cd:JOD
+		}
+		localization_key = JOD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:JOH
+			this = cd:JOH
+		}
+		localization_key = JOH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KAL
+			this = cd:KAL
+		}
+		localization_key = KAL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KAS
+			this = cd:KAS
+		}
+		localization_key = KAS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KAZ
+			this = cd:KAZ
+		}
+		localization_key = KAZ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KBA
+			this = cd:KBA
+		}
+		localization_key = KBA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KBD
+			this = cd:KBD
+		}
+		localization_key = KBD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KBU
+			this = cd:KBU
+		}
+		localization_key = KBU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KFA
+			this = cd:KFA
+		}
+		localization_key = KFA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KHI
+			this = cd:KHI
+		}
+		localization_key = KHI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KKY
+			this = cd:KKY
+		}
+		localization_key = KKY
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KNG
+			this = cd:KNG
+		}
+		localization_key = KNG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KNK
+			this = cd:KNK
+		}
+		localization_key = KNK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KOK
+			this = cd:KOK
+		}
+		localization_key = KOK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KON
+			this = cd:KON
+		}
+		localization_key = KON
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KOR
+			this = cd:KOR
+		}
+		localization_key = KOR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KRA
+			this = cd:KRA
+		}
+		localization_key = KRA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KRG
+			this = cd:KRG
+		}
+		localization_key = KRG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KRT
+			this = cd:KRT
+		}
+		localization_key = KRT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KRU
+			this = cd:KRU
+		}
+		localization_key = KRU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KSN
+			this = cd:KSN
+		}
+		localization_key = KSN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KTI
+			this = cd:KTI
+		}
+		localization_key = KTI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KUK
+			this = cd:KUK
+		}
+		localization_key = KUK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KUT
+			this = cd:KUT
+		}
+		localization_key = KUT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KZM
+			this = cd:KZM
+		}
+		localization_key = KZM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LAD
+			this = cd:LAD
+		}
+		localization_key = LAD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LAN
+			this = cd:LAN
+		}
+		localization_key = LAN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LAO
+			this = cd:LAO
+		}
+		localization_key = LAO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LAT
+			this = cd:LAT
+		}
+		localization_key = LAT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LBA
+			this = cd:LBA
+		}
+		localization_key = LBA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LGA
+			this = cd:LGA
+		}
+		localization_key = LGA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LIB
+			this = cd:LIB
+		}
+		localization_key = LIB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LIP
+			this = cd:LIP
+		}
+		localization_key = LIP
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SCM
+			this = cd:SCM
+		}
+		localization_key = SCM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HOH
+			this = cd:HOH
+		}
+		localization_key = HOH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SCW
+			this = cd:SCW
+		}
+		localization_key = SCW
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LIT
+			this = cd:LIT
+		}
+		localization_key = LIT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LKT
+			this = cd:LKT
+		}
+		localization_key = LKT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LND
+			this = cd:LND
+		}
+		localization_key = LND
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LNG
+			this = cd:LNG
+		}
+		localization_key = LNG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LOM
+			this = cd:LOM
+		}
+		localization_key = LOM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LUA
+			this = cd:LUA
+		}
+		localization_key = LUA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LUB
+			this = cd:LUB
+		}
+		localization_key = LUB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LUC
+			this = cd:LUC
+		}
+		localization_key = LUC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LUO
+			this = cd:LUO
+		}
+		localization_key = LUO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LUX
+			this = cd:LUX
+		}
+		localization_key = LUX
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LZO
+			this = cd:LZO
+		}
+		localization_key = LZO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MAD
+			this = cd:MAD
+		}
+		localization_key = MAD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MAK
+			this = cd:MAK
+		}
+		localization_key = MAK
+	} 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:MAN
+	# 		this = cd:MAN
+	# 	}
+	# 	localization_key = MAN
+	# } 
+	
+	text = {
+		trigger = {
+			exists = cd:MAY
+			this = cd:MAY
+		}
+		localization_key = MAY
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MCH
+			this = cd:MCH
+		}
+		localization_key = MCH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MCR
+			this = cd:MCR
+		}
+		localization_key = MCR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MDK
+			this = cd:MDK
+		}
+		localization_key = MDK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MEC
+			this = cd:MEC
+		}
+		localization_key = MEC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MST
+			this = cd:MST
+		}
+		localization_key = MST
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WLD
+			this = cd:WLD
+		}
+		localization_key = WLD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MEI
+			this = cd:MEI
+		}
+		localization_key = MEI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MEW
+			this = cd:MEW
+		}
+		localization_key = MEW
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MEX
+			this = cd:MEX
+		}
+		localization_key = MEX
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MGL
+			this = cd:MGL
+		}
+		localization_key = MGL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MJT
+			this = cd:MJT
+		}
+		localization_key = MJT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MKT
+			this = cd:MKT
+		}
+		localization_key = MKT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MNB
+			this = cd:MNB
+		}
+		localization_key = MNB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MNC
+			this = cd:MNC
+		}
+		localization_key = MNC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MOD
+			this = cd:MOD
+		}
+		localization_key = MOD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MOL
+			this = cd:MOL
+		}
+		localization_key = MOL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MON
+			this = cd:MON
+		}
+		localization_key = MON
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MOR
+			this = cd:MOR
+		}
+		localization_key = MOR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MOS
+			this = cd:MOS
+		}
+		localization_key = MOS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MSH
+			this = cd:MSH
+		}
+		localization_key = MSH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MSI
+			this = cd:MSI
+		}
+		localization_key = MSI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MSK
+			this = cd:MSK
+		}
+		localization_key = MSK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MSN
+			this = cd:MSN
+		}
+		localization_key = MSN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MTB
+			this = cd:MTB
+		}
+		localization_key = MTB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MTC
+			this = cd:MTC
+		}
+		localization_key = MTC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MUG
+			this = cd:MUG
+		}
+		localization_key = MUG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MYS
+			this = cd:MYS
+		}
+		localization_key = MYS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NAG
+			this = cd:NAG
+		}
+		localization_key = NAG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NAH
+			this = cd:NAH
+		}
+		localization_key = NAH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NAL
+			this = cd:NAL
+		}
+		localization_key = NAL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NAM
+			this = cd:NAM
+		}
+		localization_key = NAM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NAS
+			this = cd:NAS
+		}
+		localization_key = NAS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NAV
+			this = cd:NAV
+		}
+		localization_key = NAV
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NEJ
+			this = cd:NEJ
+		}
+		localization_key = NEJ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NEN
+			this = cd:NEN
+		}
+		localization_key = NEN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NEP
+			this = cd:NEP
+		}
+		localization_key = NEP
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NET
+			this = cd:NET
+		}
+		localization_key = NET
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NEW
+			this = cd:NEW
+		}
+		localization_key = NEW
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NGF
+			this = cd:NGF
+		}
+		localization_key = NGF
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NIC
+			this = cd:NIC
+		}
+		localization_key = NIC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NOR
+			this = cd:NOR
+		}
+		localization_key = NOR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NRU
+			this = cd:NRU
+		}
+		localization_key = NRU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NTO
+			this = cd:NTO
+		}
+		localization_key = NTO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NTU
+			this = cd:NTU
+		}
+		localization_key = NTU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NUE
+			this = cd:NUE
+		}
+		localization_key = NUE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NVJ
+			this = cd:NVJ
+		}
+		localization_key = NVJ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NYM
+			this = cd:NYM
+		}
+		localization_key = NYM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NZL
+			this = cd:NZL
+		}
+		localization_key = NZL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NZP
+			this = cd:NZP
+		}
+		localization_key = NZP
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:OLD
+			this = cd:OLD
+		}
+		localization_key = OLD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:OMA
+			this = cd:OMA
+		}
+		localization_key = OMA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ORA
+			this = cd:ORA
+		}
+		localization_key = ORA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ORG
+			this = cd:ORG
+		}
+		localization_key = ORG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ORI
+			this = cd:ORI
+		}
+		localization_key = ORI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:OUA
+			this = cd:OUA
+		}
+		localization_key = OUA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:OVM
+			this = cd:OVM
+		}
+		localization_key = OVM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:OYO
+			this = cd:OYO
+		}
+		localization_key = OYO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PAN
+			this = cd:PAN
+		}
+		localization_key = PAN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PAP
+			this = cd:PAP
+		}
+		localization_key = PAP
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PAR
+			this = cd:PAR
+		}
+		localization_key = PAR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PAT
+			this = cd:PAT
+		}
+		localization_key = PAT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PER
+			this = cd:PER
+		}
+		localization_key = PER
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PEU
+			this = cd:PEU
+		}
+		localization_key = PEU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PHI
+			this = cd:PHI
+		}
+		localization_key = PHI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PLC
+			this = cd:PLC
+		}
+		localization_key = PLC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PLY
+			this = cd:PLY
+		}
+		localization_key = PLY
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PNM
+			this = cd:PNM
+		}
+		localization_key = PNM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:POL
+			this = cd:POL
+		}
+		localization_key = POL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:POM
+			this = cd:POM
+		}
+		localization_key = POM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:POR
+			this = cd:POR
+		}
+		localization_key = POR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PPU
+			this = cd:PPU
+		}
+		localization_key = PPU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PRG
+			this = cd:PRG
+		}
+		localization_key = PRG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PRU
+			this = cd:PRU
+		}
+		localization_key = PRU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PCO
+			this = cd:PCO
+		}
+		localization_key = PCO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:QUE
+			this = cd:QUE
+		}
+		localization_key = QUE
+	} 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:REB
+	# 		this = cd:REB
+	# 	}
+	# 	localization_key = REB
+	# } 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:REV
+	# 		this = cd:REV
+	# 	}
+	# 	localization_key = REV
+	# } 
+	
+	text = {
+		trigger = {
+			exists = cd:ROM
+			this = cd:ROM
+		}
+		localization_key = ROM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:RUS
+			this = cd:RUS
+		}
+		localization_key = RUS
+	} 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:RUT
+	# 		this = cd:RUT
+	# 	}
+	# 	localization_key = RUT
+	# } 
+	
+	text = {
+		trigger = {
+			exists = cd:RWD
+			this = cd:RWD
+		}
+		localization_key = RWD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SAF
+			this = cd:SAF
+		}
+		localization_key = SAF
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SAR
+			this = cd:SAR
+		}
+		localization_key = SAR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SAX
+			this = cd:SAX
+		}
+		localization_key = SAX
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SCA
+			this = cd:SCA
+		}
+		localization_key = SCA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SCH
+			this = cd:SCH
+		}
+		localization_key = SCH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SCN
+			this = cd:SCN
+		}
+		localization_key = SCN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SCO
+			this = cd:SCO
+		}
+		localization_key = SCO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SDM
+			this = cd:SDM
+		}
+		localization_key = SDM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SEQ
+			this = cd:SEQ
+		}
+		localization_key = SEQ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SER
+			this = cd:SER
+		}
+		localization_key = SER
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SGF
+			this = cd:SGF
+		}
+		localization_key = SGF
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SGU
+			this = cd:SGU
+		}
+		localization_key = SGU
+	} 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:SHI
+	# 		this = cd:SHI
+	# 	}
+	# 	localization_key = SHI
+	# } 
+	
+	text = {
+		trigger = {
+			exists = cd:SHW
+			this = cd:SHW
+		}
+		localization_key = SHW
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SIA
+			this = cd:SIA
+		}
+		localization_key = SIA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SIC
+			this = cd:SIC
+		}
+		localization_key = SIC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SIK
+			this = cd:SIK
+		}
+		localization_key = SIK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SIL
+			this = cd:SIL
+		}
+		localization_key = SIL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SIN
+			this = cd:SIN
+		}
+		localization_key = SIN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SKH
+			this = cd:SKH
+		}
+		localization_key = SKH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SLO
+			this = cd:SLO
+		}
+		localization_key = SLO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SLV
+			this = cd:SLV
+		}
+		localization_key = SLV
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SNG
+			this = cd:SNG
+		}
+		localization_key = SNG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SOK
+			this = cd:SOK
+		}
+		localization_key = SOK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SPA
+			this = cd:SPA
+		}
+		localization_key = SPA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SRR
+			this = cd:SRR
+		}
+		localization_key = SRR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SSU
+			this = cd:SSU
+		}
+		localization_key = SSU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SWE
+			this = cd:SWE
+		}
+		localization_key = SWE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SWI
+			this = cd:SWI
+		}
+		localization_key = SWI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TBI
+			this = cd:TBI
+		}
+		localization_key = TBI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TEX
+			this = cd:TEX
+		}
+		localization_key = TEX
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TGR
+			this = cd:TGR
+		}
+		localization_key = TGR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TIB
+			this = cd:TIB
+		}
+		localization_key = TIB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TKE
+			this = cd:TKE
+		}
+		localization_key = TKE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TNG
+			this = cd:TNG
+		}
+		localization_key = TNG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TPG
+			this = cd:TPG
+		}
+		localization_key = TPG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TPS
+			this = cd:TPS
+		}
+		localization_key = TPS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TRA
+			this = cd:TRA
+		}
+		localization_key = TRA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TRE
+			this = cd:TRE
+		}
+		localization_key = TRE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TRI
+			this = cd:TRI
+		}
+		localization_key = TRI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TRK
+			this = cd:TRK
+		}
+		localization_key = TRK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TRN
+			this = cd:TRN
+		}
+		localization_key = TRN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TRS
+			this = cd:TRS
+		}
+		localization_key = TRS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TRZ
+			this = cd:TRZ
+		}
+		localization_key = TRZ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TSW
+			this = cd:TSW
+		}
+		localization_key = TSW
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TUA
+			this = cd:TUA
+		}
+		localization_key = TUA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TUN
+			this = cd:TUN
+		}
+		localization_key = TUN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TUR
+			this = cd:TUR
+		}
+		localization_key = TUR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TUS
+			this = cd:TUS
+		}
+		localization_key = TUS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:UBD
+			this = cd:UBD
+		}
+		localization_key = UBD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:UCA
+			this = cd:UCA
+		}
+		localization_key = UCA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:UKR
+			this = cd:UKR
+		}
+		localization_key = UKR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ULS
+			this = cd:ULS
+		}
+		localization_key = ULS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:URU
+			this = cd:URU
+		}
+		localization_key = URU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:USA
+			this = cd:USA
+		}
+		localization_key = USA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:VEN
+			this = cd:VEN
+		}
+		localization_key = VEN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:VIE
+			this = cd:VIE
+		}
+		localization_key = VIE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:VNT
+			this = cd:VNT
+		}
+		localization_key = VNT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:VNZ
+			this = cd:VNZ
+		}
+		localization_key = VNZ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WAD
+			this = cd:WAD
+		}
+		localization_key = WAD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WAL
+			this = cd:WAL
+		}
+		localization_key = WAL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WBL
+			this = cd:WBL
+		}
+		localization_key = WBL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WEI
+			this = cd:WEI
+		}
+		localization_key = WEI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WES
+			this = cd:WES
+		}
+		localization_key = WES
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WIN
+			this = cd:WIN
+		}
+		localization_key = WIN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WLG
+			this = cd:WLG
+		}
+		localization_key = WLG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WLL
+			this = cd:WLL
+		}
+		localization_key = WLL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WLO
+			this = cd:WLO
+		}
+		localization_key = WLO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WLS
+			this = cd:WLS
+		}
+		localization_key = WLS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WSG
+			this = cd:WSG
+		}
+		localization_key = WSG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WUR
+			this = cd:WUR
+		}
+		localization_key = WUR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:XIN
+			this = cd:XIN
+		}
+		localization_key = XIN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:YEM
+			this = cd:YEM
+		}
+		localization_key = YEM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MAH
+			this = cd:MAH
+		}
+		localization_key = MAH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KAT
+			this = cd:KAT
+		}
+		localization_key = KAT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ZAI
+			this = cd:ZAI
+		}
+		localization_key = ZAI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LAH
+			this = cd:LAH
+		}
+		localization_key = LAH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:JAB
+			this = cd:JAB
+		}
+		localization_key = JAB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BHN
+			this = cd:BHN
+		}
+		localization_key = BHN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:YKA
+			this = cd:YKA
+		}
+		localization_key = YKA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:YUG
+			this = cd:YUG
+		}
+		localization_key = YUG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ZAN
+			this = cd:ZAN
+		}
+		localization_key = ZAN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ZND
+			this = cd:ZND
+		}
+		localization_key = ZND
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ZUL
+			this = cd:ZUL
+		}
+		localization_key = ZUL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SMI
+			this = cd:SMI
+		}
+		localization_key = SMI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MLT
+			this = cd:MLT
+		}
+		localization_key = MLT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ULR
+			this = cd:ULR
+		}
+		localization_key = ULR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MCO
+			this = cd:MCO
+		}
+		localization_key = MCO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TWT
+			this = cd:TWT
+		}
+		localization_key = TWT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BSS
+			this = cd:BSS
+		}
+		localization_key = BSS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TIR
+			this = cd:TIR
+		}
+		localization_key = TIR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KSS
+			this = cd:KSS
+		}
+		localization_key = KSS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GAO
+			this = cd:GAO
+		}
+		localization_key = GAO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TIV
+			this = cd:TIV
+		}
+		localization_key = TIV
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SRA
+			this = cd:SRA
+		}
+		localization_key = SRA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:EQU
+			this = cd:EQU
+		}
+		localization_key = EQU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BJA
+			this = cd:BJA
+		}
+		localization_key = BJA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NBA
+			this = cd:NBA
+		}
+		localization_key = NBA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SUD
+			this = cd:SUD
+		}
+		localization_key = SUD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SKM
+			this = cd:SKM
+		}
+		localization_key = SKM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CHW
+			this = cd:CHW
+		}
+		localization_key = CHW
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LMW
+			this = cd:LMW
+		}
+		localization_key = LMW
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MKU
+			this = cd:MKU
+		}
+		localization_key = MKU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SNA
+			this = cd:SNA
+		}
+		localization_key = SNA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BTG
+			this = cd:BTG
+		}
+		localization_key = BTG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:XHO
+			this = cd:XHO
+		}
+		localization_key = XHO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:UYA
+			this = cd:UYA
+		}
+		localization_key = UYA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PRM
+			this = cd:PRM
+		}
+		localization_key = PRM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HZJ
+			this = cd:HZJ
+		}
+		localization_key = HZJ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TRC
+			this = cd:TRC
+		}
+		localization_key = TRC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SIB
+			this = cd:SIB
+		}
+		localization_key = SIB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:YAK
+			this = cd:YAK
+		}
+		localization_key = YAK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ASM
+			this = cd:ASM
+		}
+		localization_key = ASM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MNP
+			this = cd:MNP
+		}
+		localization_key = MNP
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TOB
+			this = cd:TOB
+		}
+		localization_key = TOB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KLT
+			this = cd:KLT
+		}
+		localization_key = KLT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HTH
+			this = cd:HTH
+		}
+		localization_key = HTH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KRN
+			this = cd:KRN
+		}
+		localization_key = KRN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KHM
+			this = cd:KHM
+		}
+		localization_key = KHM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KHN
+			this = cd:KHN
+		}
+		localization_key = KHN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AIN
+			this = cd:AIN
+		}
+		localization_key = AIN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:EZO
+			this = cd:EZO
+		}
+		localization_key = EZO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:QIA
+			this = cd:QIA
+		}
+		localization_key = QIA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:FRS
+			this = cd:FRS
+		}
+		localization_key = FRS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:YUN
+			this = cd:YUN
+		}
+		localization_key = YUN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:YUE
+			this = cd:YUE
+		}
+		localization_key = YUE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:OAX
+			this = cd:OAX
+		}
+		localization_key = OAX
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AYM
+			this = cd:AYM
+		}
+		localization_key = AYM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WYU
+			this = cd:WYU
+		}
+		localization_key = WYU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TPI
+			this = cd:TPI
+		}
+		localization_key = TPI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PUE
+			this = cd:PUE
+		}
+		localization_key = PUE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NNV
+			this = cd:NNV
+		}
+		localization_key = NNV
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NVL
+			this = cd:NVL
+		}
+		localization_key = NVL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ATB
+			this = cd:ATB
+		}
+		localization_key = ATB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CSC
+			this = cd:CSC
+		}
+		localization_key = CSC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:IRO
+			this = cd:IRO
+		}
+		localization_key = IRO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MSC
+			this = cd:MSC
+		}
+		localization_key = MSC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:UTE
+			this = cd:UTE
+		}
+		localization_key = UTE
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:APC
+			this = cd:APC
+		}
+		localization_key = APC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CCM
+			this = cd:CCM
+		}
+		localization_key = CCM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ORN
+			this = cd:ORN
+		}
+		localization_key = ORN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SRB
+			this = cd:SRB
+		}
+		localization_key = SRB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:YUC
+			this = cd:YUC
+		}
+		localization_key = YUC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:RIO
+			this = cd:RIO
+		}
+		localization_key = RIO
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PNI
+			this = cd:PNI
+		}
+		localization_key = PNI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CEY
+			this = cd:CEY
+		}
+		localization_key = CEY
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HBC
+			this = cd:HBC
+		}
+		localization_key = HBC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ONT
+			this = cd:ONT
+		}
+		localization_key = ONT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NBS
+			this = cd:NBS
+		}
+		localization_key = NBS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NSW
+			this = cd:NSW
+		}
+		localization_key = NSW
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:WAS
+			this = cd:WAS
+		}
+		localization_key = WAS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SAS
+			this = cd:SAS
+		}
+		localization_key = SAS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:UNT
+			this = cd:UNT
+		}
+		localization_key = UNT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NNG
+			this = cd:NNG
+		}
+		localization_key = NNG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GML
+			this = cd:GML
+		}
+		localization_key = GML
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TAS
+			this = cd:TAS
+		}
+		localization_key = TAS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ZIM
+			this = cd:ZIM
+		}
+		localization_key = ZIM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BLH
+			this = cd:BLH
+		}
+		localization_key = BLH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MAL
+			this = cd:MAL
+		}
+		localization_key = MAL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:OCC
+			this = cd:OCC
+		}
+		localization_key = OCC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TUV
+			this = cd:TUV
+		}
+		localization_key = TUV
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:COR
+			this = cd:COR
+		}
+		localization_key = COR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TNS
+			this = cd:TNS
+		}
+		localization_key = TNS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:FER
+			this = cd:FER
+		}
+		localization_key = FER
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:IUS
+			this = cd:IUS
+		}
+		localization_key = IUS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NCA
+			this = cd:NCA
+		}
+		localization_key = NCA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DON
+			this = cd:DON
+		}
+		localization_key = DON
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SYR
+			this = cd:SYR
+		}
+		localization_key = SYR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:EOT
+			this = cd:EOT
+		}
+		localization_key = EOT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:LEB
+			this = cd:LEB
+		}
+		localization_key = LEB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GNG
+			this = cd:GNG
+		}
+		localization_key = GNG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:HNA
+			this = cd:HNA
+		}
+		localization_key = HNA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AHU
+			this = cd:AHU
+		}
+		localization_key = AHU
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ZHI
+			this = cd:ZHI
+		}
+		localization_key = ZHI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SHN
+			this = cd:SHN
+		}
+		localization_key = SHN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GUI
+			this = cd:GUI
+		}
+		localization_key = GUI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SIH
+			this = cd:SIH
+		}
+		localization_key = SIH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SHA
+			this = cd:SHA
+		}
+		localization_key = SHA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:XIB
+			this = cd:XIB
+		}
+		localization_key = XIB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MUI
+			this = cd:MUI
+		}
+		localization_key = MUI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ALT
+			this = cd:ALT
+		}
+		localization_key = ALT
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:AFS
+			this = cd:AFS
+		}
+		localization_key = AFS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GNI
+			this = cd:GNI
+		}
+		localization_key = GNI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SAH
+			this = cd:SAH
+		}
+		localization_key = SAH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:DEI
+			this = cd:DEI
+		}
+		localization_key = DEI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ARP
+			this = cd:ARP
+		}
+		localization_key = ARP
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PWN
+			this = cd:PWN
+		}
+		localization_key = PWN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BLF
+			this = cd:BLF
+		}
+		localization_key = BLF
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TRH
+			this = cd:TRH
+		}
+		localization_key = TRH
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:UOM
+			this = cd:UOM
+		}
+		localization_key = UOM
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SAK
+			this = cd:SAK
+		}
+		localization_key = SAK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PON
+			this = cd:PON
+		}
+		localization_key = PON
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SMB
+			this = cd:SMB
+		}
+		localization_key = SMB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:JMB
+			this = cd:JMB
+		}
+		localization_key = JMB
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:YOG
+			this = cd:YOG
+		}
+		localization_key = YOG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BTN
+			this = cd:BTN
+		}
+		localization_key = BTN
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SEL
+			this = cd:SEL
+		}
+		localization_key = SEL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PRK
+			this = cd:PRK
+		}
+		localization_key = PRK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SRK
+			this = cd:SRK
+		}
+		localization_key = SRK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SLW
+			this = cd:SLW
+		}
+		localization_key = SLW
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:TID
+			this = cd:TID
+		}
+		localization_key = TID
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:STG
+			this = cd:STG
+		}
+		localization_key = STG
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:BNJ
+			this = cd:BNJ
+		}
+		localization_key = BNJ
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SUL
+			this = cd:SUL
+		}
+		localization_key = SUL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:THL
+			this = cd:THL
+		}
+		localization_key = THL
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:SLK
+			this = cd:SLK
+		}
+		localization_key = SLK
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:NVS
+			this = cd:NVS
+		}
+		localization_key = NVS
+	} 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:SMS
+	# 		this = cd:SMS
+	# 	}
+	# 	localization_key = SMS
+	# } 
+	
+	text = {
+		trigger = {
+			exists = cd:CHC
+			this = cd:CHC
+		}
+		localization_key = CHC
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CIR
+			this = cd:CIR
+		}
+		localization_key = CIR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:MGD
+			this = cd:MGD
+		}
+		localization_key = MGD
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:ASS
+			this = cd:ASS
+		}
+		localization_key = ASS
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:CTF
+			this = cd:CTF
+		}
+		localization_key = CTF
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:KLM
+			this = cd:KLM
+		}
+		localization_key = KLM
+	} 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:NAT
+	# 		this = cd:NAT
+	# 	}
+	# 	localization_key = NAT
+	# } 
+	
+	# text = {
+	# 	trigger = {
+	# 		exists = cd:MAC
+	# 		this = cd:MAC
+	# 	}
+	# 	localization_key = MAC
+	# } 
+	
+	text = {
+		trigger = {
+			exists = cd:KUR
+			this = cd:KUR
+		}
+		localization_key = KUR
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:GLI
+			this = cd:GLI
+		}
+		localization_key = GLI
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PRA
+			this = cd:PRA
+		}
+		localization_key = PRA
+	} 
+	
+	text = {
+		trigger = {
+			exists = cd:PAL
+			this = cd:PAL
+		}
+		localization_key = PAL
+	} 
+	
+	
+	text = {
+		fallback = yes
+		localization_key = PL_COUNTRY_fallback
+	}
+}
+
+
+PL_COUNTRY_DEF_ACCUSATIVE = { 
+	parent = PL_COUNTRY_DEF
+	suffix = _PL_ACCUSATIVE
+}
+
+PL_COUNTRY_DEF_GENITIVE = { 
+	parent = PL_COUNTRY_DEF
+	suffix = _PL_GENITIVE
+}
