@@ -441,7 +441,7 @@ types pops_overview
 		}
 
 		blockoverride "leftside_info" {
-			text = "[Culture.GetName]"
+			text = "[Culture.GetName|U]" # ZMIANA U
 		}
 
 		blockoverride "rightside1_info" {
@@ -492,7 +492,7 @@ types pops_overview
 		}
 
 		blockoverride "leftside_info" {
-			text = "[Culture.GetName]"
+			text = "[Culture.GetName|U]" # ZMIANA U
 		}
 
 		blockoverride "rightside1_info" {
@@ -1070,7 +1070,7 @@ types pops_overview
 														
 												textbox = {
 													size = { 100% 100% }
-													text = "[Pop.GetCulture.GetName]"
+													text = "[Pop.GetCulture.GetName|U]" # ZMIANA U
 													elide = right
 													align = left|nobaseline
 													margin = { 10 0 }
