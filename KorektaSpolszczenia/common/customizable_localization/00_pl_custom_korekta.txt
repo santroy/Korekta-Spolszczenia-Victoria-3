@@ -6001,7 +6001,6 @@ STATE_PL_IN = {
 
 GOODS_PL = {
 	type = goods
-	log_loc_errors = no
 
 	text = {  
 		trigger = {
@@ -10782,4 +10781,2206 @@ PL_COUNTRY_DEF_ACCUSATIVE = {
 PL_COUNTRY_DEF_GENITIVE = { 
 	parent = PL_COUNTRY_DEF
 	suffix = _PL_GENITIVE
+}
+
+PL_RELIGION = {
+	type = religion
+
+	text = {
+		trigger = {
+			this = rel:catholic
+		}
+		localization_key = catholic
+	}
+
+	text = {
+		trigger = {
+			this = rel:protestant
+		}
+		localization_key = protestant
+	}
+
+	text = {
+		trigger = {
+			this = rel:orthodox
+		}
+		localization_key = orthodox
+	}
+
+	text = {
+		trigger = {
+			this = rel:catholic
+		}
+		localization_key = catholic
+	}
+
+	text = {
+		trigger = {
+			this = rel:oriental_orthodox
+		}
+		localization_key = oriental_orthodox
+	}
+
+	text = {
+		trigger = {
+			this = rel:sunni
+		}
+		localization_key = sunni
+	}
+
+	text = {
+		trigger = {
+			this = rel:shiite
+		}
+		localization_key = shiite
+	}
+
+	text = {
+		trigger = {
+			this = rel:jewish
+		}
+		localization_key = jewish
+	}
+
+	text = {
+		trigger = {
+			this = rel:mahayana
+		}
+		localization_key = mahayana
+	}
+
+	text = {
+		trigger = {
+			this = rel:gelugpa
+		}
+		localization_key = gelugpa
+	}
+
+	text = {
+		trigger = {
+			this = rel:theravada
+		}
+		localization_key = theravada
+	}
+
+	text = {
+		trigger = {
+			this = rel:hindu
+		}
+		localization_key = hindu
+	}
+
+	text = {
+		trigger = {
+			this = rel:shinto
+		}
+		localization_key = shinto
+	}
+
+	text = {
+		trigger = {
+			this = rel:sikh
+		}
+		localization_key = sikh
+	}
+
+	text = {
+		trigger = {
+			this = rel:animist
+		}
+		localization_key = animist
+	}
+
+	text = {
+		trigger = {
+			this = rel:eastern
+		}
+		localization_key = eastern
+	}
+
+	text = {
+		trigger = {
+			this = rel:buddhist
+		}
+		localization_key = buddhist
+	}
+
+	text = {
+		trigger = {
+			this = rel:christian
+		}
+		localization_key = christian
+	}
+
+	text = {
+		trigger = {
+			this = rel:muslim
+		}
+		localization_key = muslim
+	}
+
+	text = {
+		trigger = {
+			this = rel:coptic
+		}
+		localization_key = coptic
+	}
+
+	text = {
+		fallback = yes
+		localization_key = PL_RELIGION_fallback
+	}
+}
+
+PL_RELIGION_ADJ_PLURAL = { 
+	parent = PL_RELIGION
+	suffix = _PL_ADJ_PLURAL
+}
+
+
+PL_CULTURE = {
+	type = culture
+
+	text = {  
+		trigger = {
+			this = cu:aborigine
+		}
+		localization_key = aborigine
+	}
+	text = {  
+		trigger = {
+			this = cu:occitan
+		}
+		localization_key = occitan
+	}
+	text = {  
+		trigger = {
+			this = cu:moro
+		}
+		localization_key = moro
+	}
+	text = {  
+		trigger = {
+			this = cu:afar
+		}
+		localization_key = afar
+	}
+	text = {  
+		trigger = {
+			this = cu:afro_american
+		}
+		localization_key = afro_american
+	}
+	text = {  
+		trigger = {
+			this = cu:afro_antillean
+		}
+		localization_key = afro_antillean
+	}
+	text = {  
+		trigger = {
+			this = cu:afro_brazilian
+		}
+		localization_key = afro_brazilian
+	}
+	text = {  
+		trigger = {
+			this = cu:afro_caribbean
+		}
+		localization_key = afro_caribbean
+	}
+	text = {  
+		trigger = {
+			this = cu:afro_caribeno
+		}
+		localization_key = afro_caribeno
+	}
+	text = {  
+		trigger = {
+			this = cu:aimara
+		}
+		localization_key = aimara
+	}
+	text = {  
+		trigger = {
+			this = cu:ainu
+		}
+		localization_key = ainu
+	}
+	text = {  
+		trigger = {
+			this = cu:akan
+		}
+		localization_key = akan
+	}
+	text = {  
+		trigger = {
+			this = cu:albanian
+		}
+		localization_key = albanian
+	}
+	text = {  
+		trigger = {
+			this = cu:algonquian
+		}
+		localization_key = algonquian
+	}
+	text = {  
+		trigger = {
+			this = cu:amazonian
+		}
+		localization_key = amazonian
+	}
+	text = {  
+		trigger = {
+			this = cu:amhara
+		}
+		localization_key = amhara
+	}
+	text = {  
+		trigger = {
+			this = cu:anglo_canadian
+		}
+		localization_key = anglo_canadian
+	}
+	text = {  
+		trigger = {
+			this = cu:apache
+		}
+		localization_key = apache
+	}
+	text = {  
+		trigger = {
+			this = cu:armenian
+		}
+		localization_key = armenian
+	}
+	text = {  
+		trigger = {
+			this = cu:ashkenazi
+		}
+		localization_key = ashkenazi
+	}
+	text = {  
+		trigger = {
+			this = cu:assamese
+		}
+		localization_key = assamese
+	}
+	text = {  
+		trigger = {
+			this = cu:athabaskan
+		}
+		localization_key = athabaskan
+	}
+	text = {  
+		trigger = {
+			this = cu:australian
+		}
+		localization_key = australian
+	}
+	text = {  
+		trigger = {
+			this = cu:avadhi
+		}
+		localization_key = avadhi
+	}
+	text = {  
+		trigger = {
+			this = cu:azande
+		}
+		localization_key = azande
+	}
+	text = {  
+		trigger = {
+			this = cu:azerbaijani
+		}
+		localization_key = azerbaijani
+	}
+	text = {  
+		trigger = {
+			this = cu:baganda
+		}
+		localization_key = baganda
+	}
+	text = {  
+		trigger = {
+			this = cu:baguirmi
+		}
+		localization_key = baguirmi
+	}
+	text = {  
+		trigger = {
+			this = cu:bakongo
+		}
+		localization_key = bakongo
+	}
+	text = {  
+		trigger = {
+			this = cu:balinese
+		}
+		localization_key = balinese
+	}
+	text = {  
+		trigger = {
+			this = cu:baluchi
+		}
+		localization_key = baluchi
+	}
+	text = {  
+		trigger = {
+			this = cu:bambara
+		}
+		localization_key = bambara
+	}
+	text = {  
+		trigger = {
+			this = cu:basque
+		}
+		localization_key = basque
+	}
+	text = {  
+		trigger = {
+			this = cu:bassa
+		}
+		localization_key = bassa
+	}
+	text = {  
+		trigger = {
+			this = cu:batak
+		}
+		localization_key = batak
+	}
+	text = {  
+		trigger = {
+			this = cu:bedouin
+		}
+		localization_key = bedouin
+	}
+	text = {  
+		trigger = {
+			this = cu:beja
+		}
+		localization_key = beja
+	}
+	text = {  
+		trigger = {
+			this = cu:bengali
+		}
+		localization_key = bengali
+	}
+	text = {  
+		trigger = {
+			this = cu:berber
+		}
+		localization_key = berber
+	}
+	text = {  
+		trigger = {
+			this = cu:bihari
+		}
+		localization_key = bihari
+	}
+	text = {  
+		trigger = {
+			this = cu:boer
+		}
+		localization_key = boer
+	}
+	text = {  
+		trigger = {
+			this = cu:bornean
+		}
+		localization_key = bornean
+	}
+	text = {  
+		trigger = {
+			this = cu:bosniak
+		}
+		localization_key = bosniak
+	}
+	text = {  
+		trigger = {
+			this = cu:brazilian
+		}
+		localization_key = brazilian
+	}
+	text = {  
+		trigger = {
+			this = cu:breton
+		}
+		localization_key = breton
+	}
+	text = {  
+		trigger = {
+			this = cu:british
+		}
+		localization_key = british
+	}
+	text = {  
+		trigger = {
+			this = cu:bulgarian
+		}
+		localization_key = bulgarian
+	}
+	text = {  
+		trigger = {
+			this = cu:burmese
+		}
+		localization_key = burmese
+	}
+	text = {  
+		trigger = {
+			this = cu:byelorussian
+		}
+		localization_key = byelorussian
+	}
+	text = {  
+		trigger = {
+			this = cu:caddoan
+		}
+		localization_key = caddoan
+	}
+	text = {  
+		trigger = {
+			this = cu:cariban
+		}
+		localization_key = cariban
+	}
+	text = {  
+		trigger = {
+			this = cu:caribeno
+		}
+		localization_key = caribeno
+	}
+	text = {  
+		trigger = {
+			this = cu:catalan
+		}
+		localization_key = catalan
+	}
+	text = {  
+		trigger = {
+			this = cu:central_american
+		}
+		localization_key = central_american
+	}
+	text = {  
+		trigger = {
+			this = cu:cherokee
+		}
+		localization_key = cherokee
+	}
+	text = {  
+		trigger = {
+			this = cu:chewa
+		}
+		localization_key = chewa
+	}
+	text = {  
+		trigger = {
+			this = cu:comanche
+		}
+		localization_key = comanche
+	}
+	text = {  
+		trigger = {
+			this = cu:corsican
+		}
+		localization_key = corsican
+	}
+	text = {  
+		trigger = {
+			this = cu:cree
+		}
+		localization_key = cree
+	}
+	text = {  
+		trigger = {
+			this = cu:croat
+		}
+		localization_key = croat
+	}
+	text = {  
+		trigger = {
+			this = cu:czech
+		}
+		localization_key = czech
+	}
+	text = {  
+		trigger = {
+			this = cu:dakota
+		}
+		localization_key = dakota
+	}
+	text = {  
+		trigger = {
+			this = cu:danish
+		}
+		localization_key = danish
+	}
+	text = {  
+		trigger = {
+			this = cu:dayak
+		}
+		localization_key = dayak
+	}
+	text = {  
+		trigger = {
+			this = cu:dinka
+		}
+		localization_key = dinka
+	}
+	text = {  
+		trigger = {
+			this = cu:dixie
+		}
+		localization_key = dixie
+	}
+	text = {  
+		trigger = {
+			this = cu:dutch
+		}
+		localization_key = dutch
+	}
+	text = {  
+		trigger = {
+			this = cu:dyula
+		}
+		localization_key = dyula
+	}
+	text = {  
+		trigger = {
+			this = cu:edo
+		}
+		localization_key = edo
+	}
+	text = {  
+		trigger = {
+			this = cu:equatorial_bantu
+		}
+		localization_key = equatorial_bantu
+	}
+	text = {  
+		trigger = {
+			this = cu:estonian
+		}
+		localization_key = estonian
+	}
+	text = {  
+		trigger = {
+			this = cu:ewe
+		}
+		localization_key = ewe
+	}
+	text = {  
+		trigger = {
+			this = cu:fang
+		}
+		localization_key = fang
+	}
+	text = {  
+		trigger = {
+			this = cu:filipino
+		}
+		localization_key = filipino
+	}
+	text = {  
+		trigger = {
+			this = cu:finnish
+		}
+		localization_key = finnish
+	}
+	text = {  
+		trigger = {
+			this = cu:flemish
+		}
+		localization_key = flemish
+	}
+	text = {  
+		trigger = {
+			this = cu:fluvian_bantu
+		}
+		localization_key = fluvian_bantu
+	}
+	text = {  
+		trigger = {
+			this = cu:fon
+		}
+		localization_key = fon
+	}
+	text = {  
+		trigger = {
+			this = cu:franco_canadian
+		}
+		localization_key = franco_canadian
+	}
+	text = {  
+		trigger = {
+			this = cu:french
+		}
+		localization_key = french
+	}
+	text = {  
+		trigger = {
+			this = cu:fulbe
+		}
+		localization_key = fulbe
+	}
+	text = {  
+		trigger = {
+			this = cu:fur
+		}
+		localization_key = fur
+	}
+	text = {  
+		trigger = {
+			this = cu:galician
+		}
+		localization_key = galician
+	}
+	text = {  
+		trigger = {
+			this = cu:georgian
+		}
+		localization_key = georgian
+	}
+	text = {  
+		trigger = {
+			this = cu:greek
+		}
+		localization_key = greek
+	}
+	text = {  
+		trigger = {
+			this = cu:guajiro
+		}
+		localization_key = guajiro
+	}
+	text = {  
+		trigger = {
+			this = cu:guarani
+		}
+		localization_key = guarani
+	}
+	text = {  
+		trigger = {
+			this = cu:gujarati
+		}
+		localization_key = gujarati
+	}
+	text = {  
+		trigger = {
+			this = cu:hakka
+		}
+		localization_key = hakka
+	}
+	text = {  
+		trigger = {
+			this = cu:han
+		}
+		localization_key = han
+	}
+	text = {  
+		trigger = {
+			this = cu:haratin
+		}
+		localization_key = haratin
+	}
+	text = {  
+		trigger = {
+			this = cu:hausa
+		}
+		localization_key = hausa
+	}
+	text = {  
+		trigger = {
+			this = cu:hawaiian
+		}
+		localization_key = hawaiian
+	}
+	text = {  
+		trigger = {
+			this = cu:hazara
+		}
+		localization_key = hazara
+	}
+	text = {  
+		trigger = {
+			this = cu:herero
+		}
+		localization_key = herero
+	}
+	text = {  
+		trigger = {
+			this = cu:hokan
+		}
+		localization_key = hokan
+	}
+	text = {  
+		trigger = {
+			this = cu:hungarian
+		}
+		localization_key = hungarian
+	}
+	text = {  
+		trigger = {
+			this = cu:ibibio
+		}
+		localization_key = ibibio
+	}
+	text = {  
+		trigger = {
+			this = cu:ibo
+		}
+		localization_key = ibo
+	}
+	text = {  
+		trigger = {
+			this = cu:icelandic
+		}
+		localization_key = icelandic
+	}
+	text = {  
+		trigger = {
+			this = cu:inuit
+		}
+		localization_key = inuit
+	}
+	text = {  
+		trigger = {
+			this = cu:irish
+		}
+		localization_key = irish
+	}
+	text = {  
+		trigger = {
+			this = cu:japanese
+		}
+		localization_key = japanese
+	}
+	text = {  
+		trigger = {
+			this = cu:javan
+		}
+		localization_key = javan
+	}
+	text = {  
+		trigger = {
+			this = cu:kachin
+		}
+		localization_key = kachin
+	}
+	text = {  
+		trigger = {
+			this = cu:kanauji
+		}
+		localization_key = kanauji
+	}
+	text = {  
+		trigger = {
+			this = cu:kannada
+		}
+		localization_key = kannada
+	}
+	text = {  
+		trigger = {
+			this = cu:kanuri
+		}
+		localization_key = kanuri
+	}
+	text = {  
+		trigger = {
+			this = cu:karen
+		}
+		localization_key = karen
+	}
+	text = {  
+		trigger = {
+			this = cu:kashmiri
+		}
+		localization_key = kashmiri
+	}
+	text = {  
+		trigger = {
+			this = cu:kavango_bantu
+		}
+		localization_key = kavango_bantu
+	}
+	text = {  
+		trigger = {
+			this = cu:kazak
+		}
+		localization_key = kazak
+	}
+	text = {  
+		trigger = {
+			this = cu:khmer
+		}
+		localization_key = khmer
+	}
+	text = {  
+		trigger = {
+			this = cu:khmu
+		}
+		localization_key = khmu
+	}
+	text = {  
+		trigger = {
+			this = cu:khoisan
+		}
+		localization_key = khoisan
+	}
+	text = {  
+		trigger = {
+			this = cu:kikuyu
+		}
+		localization_key = kikuyu
+	}
+	text = {  
+		trigger = {
+			this = cu:kirgiz
+		}
+		localization_key = kirgiz
+	}
+	text = {  
+		trigger = {
+			this = cu:kissi
+		}
+		localization_key = kissi
+	}
+	text = {  
+		trigger = {
+			this = cu:korean
+		}
+		localization_key = korean
+	}
+	text = {  
+		trigger = {
+			this = cu:kru
+		}
+		localization_key = kru
+	}
+	text = {  
+		trigger = {
+			this = cu:kurdish
+		}
+		localization_key = kurdish
+	}
+	text = {  
+		trigger = {
+			this = cu:lacustrine_bantu
+		}
+		localization_key = lacustrine_bantu
+	}
+	text = {  
+		trigger = {
+			this = cu:lao
+		}
+		localization_key = lao
+	}
+	text = {  
+		trigger = {
+			this = cu:latvian
+		}
+		localization_key = latvian
+	}
+	text = {  
+		trigger = {
+			this = cu:lithuanian
+		}
+		localization_key = lithuanian
+	}
+	text = {  
+		trigger = {
+			this = cu:lomwe
+		}
+		localization_key = lomwe
+	}
+	text = {  
+		trigger = {
+			this = cu:luba
+		}
+		localization_key = luba
+	}
+	text = {  
+		trigger = {
+			this = cu:lunda
+		}
+		localization_key = lunda
+	}
+	text = {  
+		trigger = {
+			this = cu:luo
+		}
+		localization_key = luo
+	}
+	text = {  
+		trigger = {
+			this = cu:maasai
+		}
+		localization_key = maasai
+	}
+	text = {  
+		trigger = {
+			this = cu:maghrebi
+		}
+		localization_key = maghrebi
+	}
+	text = {  
+		trigger = {
+			this = cu:makua
+		}
+		localization_key = makua
+	}
+	text = {  
+		trigger = {
+			this = cu:malagasy
+		}
+		localization_key = malagasy
+	}
+	text = {  
+		trigger = {
+			this = cu:malay
+		}
+		localization_key = malay
+	}
+	text = {  
+		trigger = {
+			this = cu:malayalam
+		}
+		localization_key = malayalam
+	}
+	text = {  
+		trigger = {
+			this = cu:maltese
+		}
+		localization_key = maltese
+	}
+	text = {  
+		trigger = {
+			this = cu:manchu
+		}
+		localization_key = manchu
+	}
+	text = {  
+		trigger = {
+			this = cu:mande
+		}
+		localization_key = mande
+	}
+	text = {  
+		trigger = {
+			this = cu:manipuri
+		}
+		localization_key = manipuri
+	}
+	text = {  
+		trigger = {
+			this = cu:maori
+		}
+		localization_key = maori
+	}
+	text = {  
+		trigger = {
+			this = cu:marathi
+		}
+		localization_key = marathi
+	}
+	text = {  
+		trigger = {
+			this = cu:mashriqi
+		}
+		localization_key = mashriqi
+	}
+	text = {  
+		trigger = {
+			this = cu:maures
+		}
+		localization_key = maures
+	}
+	text = {  
+		trigger = {
+			this = cu:mayan
+		}
+		localization_key = mayan
+	}
+	text = {  
+		trigger = {
+			this = cu:melanesian
+		}
+		localization_key = melanesian
+	}
+	text = {  
+		trigger = {
+			this = cu:metis
+		}
+		localization_key = metis
+	}
+	text = {  
+		trigger = {
+			this = cu:mexican
+		}
+		localization_key = mexican
+	}
+	text = {  
+		trigger = {
+			this = cu:miao
+		}
+		localization_key = miao
+	}
+	text = {  
+		trigger = {
+			this = cu:micronesian
+		}
+		localization_key = micronesian
+	}
+	text = {  
+		trigger = {
+			this = cu:min
+		}
+		localization_key = min
+	}
+	text = {  
+		trigger = {
+			this = cu:miskito
+		}
+		localization_key = miskito
+	}
+	text = {  
+		trigger = {
+			this = cu:misri
+		}
+		localization_key = misri
+	}
+	text = {  
+		trigger = {
+			this = cu:mixtec
+		}
+		localization_key = mixtec
+	}
+	text = {  
+		trigger = {
+			this = cu:moluccan
+		}
+		localization_key = moluccan
+	}
+	text = {  
+		trigger = {
+			this = cu:mon
+		}
+		localization_key = mon
+	}
+	text = {  
+		trigger = {
+			this = cu:mongo
+		}
+		localization_key = mongo
+	}
+	text = {  
+		trigger = {
+			this = cu:mongol
+		}
+		localization_key = mongol
+	}
+	text = {  
+		trigger = {
+			this = cu:mossi
+		}
+		localization_key = mossi
+	}
+	text = {  
+		trigger = {
+			this = cu:muisca
+		}
+		localization_key = muisca
+	}
+	text = {  
+		trigger = {
+			this = cu:muskogean
+		}
+		localization_key = muskogean
+	}
+	text = {  
+		trigger = {
+			this = cu:nahua
+		}
+		localization_key = nahua
+	}
+	text = {  
+		trigger = {
+			this = cu:navajo
+		}
+		localization_key = navajo
+	}
+	text = {  
+		trigger = {
+			this = cu:nepali
+		}
+		localization_key = nepali
+	}
+	text = {  
+		trigger = {
+			this = cu:nez_perce
+		}
+		localization_key = nez_perce
+	}
+	text = {  
+		trigger = {
+			this = cu:nguni
+		}
+		localization_key = nguni
+	}
+	text = {  
+		trigger = {
+			this = cu:nilotic
+		}
+		localization_key = nilotic
+	}
+	text = {  
+		trigger = {
+			this = cu:north_andean
+		}
+		localization_key = north_andean
+	}
+	text = {  
+		trigger = {
+			this = cu:north_caucasian
+		}
+		localization_key = north_caucasian
+	}
+	text = {  
+		trigger = {
+			this = cu:north_german
+		}
+		localization_key = north_german
+	}
+	text = {  
+		trigger = {
+			this = cu:north_italian
+		}
+		localization_key = north_italian
+	}
+	text = {  
+		trigger = {
+			this = cu:norwegian
+		}
+		localization_key = norwegian
+	}
+	text = {  
+		trigger = {
+			this = cu:nuba
+		}
+		localization_key = nuba
+	}
+	text = {  
+		trigger = {
+			this = cu:nuer
+		}
+		localization_key = nuer
+	}
+	text = {  
+		trigger = {
+			this = cu:oodham
+		}
+		localization_key = oodham
+	}
+	text = {  
+		trigger = {
+			this = cu:oriya
+		}
+		localization_key = oriya
+	}
+	text = {  
+		trigger = {
+			this = cu:oromo
+		}
+		localization_key = oromo
+	}
+	text = {  
+		trigger = {
+			this = cu:ovimbundu
+		}
+		localization_key = ovimbundu
+	}
+	text = {  
+		trigger = {
+			this = cu:paiute
+		}
+		localization_key = paiute
+	}
+	text = {  
+		trigger = {
+			this = cu:panjabi
+		}
+		localization_key = panjabi
+	}
+	text = {  
+		trigger = {
+			this = cu:pashtun
+		}
+		localization_key = pashtun
+	}
+	text = {  
+		trigger = {
+			this = cu:patagonian
+		}
+		localization_key = patagonian
+	}
+	text = {  
+		trigger = {
+			this = cu:persian
+		}
+		localization_key = persian
+	}
+	text = {  
+		trigger = {
+			this = cu:platinean
+		}
+		localization_key = platinean
+	}
+	text = {  
+		trigger = {
+			this = cu:polish
+		}
+		localization_key = polish
+	}
+	text = {  
+		trigger = {
+			this = cu:polynesian
+		}
+		localization_key = polynesian
+	}
+	text = {  
+		trigger = {
+			this = cu:portuguese
+		}
+		localization_key = portuguese
+	}
+	text = {  
+		trigger = {
+			this = cu:pueblo
+		}
+		localization_key = pueblo
+	}
+	text = {  
+		trigger = {
+			this = cu:quechua
+		}
+		localization_key = quechua
+	}
+	text = {  
+		trigger = {
+			this = cu:rajput
+		}
+		localization_key = rajput
+	}
+	text = {  
+		trigger = {
+			this = cu:romanian
+		}
+		localization_key = romanian
+	}
+	text = {  
+		trigger = {
+			this = cu:ruanda
+		}
+		localization_key = ruanda
+	}
+	text = {  
+		trigger = {
+			this = cu:rundi
+		}
+		localization_key = rundi
+	}
+	text = {  
+		trigger = {
+			this = cu:russian
+		}
+		localization_key = russian
+	}
+	text = {  
+		trigger = {
+			this = cu:salish
+		}
+		localization_key = salish
+	}
+	text = {  
+		trigger = {
+			this = cu:sami
+		}
+		localization_key = sami
+	}
+	text = {  
+		trigger = {
+			this = cu:sara
+		}
+		localization_key = sara
+	}
+	text = {  
+		trigger = {
+			this = cu:scottish
+		}
+		localization_key = scottish
+	}
+	text = {  
+		trigger = {
+			this = cu:sena
+		}
+		localization_key = sena
+	}
+	text = {  
+		trigger = {
+			this = cu:senufo
+		}
+		localization_key = senufo
+	}
+	text = {  
+		trigger = {
+			this = cu:sephardic
+		}
+		localization_key = sephardic
+	}
+	text = {  
+		trigger = {
+			this = cu:serb
+		}
+		localization_key = serb
+	}
+	text = {  
+		trigger = {
+			this = cu:shan
+		}
+		localization_key = shan
+	}
+	text = {  
+		trigger = {
+			this = cu:shona
+		}
+		localization_key = shona
+	}
+	text = {  
+		trigger = {
+			this = cu:siberian
+		}
+		localization_key = siberian
+	}
+	text = {  
+		trigger = {
+			this = cu:sidama
+		}
+		localization_key = sidama
+	}
+	text = {  
+		trigger = {
+			this = cu:sindi
+		}
+		localization_key = sindi
+	}
+	text = {  
+		trigger = {
+			this = cu:sinhala
+		}
+		localization_key = sinhala
+	}
+	text = {  
+		trigger = {
+			this = cu:siouan
+		}
+		localization_key = siouan
+	}
+	text = {  
+		trigger = {
+			this = cu:slovak
+		}
+		localization_key = slovak
+	}
+	text = {  
+		trigger = {
+			this = cu:slovene
+		}
+		localization_key = slovene
+	}
+	text = {  
+		trigger = {
+			this = cu:somali
+		}
+		localization_key = somali
+	}
+	text = {  
+		trigger = {
+			this = cu:songhai
+		}
+		localization_key = songhai
+	}
+	text = {  
+		trigger = {
+			this = cu:sorb
+		}
+		localization_key = sorb
+	}
+	text = {  
+		trigger = {
+			this = cu:sotho
+		}
+		localization_key = sotho
+	}
+	text = {  
+		trigger = {
+			this = cu:south_andean
+		}
+		localization_key = south_andean
+	}
+	text = {  
+		trigger = {
+			this = cu:south_german
+		}
+		localization_key = south_german
+	}
+	text = {  
+		trigger = {
+			this = cu:south_italian
+		}
+		localization_key = south_italian
+	}
+	text = {  
+		trigger = {
+			this = cu:spanish
+		}
+		localization_key = spanish
+	}
+	text = {  
+		trigger = {
+			this = cu:sudanese
+		}
+		localization_key = sudanese
+	}
+	text = {  
+		trigger = {
+			this = cu:sukuma
+		}
+		localization_key = sukuma
+	}
+	text = {  
+		trigger = {
+			this = cu:sumatran
+		}
+		localization_key = sumatran
+	}
+	text = {  
+		trigger = {
+			this = cu:swahili
+		}
+		localization_key = swahili
+	}
+	text = {  
+		trigger = {
+			this = cu:swedish
+		}
+		localization_key = swedish
+	}
+	text = {  
+		trigger = {
+			this = cu:swiss
+		}
+		localization_key = swiss
+	}
+	text = {  
+		trigger = {
+			this = cu:tajik
+		}
+		localization_key = tajik
+	}
+	text = {  
+		trigger = {
+			this = cu:tamil
+		}
+		localization_key = tamil
+	}
+	text = {  
+		trigger = {
+			this = cu:tarascan
+		}
+		localization_key = tarascan
+	}
+	text = {  
+		trigger = {
+			this = cu:tatar
+		}
+		localization_key = tatar
+	}
+	text = {  
+		trigger = {
+			this = cu:teda
+		}
+		localization_key = teda
+	}
+	text = {  
+		trigger = {
+			this = cu:telegu
+		}
+		localization_key = telegu
+	}
+	text = {  
+		trigger = {
+			this = cu:thai
+		}
+		localization_key = thai
+	}
+	text = {  
+		trigger = {
+			this = cu:tibetan
+		}
+		localization_key = tibetan
+	}
+	text = {  
+		trigger = {
+			this = cu:tigray
+		}
+		localization_key = tigray
+	}
+	text = {  
+		trigger = {
+			this = cu:tiv
+		}
+		localization_key = tiv
+	}
+	text = {  
+		trigger = {
+			this = cu:tonga
+		}
+		localization_key = tonga
+	}
+	text = {  
+		trigger = {
+			this = cu:tswana
+		}
+		localization_key = tswana
+	}
+	text = {  
+		trigger = {
+			this = cu:tuareg
+		}
+		localization_key = tuareg
+	}
+	text = {  
+		trigger = {
+			this = cu:tupinamba
+		}
+		localization_key = tupinamba
+	}
+	text = {  
+		trigger = {
+			this = cu:turkish
+		}
+		localization_key = turkish
+	}
+	text = {  
+		trigger = {
+			this = cu:turkmen
+		}
+		localization_key = turkmen
+	}
+	text = {  
+		trigger = {
+			this = cu:tuvan
+		}
+		localization_key = tuvan
+	}
+	text = {  
+		trigger = {
+			this = cu:ugrian
+		}
+		localization_key = ugrian
+	}
+	text = {  
+		trigger = {
+			this = cu:uighur
+		}
+		localization_key = uighur
+	}
+	text = {  
+		trigger = {
+			this = cu:ukrainian
+		}
+		localization_key = ukrainian
+	}
+	text = {  
+		trigger = {
+			this = cu:unyamwezi
+		}
+		localization_key = unyamwezi
+	}
+	text = {  
+		trigger = {
+			this = cu:uzbek
+		}
+		localization_key = uzbek
+	}
+	text = {  
+		trigger = {
+			this = cu:vietnamese
+		}
+		localization_key = vietnamese
+	}
+	text = {  
+		trigger = {
+			this = cu:wallonian
+		}
+		localization_key = wallonian
+	}
+	text = {  
+		trigger = {
+			this = cu:welsh
+		}
+		localization_key = welsh
+	}
+	text = {  
+		trigger = {
+			this = cu:wolof
+		}
+		localization_key = wolof
+	}
+	text = {  
+		trigger = {
+			this = cu:xhosa
+		}
+		localization_key = xhosa
+	}
+	text = {  
+		trigger = {
+			this = cu:yakut
+		}
+		localization_key = yakut
+	}
+	text = {  
+		trigger = {
+			this = cu:yankee
+		}
+		localization_key = yankee
+	}
+	text = {  
+		trigger = {
+			this = cu:yao
+		}
+		localization_key = yao
+	}
+	text = {  
+		trigger = {
+			this = cu:yi
+		}
+		localization_key = yi
+	}
+	text = {  
+		trigger = {
+			this = cu:yoruba
+		}
+		localization_key = yoruba
+	}
+	text = {  
+		trigger = {
+			this = cu:yue
+		}
+		localization_key = yue
+	}
+	text = {  
+		trigger = {
+			this = cu:zapotec
+		}
+		localization_key = zapotec
+	}
+	text = {  
+		trigger = {
+			this = cu:zhuang
+		}
+		localization_key = zhuang
+	}
+	text = {  
+		trigger = {
+			this = cu:zulu
+		}
+		localization_key = zulu
+	}
+	text = {  
+		trigger = {
+			this = cu:sumatran
+		}
+		localization_key = sumatran
+	}
+	text = {  
+		trigger = {
+			this = cu:assyrian
+		}
+		localization_key = assyrian
+	}
+	text = {  
+		trigger = {
+			this = cu:kalmyk
+		}
+		localization_key = kalmyk
+	}
+	text = {  
+		trigger = {
+			this = cu:yemenite
+		}
+		localization_key = yemenite
+	}
+ #	text = {  
+ #		trigger = {
+ #			this = cu:malay_culture
+ #		} 
+ #		localization_key = malay_culture
+ #	}
+	text = {
+		fallback = yes
+		localization_key = PL_CULTURE_fallback
+	}
+}
+
+
+PL_CULTURE_COLLECTIVE_PLURAL = { 
+	parent = PL_CULTURE
+	suffix = _PL_COLLECTIVE_PLURAL
+}
+
+
+
+PL_BUILDING = {
+	type = building
+
+	text = {
+		trigger = {
+			is_building_type = building_food_industry
+		}
+		localization_key = building_food_industry
+	}
+	text = {
+		trigger = {
+			is_building_type = building_textile_mills
+		}
+		localization_key = building_textile_mills
+	}
+	text = {
+		trigger = {
+			is_building_type = building_furniture_manufacturies
+		}
+		localization_key = building_furniture_manufacturies
+	}
+	text = {
+		trigger = {
+			is_building_type = building_glassworks
+		}
+		localization_key = building_glassworks
+	}
+	text = {
+		trigger = {
+			is_building_type = building_tooling_workshops
+		}
+		localization_key = building_tooling_workshops
+	}
+	text = {
+		trigger = {
+			is_building_type = building_paper_mills
+		}
+		localization_key = building_paper_mills
+	}
+	text = {
+		trigger = {
+			is_building_type = building_chemical_plants
+		}
+		localization_key = building_chemical_plants
+	}
+	text = {
+		trigger = {
+			is_building_type = building_synthetics_plants
+		}
+		localization_key = building_synthetics_plants
+	}
+	text = {
+		trigger = {
+			is_building_type = building_steel_mills
+		}
+		localization_key = building_steel_mills
+	}
+	text = {
+		trigger = {
+			is_building_type = building_motor_industry
+		}
+		localization_key = building_motor_industry
+	}
+	text = {
+		trigger = {
+			is_building_type = building_shipyards
+		}
+		localization_key = building_shipyards
+	}
+	text = {
+		trigger = {
+			is_building_type = building_war_machine_industry
+		}
+		localization_key = building_war_machine_industry
+	}
+	text = {
+		trigger = {
+			is_building_type = building_electrics_industry
+		}
+		localization_key = building_electrics_industry
+	}
+	text = {
+		trigger = {
+			is_building_type = building_arms_industry
+		}
+		localization_key = building_arms_industry
+	}
+	text = {
+		trigger = {
+			is_building_type = building_munition_plants
+		}
+		localization_key = building_munition_plants
+	}
+	text = {
+		trigger = {
+			is_building_type = building_rye_farm
+		}
+		localization_key = building_rye_farm
+	}
+	text = {
+		trigger = {
+			is_building_type = building_wheat_farm
+		}
+		localization_key = building_wheat_farm
+	}
+	text = {
+		trigger = {
+			is_building_type = building_rice_farm
+		}
+		localization_key = building_rice_farm
+	}
+	text = {
+		trigger = {
+			is_building_type = building_maize_farm
+		}
+		localization_key = building_maize_farm
+	}
+	text = {
+		trigger = {
+			is_building_type = building_millet_farm
+		}
+		localization_key = building_millet_farm
+	}
+	text = {
+		trigger = {
+			is_building_type = building_livestock_ranch
+		}
+		localization_key = building_livestock_ranch
+	}
+	text = {
+		trigger = {
+			is_building_type = building_coal_mine
+		}
+		localization_key = building_coal_mine
+	}
+	text = {
+		trigger = {
+			is_building_type = building_iron_mine
+		}
+		localization_key = building_iron_mine
+	}
+	text = {
+		trigger = {
+			is_building_type = building_lead_mine
+		}
+		localization_key = building_lead_mine
+	}
+	text = {
+		trigger = {
+			is_building_type = building_sulfur_mine
+		}
+		localization_key = building_sulfur_mine
+	}
+	text = {
+		trigger = {
+			is_building_type = building_gold_mine
+		}
+		localization_key = building_gold_mine
+	}
+	text = {
+		trigger = {
+			is_building_type = building_gold_fields
+		}
+		localization_key = building_gold_fields
+	}
+	text = {
+		trigger = {
+			is_building_type = building_coffee_plantation
+		}
+		localization_key = building_coffee_plantation
+	}
+	text = {
+		trigger = {
+			is_building_type = building_cotton_plantation
+		}
+		localization_key = building_cotton_plantation
+	}
+	text = {
+		trigger = {
+			is_building_type = building_dye_plantation
+		}
+		localization_key = building_dye_plantation
+	}
+	text = {
+		trigger = {
+			is_building_type = building_opium_plantation
+		}
+		localization_key = building_opium_plantation
+	}
+	text = {
+		trigger = {
+			is_building_type = building_tea_plantation
+		}
+		localization_key = building_tea_plantation
+	}
+	text = {
+		trigger = {
+			is_building_type = building_tobacco_plantation
+		}
+		localization_key = building_tobacco_plantation
+	}
+	text = {
+		trigger = {
+			is_building_type = building_sugar_plantation
+		}
+		localization_key = building_sugar_plantation
+	}
+	text = {
+		trigger = {
+			is_building_type = building_banana_plantation
+		}
+		localization_key = building_banana_plantation
+	}
+	text = {
+		trigger = {
+			is_building_type = building_silk_plantation
+		}
+		localization_key = building_silk_plantation
+	}
+	text = {
+		trigger = {
+			is_building_type = building_barracks
+		}
+		localization_key = building_barracks
+	}
+	text = {
+		trigger = {
+			is_building_type = building_conscription_center
+		}
+		localization_key = building_conscription_center
+	}
+	text = {
+		trigger = {
+			is_building_type = building_naval_base
+		}
+		localization_key = building_naval_base
+	}
+	text = {
+		trigger = {
+			is_building_type = building_urban_center
+		}
+		localization_key = building_urban_center
+	}
+	text = {
+		trigger = {
+			is_building_type = building_arts_academy
+		}
+		localization_key = building_arts_academy
+	}
+	text = {
+		trigger = {
+			is_building_type = building_power_plant
+		}
+		localization_key = building_power_plant
+	}
+	text = {
+		trigger = {
+			is_building_type = building_port
+		}
+		localization_key = building_port
+	}
+	text = {
+		trigger = {
+			is_building_type = building_government_administration
+		}
+		localization_key = building_government_administration
+	}
+	text = {
+		trigger = {
+			is_building_type = building_university
+		}
+		localization_key = building_university
+	}
+	text = {
+		trigger = {
+			is_building_type = building_skyscraper
+		}
+		localization_key = building_skyscraper
+	}
+	text = {
+		trigger = {
+			is_building_type = building_eiffel_tower
+		}
+		localization_key = building_eiffel_tower
+	}
+	text = {
+		trigger = {
+			is_building_type = building_angkor_wat
+		}
+		localization_key = building_angkor_wat
+	}
+	text = {
+		trigger = {
+			is_building_type = building_big_ben
+		}
+		localization_key = building_big_ben
+	}
+	text = {
+		trigger = {
+			is_building_type = building_forbidden_city
+		}
+		localization_key = building_forbidden_city
+	}
+	text = {
+		trigger = {
+			is_building_type = building_hagia_sophia
+		}
+		localization_key = building_hagia_sophia
+	}
+	text = {
+		trigger = {
+			is_building_type = building_mosque_of_djenne
+		}
+		localization_key = building_mosque_of_djenne
+	}
+	text = {
+		trigger = {
+			is_building_type = building_saint_basils_cathedral
+		}
+		localization_key = building_saint_basils_cathedral
+	}
+	text = {
+		trigger = {
+			is_building_type = building_statue_of_liberty
+		}
+		localization_key = building_statue_of_liberty
+	}
+	text = {
+		trigger = {
+			is_building_type = building_taj_mahal
+		}
+		localization_key = building_taj_mahal
+	}
+	text = {
+		trigger = {
+			is_building_type = building_vatican_city
+		}
+		localization_key = building_vatican_city
+	}
+	text = {
+		trigger = {
+			is_building_type = building_white_house
+		}
+		localization_key = building_white_house
+	}
+	text = {
+		trigger = {
+			is_building_type = building_logging_camp
+		}
+		localization_key = building_logging_camp
+	}
+	text = {
+		trigger = {
+			is_building_type = building_rubber_plantation
+		}
+		localization_key = building_rubber_plantation
+	}
+	text = {
+		trigger = {
+			is_building_type = building_fishing_wharf
+		}
+		localization_key = building_fishing_wharf
+	}
+	text = {
+		trigger = {
+			is_building_type = building_whaling_station
+		}
+		localization_key = building_whaling_station
+	}
+	text = {
+		trigger = {
+			is_building_type = building_oil_rig
+		}
+		localization_key = building_oil_rig
+	}
+	text = {
+		trigger = {
+			is_building_type = building_suez_canal
+		}
+		localization_key = building_suez_canal
+	}
+	text = {
+		trigger = {
+			is_building_type = building_panama_canal
+		}
+		localization_key = building_panama_canal
+	}
+	text = {
+		trigger = {
+			is_building_type = building_railway
+		}
+		localization_key = building_railway
+	}
+	text = {
+		trigger = {
+			is_building_type = building_trade_center
+		}
+		localization_key = building_trade_center
+	}
+	text = {
+		trigger = {
+			is_building_type = building_subsistence_farms
+		}
+		localization_key = building_subsistence_farms
+	}
+	text = {
+		trigger = {
+			is_building_type = building_subsistence_orchards
+		}
+		localization_key = building_subsistence_orchards
+	}
+	text = {
+		trigger = {
+			is_building_type = building_subsistence_pastures
+		}
+		localization_key = building_subsistence_pastures
+	}
+	text = {
+		trigger = {
+			is_building_type = building_construction_sector
+		}
+		localization_key = building_construction_sector
+	}
+	text = {
+		fallback = yes
+		localization_key = PL_BUILDING_fallback
+	}
+}
+
+
+PL_BUILDING_LOCATIVE = { 
+	parent = PL_BUILDING
+	suffix = _PL_LOCATIVE
+}
+
+PL_BUILDING_IN = { 
+	parent = PL_BUILDING
+	suffix = _PL_IN
 }

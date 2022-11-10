@@ -21,7 +21,8 @@ types pop_details_panel
 
 		blockoverride "window_header_name"
 		{
-			text = "[Pop.GetCulture.GetNameNoFormatting|U] [Pop.GetReligion.GetNameNoFormatting] [Pop.GetNameNoIcon]" # ZMIANA U
+			#text = "[Pop.GetCulture.GetNameNoFormatting|U] [Pop.GetReligion.GetNameNoFormatting] [Pop.GetNameNoIcon]" # ZMIANA
+			text = "[Pop.GetNameNoIcon] ([Pop.GetReligion.GetCustom('PL_RELIGION_ADJ_PLURAL')|U] [Pop.GetCulture.GetCustom('PL_CULTURE_COLLECTIVE_PLURAL')|U])" 
 			tooltipwidget = {
 				FancyTooltip_Pop = {}
 			}
@@ -325,7 +326,9 @@ types pop_details_panel
 
 						pop_details_side_stats_item = {
 							blockoverride "text_left" {
-								text = "STATE_TITLE"
+								# ZMIANA
+								#text = "STATE_TITLE"
+								text = "STATE_TITLE_SHORT"
 							}
 							blockoverride "widget_right" {
 								button = {

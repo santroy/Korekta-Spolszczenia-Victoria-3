@@ -16,3 +16,14 @@
  PL_COUNTRY_fallback:0 "[ROOT.GetCountryDefinition.GetName]"
  PL_COUNTRY_fallback_PL_ACCUSATIVE:0 "[ROOT.GetCountryDefinition.GetName]"
  PL_COUNTRY_fallback_PL_GENITIVE:0 "[ROOT.GetCountryDefinition.GetName]"
+
+ PL_RELIGION_fallback:0 "[ROOT.GetReligion.GetNameNoFormatting]"
+ PL_RELIGION_fallback_PL_ADJ_PLURAL:0 "[ROOT.GetReligion.GetNameNoFormatting]"
+ PL_CULTURE_fallback:0 "[ROOT.GetCulture.GetNameNoFormatting]"
+ PL_CULTURE_fallback_PL_COLLECTIVE_PLURAL:0 "[ROOT.GetCulture.GetNameNoFormatting]"
+ 
+ STATE_TITLE_SHORT:0 "#title [Concept('concept_state', 'Obsz. adm.')]#!"
+
+ PL_BUILDING_fallback: "[ROOT.GetBuilding.GetName]"
+ PL_BUILDING_fallback_PL_LOCATIVE: "[ROOT.GetBuilding.GetName]"
+ PL_BUILDING_fallback_PL_IN: "w"
