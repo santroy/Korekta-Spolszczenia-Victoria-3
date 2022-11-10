@@ -12974,10 +12974,45 @@ PL_BUILDING = {
 	}
 }
 
+PL_BUILDING_FROM = {
+	type = building
+
+	
+	text = {
+		trigger = {
+			is_building_type = building_shipyards
+		}
+		localization_key = PL_ZE
+	}
+
+	text = {
+		trigger = {
+			is_building_type = building_statue_of_liberty
+		}
+		localization_key = PL_ZE
+	}
+
+	text = {
+		trigger = {
+			is_building_type = building_whaling_station
+		}
+		localization_key = PL_ZE
+	}
+
+	text = {
+		fallback = yes
+		localization_key = PL_Z
+	}
+}
 
 PL_BUILDING_LOCATIVE = { 
 	parent = PL_BUILDING
 	suffix = _PL_LOCATIVE
+}
+
+PL_BUILDING_GENITIVE = { 
+	parent = PL_BUILDING
+	suffix = _PL_GENITIVE
 }
 
 PL_BUILDING_IN = { 

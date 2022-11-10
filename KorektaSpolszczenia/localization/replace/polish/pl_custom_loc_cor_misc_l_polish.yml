@@ -24,6 +24,13 @@
  
  STATE_TITLE_SHORT:0 "#title [Concept('concept_state', 'Obsz. adm.')]#!"
 
- PL_BUILDING_fallback: "[ROOT.GetBuilding.GetName]"
- PL_BUILDING_fallback_PL_LOCATIVE: "[ROOT.GetBuilding.GetName]"
- PL_BUILDING_fallback_PL_IN: "w"
+ PL_BUILDING_fallback:0 "[ROOT.GetBuilding.GetName]"
+ PL_BUILDING_fallback_PL_LOCATIVE:0 "[ROOT.GetBuilding.GetName]"
+ PL_BUILDING_fallback_PL_GENITIVE:0 "[ROOT.GetBuilding.GetName]"
+ PL_BUILDING_fallback_PL_IN:0 "w"
+
+
+ PL_pop_type_acc:0 "[Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$aristocrats$' ), 'arystokratów', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$bureaucrats$' ), 'biurokratów', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$capitalists$' ), 'kapitalistów', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$clergymen$' ), 'duchownych', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$clerks$' ), 'urzędników', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$engineers$' ), 'inżynierów', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$farmers$' ), 'rolników', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$peasants$' ), 'chłopów', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$laborers$' ), 'pracowników fizycznych', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$officers$' ), 'oficerów', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$academics$' ), 'pracowników akademickich', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$shopkeepers$' ), 'właścicieli sklepów', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$slaves$' ), 'niewolników', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$soldiers$' ), 'wojskowych', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$machinists$' ), 'operatorów maszyn', Select_CString( ObjectsEqual( PopType.GetNameNoFormatting, '$servicemen$' ), 'wojskowych', PopType.GetName ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) )]"
+
+ PL_Z:0 "z"
+ PL_ZE:0 "ze"
