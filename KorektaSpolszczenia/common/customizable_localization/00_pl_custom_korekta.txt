@@ -10893,34 +10893,6 @@ PL_RELIGION = {
 
 	text = {
 		trigger = {
-			this = rel:eastern
-		}
-		localization_key = eastern
-	}
-
-	text = {
-		trigger = {
-			this = rel:buddhist
-		}
-		localization_key = buddhist
-	}
-
-	text = {
-		trigger = {
-			this = rel:christian
-		}
-		localization_key = christian
-	}
-
-	text = {
-		trigger = {
-			this = rel:muslim
-		}
-		localization_key = muslim
-	}
-
-	text = {
-		trigger = {
 			this = rel:coptic
 		}
 		localization_key = coptic
@@ -10932,9 +10904,9 @@ PL_RELIGION = {
 	}
 }
 
-PL_RELIGION_ADJ_PLURAL = { 
+PL_RELIGION_POP_ADJ_PLURAL = { 
 	parent = PL_RELIGION
-	suffix = _PL_ADJ_PLURAL
+	suffix = _PL_POP_ADJ_PLURAL
 }
 
 

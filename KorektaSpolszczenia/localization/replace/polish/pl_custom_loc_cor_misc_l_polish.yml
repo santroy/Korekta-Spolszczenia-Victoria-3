@@ -11,6 +11,8 @@
  market_panel_buy_order_short:0 "[Concept('concept_buy_orders', '$concept_buy_order_short$')]"
 
 
+ STATE_FALLBACK:0 "[ROOT.GetState.GetName]" 
+
  empty_fallback:0 ""
  true_string:0 "true"
  PL_COUNTRY_fallback:0 "[ROOT.GetCountryDefinition.GetName]"
@@ -18,7 +20,7 @@
  PL_COUNTRY_fallback_PL_GENITIVE:0 "[ROOT.GetCountryDefinition.GetName]"
 
  PL_RELIGION_fallback:0 "[ROOT.GetReligion.GetNameNoFormatting]"
- PL_RELIGION_fallback_PL_ADJ_PLURAL:0 "[ROOT.GetReligion.GetNameNoFormatting]"
+ PL_RELIGION_fallback_PL_POP_ADJ_PLURAL:0 "[ROOT.GetReligion.GetNameNoFormatting]"
  PL_CULTURE_fallback:0 "[ROOT.GetCulture.GetNameNoFormatting]"
  PL_CULTURE_fallback_PL_COLLECTIVE_PLURAL:0 "[ROOT.GetCulture.GetNameNoFormatting]"
  

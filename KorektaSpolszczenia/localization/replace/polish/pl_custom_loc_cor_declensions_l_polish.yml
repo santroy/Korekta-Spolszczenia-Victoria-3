@@ -33,9 +33,6 @@
  #      - PL_BUILDING_IN - w/we/na
  #      - PL_BUILDING_FROM - z/ze
 
-# Misc
- STATE_FALLBACK:0 "[ROOT.GetState.GetName]"
-
 # Towary - Dopełniacz
  aeroplanes_PL_GENITIVE:0 "Aeroplanów"
  ammunition_PL_GENITIVE:0 "Amunicji"
@@ -2140,7 +2137,7 @@
  dyn_c_soviet_union_adj_PL_FEM:0 "radziecka"
  dyn_c_confederated_sovereigns_of_america_adj_PL_FEM:0 "konfederacka"
  dyn_c_communist_states_of_america_adj_PL_FEM:0 "komuny amerykańskiej"
- dyn_c_great_qing_adj_PL_FEM:0 "Qing"
+ dyn_c_great_qing_adj_PL_FEM:0 "qingowska"
  dyn_c_van_diemans_land_adj_PL_FEM:0 "Ziemi van Diemena"
  dyn_c_hanover_adj_PL_FEM:0 "hanowerska"
  dyn_c_saint-domingue_adj_PL_FEM:0 "Domingois"
@@ -6613,25 +6610,21 @@
 
 # PL_RELIGION_ADJ_PLURAL
 
- catholic_PL_ADJ_PLURAL: "Katoliccy"
- protestant_PL_ADJ_PLURAL:0 "Protestanccy"
- orthodox_PL_ADJ_PLURAL:0 "Prawosławni"
- oriental_orthodox_PL_ADJ_PLURAL:1 "Ortodoksyjnie orientalni"
- sunni_PL_ADJ_PLURAL:0 "Sunniccy"
- shiite_PL_ADJ_PLURAL:0 "Szyiccy"
- jewish_PL_ADJ_PLURAL:0 "Judaistyczni"
- mahayana_PL_ADJ_PLURAL:0 "Mahajańscy"
- gelugpa_PL_ADJ_PLURAL:0 "Gelug"
- theravada_PL_ADJ_PLURAL:0 "Therawadańscy"
- hindu_PL_ADJ_PLURAL:0 "Hinduistyczni"
- shinto_PL_ADJ_PLURAL:0 "Shintoistyczni"
- sikh_PL_ADJ_PLURAL:0 "Sikhijscy"
- animist_PL_ADJ_PLURAL:0 "Animistyczni"
- eastern_PL_ADJ_PLURAL:0 "Orientalni"
- buddhist_PL_ADJ_PLURAL:0 "Buddystyczni"
- christian_PL_ADJ_PLURAL:0 "Chrześcijańscy"
- muslim_PL_ADJ_PLURAL:0 "Islamscy"
- coptic_PL_ADJ_PLURAL:0 "Koptyjscy"
+ catholic_PL_POP_ADJ_PLURAL: "Katoliccy"
+ protestant_PL_POP_ADJ_PLURAL:0 "Protestanccy"
+ orthodox_PL_POP_ADJ_PLURAL:0 "Prawosławni"
+ oriental_orthodox_PL_POP_ADJ_PLURAL:1 "Prawosławni (orient.)"
+ sunni_PL_POP_ADJ_PLURAL:0 "Sunniccy"
+ shiite_PL_POP_ADJ_PLURAL:0 "Szyiccy"
+ jewish_PL_POP_ADJ_PLURAL:0 "Judaistyczni"
+ mahayana_PL_POP_ADJ_PLURAL:0 "Mahajańscy"
+ gelugpa_PL_POP_ADJ_PLURAL:0 "Gelugijscy"
+ theravada_PL_POP_ADJ_PLURAL:0 "Therawadzcy"
+ hindu_PL_POP_ADJ_PLURAL:0 "Hinduistyczni"
+ shinto_PL_POP_ADJ_PLURAL:0 "Shintoistyczni"
+ sikh_PL_POP_ADJ_PLURAL:0 "Sikhijscy"
+ animist_PL_POP_ADJ_PLURAL:0 "Animistyczni"
+ coptic_PL_POP_ADJ_PLURAL:0 "Koptyjscy"
 
 
 # PL_CULTURE_COLLECTIVE_PLURAL
@@ -6829,7 +6822,7 @@
  rundi_PL_COLLECTIVE_PLURAL:0 "Rundi"
  russian_PL_COLLECTIVE_PLURAL:0 "Rosjanie"
  salish_PL_COLLECTIVE_PLURAL:0 "Saliszowie"
- sami_PL_COLLECTIVE_PLURAL:0 "Saamowie"
+ sami_PL_COLLECTIVE_PLURAL:0 "Lapończycy"
  sara_PL_COLLECTIVE_PLURAL:0 "Sara"
  scottish_PL_COLLECTIVE_PLURAL:0 "Szkoci"
  sena_PL_COLLECTIVE_PLURAL:0 "Sena"
