@@ -1,6 +1,6 @@
 ﻿
 
-STATE_PL = {		
+PL_STATE = {		
 
 	type = state
 
@@ -5987,19 +5987,19 @@ STATE_PL = {
 	
 }		
 		
-STATE_PL_LOCATIVE = { 
-	parent = STATE_PL
+PL_STATE_LOCATIVE = { 
+	parent = PL_STATE
 	suffix = _PL_LOCATIVE
 }
 
-STATE_PL_IN = { 
-	parent = STATE_PL
+PL_STATE_IN = { 
+	parent = PL_STATE
 	suffix = _PL_IN
 }
 
 
 
-GOODS_PL = {
+PL_GOODS = {
 	type = goods
 
 	text = {  
@@ -6327,9 +6327,14 @@ GOODS_PL = {
 	}
 }
 
-GOODS_PL_GENITIVE = { 
-	parent = GOODS_PL
+PL_GOODS_GENITIVE = { 
+	parent = PL_GOODS
 	suffix = _PL_GENITIVE
+}
+
+PL_GOODS_ACCUSATIVE = { 
+	parent = PL_GOODS
+	suffix = _PL_ACCUSATIVE
 }
 
 
@@ -10907,6 +10912,16 @@ PL_RELIGION = {
 PL_RELIGION_POP_ADJ_PLURAL = { 
 	parent = PL_RELIGION
 	suffix = _PL_POP_ADJ_PLURAL
+}
+
+PL_RELIGION_GEN_M_PLURAL = { 
+	parent = PL_RELIGION
+	suffix = _PL_GEN_M_PLURAL
+}
+
+PL_RELIGION_ACC = { 
+	parent = PL_RELIGION
+	suffix = _PL_ACC
 }
 
 

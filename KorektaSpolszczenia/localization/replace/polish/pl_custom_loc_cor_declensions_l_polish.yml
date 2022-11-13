@@ -2,12 +2,13 @@
 
  #
  # GOODS - Towary
- #      - GOODS_PL_GENITIVE - Dopełniacz
+ #      - PL_GOODS_GENITIVE - Dopełniacz
+ #      - PL_GOODS_ACCUSATIVE - Biernik
  #
  # STATE - Obszar
- #      E: [STATE.GetCustom('STATE_PL_LOCATIVE')]
- #      - STATE_PL_LOCATIVE - Miejscownik
- #      - STATE_PL_IN - Przyimek w/we/na
+ #      E: [STATE.GetCustom('PL_STATE_LOCATIVE')]
+ #      - PL_STATE_LOCATIVE - Miejscownik
+ #      - PL_STATE_IN - Przyimek w/we/na
  #
  # COUNTRY - Państwo
  #     ADJ FORM E: [Country.GetAltAdjective('PL_FEM')]
@@ -22,7 +23,8 @@
  #      - PL_Z  - Przyimek z/ze
  #
  # RELIGION - Religia
- #      - PL_RELIGION_ADJ_PLURAL - Katoliccy itd.
+ #      - PL_RELIGION_POP_ADJ_PLURAL - Katoliccy itd.
+ #      - PL_RELIGION_ACC - Biernik
  #
  # CULTUTE - Kultura
  #      - PL_CULTURE_COLLECTIVE_PLURAL - Polacy itd.
@@ -33,7 +35,7 @@
  #      - PL_BUILDING_IN - w/we/na
  #      - PL_BUILDING_FROM - z/ze
 
-# Towary - Dopełniacz
+# GOODS - Towary - Dopełniacz
  aeroplanes_PL_GENITIVE:0 "Aeroplanów"
  ammunition_PL_GENITIVE:0 "Amunicji"
  artillery_PL_GENITIVE:0 "Broni artyleryjskiej"
@@ -87,8 +89,63 @@
  wine_PL_GENITIVE:0 "Wina"
  wood_PL_GENITIVE:0 "Drewna"
  literature_PL_GENITIVE:0 "Literatury"
- fallback_good_PL_GENITIVE:0 "[ROOT.GetGoods.GetName]"
- fallback_good:0 "[ROOT.GetGoods.GetName]"
+
+# GOODS - Towary - Biernik
+ aeroplanes_PL_ACCUSATIVE:0 "Aeroplany"
+ ammunition_PL_ACCUSATIVE:0 "Amunicję"
+ artillery_PL_ACCUSATIVE:0 "Broń artyleryjską"
+ automobiles_PL_ACCUSATIVE:0 "Automobile"
+ clippers_PL_ACCUSATIVE:0 "Klipery"
+ clothes_PL_ACCUSATIVE:0 "Odzież"
+ coal_PL_ACCUSATIVE:0 "Węgiel"
+ coffee_PL_ACCUSATIVE:0 "Kawę"
+ dye_PL_ACCUSATIVE:0 "Barwnik"
+ electricity_PL_ACCUSATIVE:0 "Energię elektryczną"
+ engines_PL_ACCUSATIVE:0 "Lokomotywę"
+ explosives_PL_ACCUSATIVE:0 "Materiały wybuchowe"
+ fabric_PL_ACCUSATIVE:0 "Tkaniny"
+ fertilizer_PL_ACCUSATIVE:0 "Nawóz"
+ fine_art_PL_ACCUSATIVE:0 "Dzieła sztuk pięknych"
+ fish_PL_ACCUSATIVE:0 "Ryby"
+ fruit_PL_ACCUSATIVE:0 "Owoce"
+ furniture_PL_ACCUSATIVE:0 "Meble"
+ glass_PL_ACCUSATIVE:0 "Szkło"
+ gold_PL_ACCUSATIVE:0 "Złoto"
+ grain_PL_ACCUSATIVE:0 "Zboże"
+ groceries_PL_ACCUSATIVE:0 "Artykuły spożywcze"
+ hardwood_PL_ACCUSATIVE:0 "Drewno twarde"
+ iron_PL_ACCUSATIVE:0 "Żelazo"
+ ironclads_PL_ACCUSATIVE:0 "Okręty pancerne"
+ lead_PL_ACCUSATIVE:0 "Ołów"
+ liquor_PL_ACCUSATIVE:0 "Napoje alkoholowe"
+ luxury_clothes_PL_ACCUSATIVE:0 "Odzież luksusową"
+ luxury_furniture_PL_ACCUSATIVE:0 "Meble luksusowe"
+ manowars_PL_ACCUSATIVE:0 "Żaglowce wojenne"
+ meat_PL_ACCUSATIVE:0 "Mięso"
+ oil_PL_ACCUSATIVE:0 "Ropę naftową"
+ opium_PL_ACCUSATIVE:0 "Opium"
+ paper_PL_ACCUSATIVE:0 "Papier"
+ porcelain_PL_ACCUSATIVE:0 "Porcelanę"
+ radios_PL_ACCUSATIVE:0 "Odbiorniki radiowe"
+ rubber_PL_ACCUSATIVE:0 "Kauczuk"
+ services_PL_ACCUSATIVE:0 "Usługi"
+ silk_PL_ACCUSATIVE:0 "Jedwab"
+ small_arms_PL_ACCUSATIVE:0 "Broń krótką"
+ steamers_PL_ACCUSATIVE:0 "Parowce"
+ steel_PL_ACCUSATIVE:0 "Stal"
+ sugar_PL_ACCUSATIVE:0 "Cukier"
+ sulfur_PL_ACCUSATIVE:0 "Siarkę"
+ tanks_PL_ACCUSATIVE:0 "Czołgi"
+ tea_PL_ACCUSATIVE:0 "Herbatę"
+ telephones_PL_ACCUSATIVE:0 "Telefony"
+ tobacco_PL_ACCUSATIVE:0 "Tytoń"
+ tools_PL_ACCUSATIVE:0 "Narzędzia"
+ transportation_PL_ACCUSATIVE:0 "Transport"
+ wine_PL_ACCUSATIVE:0 "Wina"
+ wood_PL_ACCUSATIVE:0 "Drewno"
+ literature_PL_ACCUSATIVE:0 "Literaturę"
+
+
 
 # STATE - Obszary - Miejscownik
 
@@ -6608,7 +6665,7 @@
  generic_revolt_communist_PL_Z:0 "z"
 
 
-# PL_RELIGION_ADJ_PLURAL
+# PL_RELIGION_POP_ADJ_PLURAL
 
  catholic_PL_POP_ADJ_PLURAL: "Katoliccy"
  protestant_PL_POP_ADJ_PLURAL:0 "Protestanccy"
@@ -6625,6 +6682,43 @@
  sikh_PL_POP_ADJ_PLURAL:0 "Sikhijscy"
  animist_PL_POP_ADJ_PLURAL:0 "Animistyczni"
  coptic_PL_POP_ADJ_PLURAL:0 "Koptyjscy"
+
+# PL_RELIGION_GEN_M_PLURAL
+
+ catholic_PL_GEN_M_PLURAL: "Katolickich"
+ protestant_PL_GEN_M_PLURAL:0 "Protestanckich"
+ orthodox_PL_GEN_M_PLURAL:0 "Prawosławnych"
+ oriental_orthodox_PL_GEN_M_PLURAL:1 "Prawosławnych (orient.)"
+ sunni_PL_GEN_M_PLURAL:0 "Sunnickich"
+ shiite_PL_GEN_M_PLURAL:0 "Szyickich"
+ jewish_PL_GEN_M_PLURAL:0 "Judaistycznych"
+ mahayana_PL_GEN_M_PLURAL:0 "Mahajańskich"
+ gelugpa_PL_GEN_M_PLURAL:0 "Gelugijskich"
+ theravada_PL_GEN_M_PLURAL:0 "Therawadzkich"
+ hindu_PL_GEN_M_PLURAL:0 "Hinduistycznych"
+ shinto_PL_GEN_M_PLURAL:0 "Shintoistycznych"
+ sikh_PL_GEN_M_PLURAL:0 "Sikhijskich"
+ animist_PL_GEN_M_PLURAL:0 "Animistycznych"
+ coptic_PL_GEN_M_PLURAL:0 "Koptyjskich"
+
+# PL_RELIGION_ACC
+
+ catholic_PL_ACC: "$catholic$"
+ protestant_PL_ACC:0 "$protestant$"
+ orthodox_PL_ACC:0 "$orthodox$"
+ oriental_orthodox_PL_ACC:1 "$oriental_orthodox$"
+ sunni_PL_ACC:0 "$sunni$"
+ shiite_PL_ACC:0 "$shiite$"
+ jewish_PL_ACC:0 "$jewish$"
+ mahayana_PL_ACC:0 "Mahajanę"
+ gelugpa_PL_ACC:0 "Gelugę"
+ theravada_PL_ACC:0 "Therawadę"
+ hindu_PL_ACC:0 "$hindu$"
+ shinto_PL_ACC:0 "$shinto$"
+ sikh_PL_ACC:0 "$sikh$"
+ animist_PL_ACC:0 "$animist$"
+ coptic_PL_ACC:0 "$coptic$"
+
 
 
 # PL_CULTURE_COLLECTIVE_PLURAL
@@ -6646,14 +6740,14 @@
  amhara_PL_COLLECTIVE_PLURAL:0 "Amharowie"
  anglo_canadian_PL_COLLECTIVE_PLURAL:0 "Anglokanadyjczycy"
  apache_PL_COLLECTIVE_PLURAL:0 "Apacze"
- armenian_PL_COLLECTIVE_PLURAL:0 "Armeńczycy"
+ armenian_PL_COLLECTIVE_PLURAL:0 "Ormianie"
  ashkenazi_PL_COLLECTIVE_PLURAL:0 "Aszkenazyjczycy"
  assamese_PL_COLLECTIVE_PLURAL:0 "Asamczycy"
  athabaskan_PL_COLLECTIVE_PLURAL:0 "Athabaskańczycy"
  australian_PL_COLLECTIVE_PLURAL:0 "Australijczycy"
  avadhi_PL_COLLECTIVE_PLURAL:0 "Awadhi"
  azande_PL_COLLECTIVE_PLURAL:0 "Azande"
- azerbaijani_PL_COLLECTIVE_PLURAL:0 "Azerbejdżanie"
+ azerbaijani_PL_COLLECTIVE_PLURAL:0 "Azerowie"
  baganda_PL_COLLECTIVE_PLURAL:0 "Gandowie"
  baguirmi_PL_COLLECTIVE_PLURAL:0 "Bagirmi"
  bakongo_PL_COLLECTIVE_PLURAL:0 "Bakongo"
@@ -6863,7 +6957,7 @@
  tigray_PL_COLLECTIVE_PLURAL:0 "Tigrajczycy"
  tiv_PL_COLLECTIVE_PLURAL:0 "Tiw"
  tonga_PL_COLLECTIVE_PLURAL:0 "Tonga"
- tswana_PL_COLLECTIVE_PLURAL:0 "Tswana"
+ tswana_PL_COLLECTIVE_PLURAL:0 "Tswańczycy"
  tuareg_PL_COLLECTIVE_PLURAL:0 "Tuaregowie"
  tupinamba_PL_COLLECTIVE_PLURAL:0 "Tupinambowie"
  turkish_PL_COLLECTIVE_PLURAL:0 "Turcy"

@@ -13,6 +13,10 @@
 
  STATE_FALLBACK:0 "[ROOT.GetState.GetName]" 
 
+ fallback_good_PL_GENITIVE:0 "[ROOT.GetGoods.GetName]"
+ fallback_good_PL_ACCUSATIVE:0 "[ROOT.GetGoods.GetName]"
+ fallback_good:0 "[ROOT.GetGoods.GetName]"
+
  empty_fallback:0 ""
  true_string:0 "true"
  PL_COUNTRY_fallback:0 "[ROOT.GetCountryDefinition.GetName]"
@@ -21,6 +25,8 @@
 
  PL_RELIGION_fallback:0 "[ROOT.GetReligion.GetNameNoFormatting]"
  PL_RELIGION_fallback_PL_POP_ADJ_PLURAL:0 "[ROOT.GetReligion.GetNameNoFormatting]"
+ PL_RELIGION_fallback_PL_ACC:0 "[ROOT.GetReligion.GetNameNoFormatting]"
+ PL_RELIGION_fallback_PL_GEN_M_PLURAL:0 "[ROOT.GetReligion.GetNameNoFormatting]"
  PL_CULTURE_fallback:0 "[ROOT.GetCulture.GetNameNoFormatting]"
  PL_CULTURE_fallback_PL_COLLECTIVE_PLURAL:0 "[ROOT.GetCulture.GetNameNoFormatting]"
  
@@ -36,3 +42,9 @@
 
  PL_Z:0 "z"
  PL_ZE:0 "ze"
+
+ TRADED_GOODS_IMPORTED_TOOLTIP_NOT_IMPORTING:0 "[MarketGoods.GetMarket.GetOwner.GetName] nie [Select_CString( StringIsEmpty( MarketGoods.GetMarket.GetOwner.GetCustom('PL_COUNTRY_PLURAL') ) , 'importuje', 'importują' )] [MarketGoods.GetGoods.GetTextIcon] #tooltippable_name #tooltip:[MarketGoods.GetGoods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [MarketGoods.GetGoods.GetCustom('PL_GOODS_GENITIVE')]#!#!"
+ TRADED_GOODS_EXPORTED_TOOLTIP_NOT_EXPORTING:0 "[MarketGoods.GetMarket.GetOwner.GetName] nie [Select_CString( StringIsEmpty( MarketGoods.GetMarket.GetOwner.GetCustom('PL_COUNTRY_PLURAL') ) , 'eksportuje', 'eksportują' )] [MarketGoods.GetGoods.GetTextIcon] #tooltippable_name #tooltip:[MarketGoods.GetGoods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [MarketGoods.GetGoods.GetCustom('PL_GOODS_GENITIVE')]#!#!"
+
+ TRADED_GOODS_IMPORTED_TOOLTIP_IMPORTING:0 "Wykorzystując [Select_CString( EqualTo_int32( MarketGoods.GetNumImportTradeRoutes, '(int32)1') , 'swój', Select_CString( LessThan_int32( MarketGoods.GetNumImportTradeRoutes, '(int32)5') , 'swoje', 'swoich'))] [MarketGoods.GetNumImportTradeRoutes] [Concept('concept_trade_route', Select_CString( EqualTo_int32( MarketGoods.GetNumImportTradeRoutes, '(int32)1') , 'szlak importowy', Select_CString( LessThan_int32( MarketGoods.GetNumImportTradeRoutes, '(int32)5') , 'szlaki importowe', 'szlaków importowych')))|l], [MarketGoods.GetMarket.GetOwner.GetName] [Select_CString( StringIsEmpty( MarketGoods.GetMarket.GetOwner.GetCustom('PL_COUNTRY_PLURAL') ) , 'sprowadza', 'sprowadzają' )] [MarketGoods.GetImportAmount|Dv] [MarketGoods.GetGoods.GetTextIcon] #tooltippable_name #tooltip:[MarketGoods.GetGoods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [MarketGoods.GetGoods.GetCustom('PL_GOODS_GENITIVE')]#!#!"
+ TRADED_GOODS_EXPORTED_TOOLTIP_EXPORTING:0 "Wykorzystując [Select_CString( EqualTo_int32( MarketGoods.GetNumExportTradeRoutes, '(int32)1') , 'swój', Select_CString( LessThan_int32( MarketGoods.GetNumExportTradeRoutes, '(int32)5') , 'swoje', 'swoich'))] [MarketGoods.GetNumExportTradeRoutes] [Concept('concept_trade_route', Select_CString( EqualTo_int32( MarketGoods.GetNumExportTradeRoutes, '(int32)1') , 'szlak eksportowy', Select_CString( LessThan_int32( MarketGoods.GetNumExportTradeRoutes, '(int32)5') , 'szlaki eksportowe', 'szlaków eksportowych')))|l], [MarketGoods.GetMarket.GetOwner.GetName] [Select_CString( StringIsEmpty( MarketGoods.GetMarket.GetOwner.GetCustom('PL_COUNTRY_PLURAL') ) , 'eksportuje', 'eskportują' )] [MarketGoods.GetExportAmount|Dv] [MarketGoods.GetGoods.GetTextIcon] #tooltippable_name #tooltip:[MarketGoods.GetGoods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [MarketGoods.GetGoods.GetCustom('PL_GOODS_GENITIVE')]#!#!"
