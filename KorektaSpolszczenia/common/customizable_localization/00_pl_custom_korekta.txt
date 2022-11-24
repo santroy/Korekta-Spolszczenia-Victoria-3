@@ -6382,6 +6382,11 @@ PL_COUNTRY_PLURAL = {
 				}
 
 				AND = {
+					exists = c:MSC
+					this = c:MSC
+				}
+
+				AND = {
 					exists = c:HAW
 					this = c:HAW
 				}
@@ -6394,6 +6399,11 @@ PL_COUNTRY_PLURAL = {
 				AND = {
 					exists = c:ITA
 					this = c:ITA
+				}
+
+				AND = {
+					exists = c:IRO
+					this = c:IRO
 				}
 
 				AND = {
