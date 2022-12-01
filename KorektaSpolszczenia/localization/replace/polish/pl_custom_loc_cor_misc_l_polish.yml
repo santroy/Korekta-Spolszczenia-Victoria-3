@@ -48,3 +48,17 @@
 
  TRADED_GOODS_IMPORTED_TOOLTIP_IMPORTING:0 "Wykorzystując [Select_CString( EqualTo_int32( MarketGoods.GetNumImportTradeRoutes, '(int32)1') , 'swój', Select_CString( LessThan_int32( MarketGoods.GetNumImportTradeRoutes, '(int32)5') , 'swoje', 'swoich'))] [MarketGoods.GetNumImportTradeRoutes] [Concept('concept_trade_route', Select_CString( EqualTo_int32( MarketGoods.GetNumImportTradeRoutes, '(int32)1') , 'szlak importowy', Select_CString( LessThan_int32( MarketGoods.GetNumImportTradeRoutes, '(int32)5') , 'szlaki importowe', 'szlaków importowych')))|l], [MarketGoods.GetMarket.GetOwner.GetName] [Select_CString( StringIsEmpty( MarketGoods.GetMarket.GetOwner.GetCustom('PL_COUNTRY_PLURAL') ) , 'sprowadza', 'sprowadzają' )] [MarketGoods.GetImportAmount|Dv] [MarketGoods.GetGoods.GetTextIcon] #tooltippable_name #tooltip:[MarketGoods.GetGoods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [MarketGoods.GetGoods.GetCustom('PL_GOODS_GENITIVE')]#!#!"
  TRADED_GOODS_EXPORTED_TOOLTIP_EXPORTING:0 "Wykorzystując [Select_CString( EqualTo_int32( MarketGoods.GetNumExportTradeRoutes, '(int32)1') , 'swój', Select_CString( LessThan_int32( MarketGoods.GetNumExportTradeRoutes, '(int32)5') , 'swoje', 'swoich'))] [MarketGoods.GetNumExportTradeRoutes] [Concept('concept_trade_route', Select_CString( EqualTo_int32( MarketGoods.GetNumExportTradeRoutes, '(int32)1') , 'szlak eksportowy', Select_CString( LessThan_int32( MarketGoods.GetNumExportTradeRoutes, '(int32)5') , 'szlaki eksportowe', 'szlaków eksportowych')))|l], [MarketGoods.GetMarket.GetOwner.GetName] [Select_CString( StringIsEmpty( MarketGoods.GetMarket.GetOwner.GetCustom('PL_COUNTRY_PLURAL') ) , 'eksportuje', 'eskportują' )] [MarketGoods.GetExportAmount|Dv] [MarketGoods.GetGoods.GetTextIcon] #tooltippable_name #tooltip:[MarketGoods.GetGoods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [MarketGoods.GetGoods.GetCustom('PL_GOODS_GENITIVE')]#!#!"
+ 
+ # Two Sicilies - nowe klucze
+ 
+ dyn_c_kingdom_of_the_two_sicilies:0 "Królestwo Obojga Sycylii"
+ dyn_c_kingdom_of_the_two_sicilies_adj:0 "sycylijski"
+ 
+ dyn_c_kingdom_of_the_two_sicilies_adj_PL_FEM:0 "sycylijska"
+ dyn_c_kingdom_of_the_two_sicilies_PL_GENITIVE:0 "Królestwa Obojga Sycylii"
+ dyn_c_kingdom_of_the_two_sicilies_PL_ACCUSATIVE:0 "Królestwo Obojga Sycylii"
+ dyn_c_kingdom_of_the_two_sicilies_PL_LOCATIVE:0 "Królestwie Obojga Sycylii"
+ dyn_c_kingdom_of_the_two_sicilies_PL_INSTRUMENTAL:0 "Królestwem Obojga Sycylii"
+ dyn_c_kingdom_of_the_two_sicilies_PL_IN:0 "w"
+ dyn_c_kingdom_of_the_two_sicilies_PL_IN_B:0 "w"
+ dyn_c_kingdom_of_the_two_sicilies_PL_Z:0 "z"
