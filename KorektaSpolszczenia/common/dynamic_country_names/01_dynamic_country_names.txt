@@ -1,0 +1,49 @@
+
+SIC = { # Two Sicilies
+	dynamic_country_name = {
+		name = dyn_c_kingdom_of_the_two_sicilies
+		adjective = dyn_c_kingdom_of_the_two_sicilies_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_SICILY
+				owns_entire_state_region = STATE_CAMPANIA
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_sicily
+		adjective = dyn_c_sicily_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_SICILY
+				NOT = { owns_entire_state_region = STATE_CAMPANIA }
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_naples
+		adjective = dyn_c_naples_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				NOT = { owns_entire_state_region = STATE_SICILY }
+				owns_entire_state_region = STATE_CAMPANIA
+			}
+		}
+	}
+}
