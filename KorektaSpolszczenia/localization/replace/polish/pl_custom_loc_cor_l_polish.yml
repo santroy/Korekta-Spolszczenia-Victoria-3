@@ -22,14 +22,12 @@
  alert_stockpiling_gold_alert_name:0 "Gromadzenie [GetGoods('gold').GetTextIcon] #tooltippable_name #tooltip:[GetGoods('gold').GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip złota#!#!"
 
 # concepts_l_polish.yml
- concept_trade_route_desc:0 "$concept_trade_routes$ umożliwiają kupno [Concept('concept_good', 'towarów')] na wybranym [Concept('concept_market', 'rynku')] i przetransportowanie ich na inny przy pomocy [Concept('concept_convoys', 'konwojów')] (lub drogą lądową, jeśli rynki ze sobą sąsiadują). Pozwalają też na sprzedaż towarów na innym rynku w celu wygenerowania [Concept('concept_revenue', 'przychodu')] (od którego odejmowane są [concept_tariffs|l]) na rzecz [SelectLocalization(GetPlayer.IsValid,'concept_trade_route_desc_added','centrum handlu')], gdzie odbywa się zarządzanie poszczególnymi szlakami. W procesie tym na obu rynkach pojawiają się [Concept('concept_buy_orders', 'zlecenia kupna')] i [Concept('concept_sell_orders', 'sprzedaży')], przez co dany towar staje się droższy na jednym i tańszy na drugim z nich. Liczba transportowanych towarów będzie niezależnie wzrastać lub spadać w zależności od warunków panujących na obu rynkach, co z kolei przełoży się na proporcjonalny wzrost lub spadek zatrudnienia [Concept('concept_workforce', 'siły roboczej')]. Ceną za utrzymanie każdego szlaku handlowego jest określona liczba punktów [Concept('concept_bureaucracy', 'biurokracji')]."
  concept_market_good_policy_desc:0 "[concept_market_owner] może określić politykę towarową rynku dotyczącą poszczególnych [Concept('concept_good', 'towarów')] obecnych na jego [Concept('concept_market', 'rynku')]. Domyślna polityka to #b $tariff_no_priority$#! – wiąże się ona z nałożeniem [Concept('concept_tariffs', 'ceł')] zarówno na towary importowane, jak i eksportowane. Podstawą określającą wysokość cła jest aktualnie obowiązujące w danym [Concept('concept_country', 'państwie')] [concept_law|l] z zakresu [SelectLocalization(GetPlayer.IsValid,'concept_market_good_policy_desc_added', 'polityki handlowej')].\n\nWybranie opcji #b $tariff_import_priority$#! skutkuje zniesieniem ceł importowych. Ma to na celu zachęcenie innych państw do [Concept('concept_sell_orders', 'zlecania sprzedaży')] swoich towarów na twoim rynku oraz rozwijanie importowych [Concept('concept_trade_route', 'szlaków handlowych')] kosztem środków z twojego [Concept('concept_treasury', 'skarbca')]. $concept_tariffs$ eksportowe pozostają przy tym niezmienione, aby zniechęcać inne państwa do [Concept('concept_buy_orders', 'zlecania kupna')] twojego zaopatrzenia.\n\nOpcja #b $tariff_export_priority$#! działa odwrotnie – zniesione zostają cła eksportowe, co ma na celu zachęcenie innych państw do [Concept('concept_buy_orders', 'zlecania kupna')] towarów z twojego rynku oraz rozwijanie eksportowych [Concept('concept_trade_route', 'szlaków handlowych')]. $concept_tariffs$ importowe pozostają przy tym niezmienione, aby zniechęcać inne państwa do [Concept('concept_sell_orders', 'zlecania sprzedaży')|l] swoich towarów na twoim rynku."
  concept_tariffs_desc:0 "$concept_tariffs$ to rodzaj [Concept('concept_taxes', 'podatku')] [Concept('concept_trade_route', 'handlowego')]. $concept_tariff_rate$ obowiązującego na danym szlaku handlowym zależy od aktualnie obowiązującego w danym [Concept('concept_country', 'państwie')] [Concept('concept_law', 'prawa')] z zakresu [SelectLocalization(GetPlayer.IsValid,'concept_tariffs_desc_added', 'polityki handlowej')] oraz od [Concept('concept_good_policy', 'polityki')] dotyczącej [Concept('concept_good', 'towarów')] będących przedmiotem handlu. Z kolei rzeczywisty dochód ze szlaku handlowego wpływający do twojego [Concept('concept_treasury', 'skarbca')] zależy od przepustowości tego szlaku i od [Concept('concept_base_price', 'ceny bazowej')] [Concept('concept_good', 'towarów')]. Wszelkie obowiązujące na szlakach handlowych cła odejmowane są od [Concept('concept_revenue', 'przychodu')] [SelectLocalization(GetPlayer.IsValid,'concept_tariffs_desc_added_2', 'centrów handlu')], w których odbywa się zarządzanie poszczególnymi szlakami, i hamują wzrost liczby towarów będących przedmiotem handlu."
  concept_legitimacy_desc:0 "$concept_legitimacy$ [Concept('concept_government', 'rządu')] określa, w jakim stopniu skład zasiadających [concept_in_government|l] [Concept('concept_interest_group', 'grup interesu')] odpowiada [Concept('concept_law', 'prawom')] danego [Concept('concept_country', '$concept_country_possessive$')|l]. Im mniejsza prawomocność, tym więcej czasu musi upłynąć pomiędzy kolejnymi próbami [Concept('concept_enactment_of_laws', 'ustanowienia')] nowych praw. Na prawomocność ma również wpływ podnoszenie i obniżanie [Concept('concept_taxes', 'podatków')]."
  concept_credit_desc:0 "$concept_credit$ narodowy to ilość [Concept('concept_money', 'pieniędzy')], które gospodarka może dostarczyć do [Concept('concept_treasury', 'skarbca')] danego [Concept('concept_country', 'państwa')], przy czym wartość ta jest równa sumie krajowych [Concept('concept_cash_reserves', 'rezerw gotówkowych')] powiększonej o wartość bazową uzależnioną od wielkości [Concept('concept_gdp', 'produktu krajowego brutto')]. Jeśli [concept_principal|l] przekroczy limit kredytu, będzie to równoznaczne z [Concept('concept_default', 'niedotrzymaniem zobowiązania')]."
  concept_subsidies_desc:0 "Dofinansowywanie [Concept('concept_building', 'budynku')] daje gwarancję tego, że budynek ten otrzyma od [Concept('concept_government', 'rządu')] danego [Concept('concept_country', '$concept_country_possessive$')|l] środki wystarczające przynajmniej na wypłatę [Concept('concept_subsidized_wage', 'dofinansowanego wynagrodzenia')]. Jeżeli budynek nie zapewnia zatrudnionym w nim pracownikom wypłaty wynagrodzenia w kwocie równej dofinansowanemu wynagrodzeniu lub wyższej albo gdy koszt zakupu [Concept('concept_good_consumption', 'towarów początkowych')] przekracza [concept_revenue|l] budynku uzyskiwany z tytułu sprzedaży [Concept('concept_good_production', 'powstających towarów')], różnicę pokryje [concept_treasury|l]. Dzięki temu w budynku może zostać zatrudniona jak największa liczba pracowników w celu maksymalizacji [Concept('concept_throughput', 'przerobu')] bez obaw o rentowność takiego przedsięwzięcia."
  concept_head_of_state_ingame_added:0 "\n\n[GetPlayer.GetAltAdjectiveNoFlag('PL_FEM')|U] głowa państwa to: [GetPlayer.GetRuler.GetFullNameWithTitle]."
- concept_ig_population_desc:0 "Liczba [Concept('concept_pop', 'zbiorowości')] należących do danej grupy interesu."
 
 # content_104_l_polish.yml
  fascism_events.5.f:0 "– Tak zwane „wielkie zagraniczne mocarstwa” nie raz próbowały nas ograniczyć, zaszkodzić naszej ziemi i reputacji, zranić nasz lud. Ale od dziś już nikt więcej nas nie zrani. [ROOT.GetCountry.GetAltAdjectiveNoFormatting('PL_FEM')|U] siła ducha jest najsilniejsza na świecie. Nawet najszlachetniejsze żelazo, antyczne ostrza ani stal damasceńska nie mogą się z nią równać.\n\nDzisiaj wszystkim to udowodnimy. [ROOT.GetCountry.GetNameNoFormatting] to państwo o niezachwianej gospodarce, ponieważ nasza infrastruktura wyrwała się ze szponów zagranicznych drapieżców."
@@ -380,6 +378,7 @@
  SGF_ADJ:0 "Związku Południowoniemieckiego"
  SHW_ADJ:0 "szewski"
  SIA_ADJ:0 "syjamski"
+ SIC:0 "Sycylia-Neapol"
  SIC_ADJ:0 "sycylijski"
  SIK_ADJ:0 "sikkimski"
  SIL_ADJ:0 "sierraleoński"
@@ -461,8 +460,8 @@
  IRO:0 "Irokezi"
  IRO_ADJ:0 "irokeski"
  MSC:0 "Krikowie"
- MSC_ADJ:0 "Krików"
- APC_ADJ:0 "Apaczów"
+ MSC_ADJ:0 "krikowski"
+ APC_ADJ:0 "apacki"
  CCM:0 "Państwo Papagów"
  CCM_ADJ:0 "Papagów"
  ORN_ADJ:0 "orinokański"
@@ -575,8 +574,6 @@
  dyn_c_greater_manchester_adj:0 "wielkomanchesterski"
  dyn_c_mancunian_commune_adj:0 "manchesterski"
  dyn_c_schleswig_holstein_adj:0 "szlezwicko-holsztyński"
- NAT_ADJ:0 "rdzenny"
- MAC_ADJ:0 "manchesterski"
 
 # country_flavor_text_l_polish.yml
  SOK_FLAVOR_TEXT:0 "Kalifat Sokoto bardzo szybko rozkwita pod flagą dżihadystów z ludu Fulani (Fulbe). Czy zjednoczy Afrykę Zachodnią i oprze się zachodnim mocarstwom?"
@@ -683,6 +680,8 @@
  south_asian_culture_group:0 "azjatycka (płd.)"
  assamese:0 "asamska"
  bengali:0 "bengalska"
+ bihari:0 "biharska"
+ manipuri:0 "manipurska"
  nepali:0 "nepalska"
  sinhala:0 "syngaleska"
  panjabi:0 "pendżabska"
@@ -734,6 +733,8 @@
  algonquian:0 "algonkiańska"
  paiute:0 "pajucka"
  hokan:0 "hokańska"
+ apache:0 "apacka"
+ oodham:0 "Papago"
  mixtec:0 "mistecka"
  cariban:0 "karaibska"
  native_south_american_culture_group:0 "amerykańska rdzenna (płd.)"
@@ -775,7 +776,9 @@
  african_minor:0 "afrykańska (mniejszości)"
  east_african_culture_group:0 "afrykańska (wsch.)"
  amhara:0 "amharska"
+ baganda:0 "bagandyjska"
  dinka:0 "dinkańska"
+ fur:0 "furska"
  kikuyu:0 "kikujska"
  lacustrine_bantu:0 "bantyjska (jeziorna)"
  maasai:0 "masajska"
@@ -790,6 +793,8 @@
  southern_african_culture_group:0 "południowoafrykańska"
  herero:0 "hererska"
  khoisan:0 "khoisańska"
+ makua:0 "makuańska"
+ shona:0 "szońska"
  tswana:0 "tswańska"
  xhosa:0 "xhosańska"
  zulu:0 "zuluska"
@@ -829,15 +834,6 @@
  CHANGE_INFAMY_THIRD:0 "[concept_infamy|U] [COUNTRY.GetAltName( 'PL_GENITIVE' )] zwiększa się o #variable $VALUE$#!"
  CHANGE_INFAMY_THIRD_NEG:0 "[concept_infamy|U] [COUNTRY.GetAltName( 'PL_GENITIVE' )] zmniejsza się o #variable $VALUE$#!"
  STOP_SUPPRESS_IG:0 "Przestań [Concept('concept_suppress', 'piętnować')] następującą grupę interesu: [INTEREST_GROUP.GetName]"
- SET_ARMY_BUDGET:0 "#variable [COUNTRY.GetAdjective|U]#! budżet na armię tej ludności wynosi teraz #variable $VALUE$#!"
- SET_NAVY_BUDGET:0 "#variable [COUNTRY.GetAdjective|U]#! budżet na marynarkę wojenną tej ludności wynosi teraz #variable $VALUE$#!"
- SET_STOCKPILE_BUDGET:0 "#variable [COUNTRY.GetAdjective|U]#! budżet na zapasy tej ludności wynosi teraz #variable $VALUE$#!"
- ADD_STOCKPILE:0 "Ludność #variable [COUNTRY.GetAltAdjective('PL_FEM')]#! – zapasy zwiększone o $VALUE|+$"
- ADD_STOCKPILE_NEG:0 "Ludność #variable [COUNTRY.GetAltAdjective('PL_FEM')]#! – zapasy zmniejszone o $VALUE|+$"
- ADD_INNOVATION_POINTS:0 "#variable [COUNTRY.GetName]#! – liczba punktów innowacji tego państwa zwiększa się o $VALUE|+$"
- ADD_INNOVATION_POINTS_NEG:0 "#variable [COUNTRY.GetName]#! – liczba punktów innowacji tego państwa zmniejsza się o $VALUE|+$"
- MULT_DIPLOMATIC_PLAY_WAR_SUPPORT:0 "[Country.GetAdjective|U] [concept_war_support|l] tej ludności zwiększa się $VALUE|+$-krotnie w ramach następującego posunięcia dyplomatycznego: [TARGET_DIPLOMATIC_PLAY.GetName]"
- MULT_WAR_WAR_SUPPORT:0 "[Country.GetAdjective|U] [concept_war_support|l] ([War.GetName]) tej ludności zwiększa się $VALUE|+$-krotnie"
 
 # interfaces_l_polish.yml
  RELEASE_COUNTRY_HEADER:0 "Wyzwól [CountryCreation.GetDefinition.GetCustom('PL_COUNTRY_DEF_ACCUSATIVE')]"
@@ -956,10 +952,9 @@
  BUILDING_KIND_USES_SLAVES:0 "Wykorzystuje zbiorowość ([POP_TYPE.GetName]) jako: [TARGET_POP_TYPE.GetName][SelectLocalization( ObjectsEqual(Country.Self, GetPlayer.Self), '', 'IN_COUNTRY' )]"
  IN_COUNTRY:0 "[Country.GetAltNameNoFormatting('PL_IN')] [Country.GetAltName('PL_LOCATIVE')]"
  RANKING_FORMAT:0 "(#tooltippable #tooltip:$LEADERBOARD$ #v $RANKING$.#!#!#! na całym świecie)"
- STATE_GOODS_POTENTIAL_TOOLTIP:0 "$POTENTIAL|v$: budynek rodzaju [BUILDING_TYPE.GetName] (obecna liczba: $CUR|v$) – utrzymanie jest możliwe. W każdym takim budynku, przy bazowym przerobie oraz obecnie stosowanych technologiach i prawach, maksymalna wielkość produkcji wynosi $AMOUNT|0v$ w przypadku następujących towarów: [Goods.GetTextIcon][GOODS.GetName]"
- SOL_FACTOR_CHEAP_GOODS:0 "[GOODS.GetTextIcon] [GOODS.GetName] – ten towar jest #green tani#!\n$PRICE|v1$ @money!#tooltippable #tooltip:COIN_STACK_TOOLTIP $PRICEICON$#!#! ($PERC|v0%$ wydatków [Concept('concept_pop', 'zbiorowości')])\n\n"
- SOL_FACTOR_EXPENSIVE_GOODS:0 "[GOODS.GetTextIcon] [GOODS.GetName] – ten towar jest #red drogi#!\n$PRICE|v1$ @money!#tooltippable #tooltip:COIN_STACK_TOOLTIP $PRICEICON$#!#! ($PERC|v0%$ wydatków [Concept('concept_pop', 'zbiorowości')])"
- DIPLOMACY_HOVER_INFAMY_COUNTRY:0 "#header Widok [Concept('concept_infamy', 'niesławy')] z perspektywy [Country.GetAltName('PL_GENITIVE')]#!"
+
+# states_l_polish.yml
+ STATE_MUNSTER:0 "Munster"
 
 # pop_types_l_polish.yml
  ACADEMICS_QUALIFICATIONS_DESC:0 "Do #v @academics! pracowników akademickich#! mogą dołączyć tylko zbiorowości o odpowiednim poziomie [Concept('concept_literacy', 'piśmienności')], a ich potencjał w tym aspekcie jest proporcjonalny do stopnia ich [Concept('concept_literacy', 'piśmienności')] i [Concept('concept_wealth', 'zamożności')]. Podczas gdy zbiorowościom z [Concept('concept_culture', 'kultur')] [Concept('concept_discrimination', 'dyskryminowanych')] zajmuje to znacznie więcej czasu, #v @clerks! urzędnicy#! i #v @aristocrats! arystokraci#! mogą łatwo dołączyć do #v @academics! pracowników akademickich#!."

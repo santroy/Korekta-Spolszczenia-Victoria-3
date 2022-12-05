@@ -99,6 +99,7 @@ types pops_overview
 				direction = vertical
 				datacontext = "[GetPlayer]"
 				visible = "[InformationPanel.IsTabSelected('statistics')]"
+				using = default_fade_in_out
 
 				### Pop statistics
 				flowcontainer = {
@@ -338,12 +339,20 @@ types pops_overview
 
 									culture_info_avg_sol_label = {
 										text = "COUNTRY_SOL_LOW_LABEL"
+
+										blockoverride "tooltip" {}
 									}
+
 									culture_info_avg_sol_label = {
 										text = "COUNTRY_SOL_MIDDLE_LABEL"
+
+										blockoverride "tooltip" {}
 									}
+
 									culture_info_avg_sol_label = {
 										text = "COUNTRY_SOL_UPPER_LABEL"
+
+										blockoverride "tooltip" {}
 									}
 								}
 							}
@@ -358,6 +367,7 @@ types pops_overview
 
 			pop_list = {
 				visible = "[InformationPanel.IsTabSelected('pop_list')]"
+				using = default_fade_in_out
 
 				blockoverride "pop_list_context" {
 					datacontext = "[PopsOverviewPanel.AccessPopsList]"
@@ -394,9 +404,36 @@ types pops_overview
 				parentanchor = hcenter
 				spacing = 5
 				
-				block "piecharts" {
-					religion_population_piechart = {}
-					religion_pol_str_piechart = {}
+				block "piecharts" {}
+			}
+
+			block "show_more_button" {
+				button = {
+					using = default_button
+					size = { @panel_width 30 }
+					parentanchor = hcenter
+
+					block "show_more_button_visibility" {}
+
+					block "show_more_onclick" {}
+
+					textbox = {
+
+						block "show_more_button_text_visibility" {}
+
+						parentanchor = center
+						align = center|nobaseline
+						text = "SHOW_MORE"
+					}
+
+					textbox = {
+
+						block "show_less_button_text_visibility" {}
+
+						parentanchor = center
+						align = center|nobaseline
+						text = "SHOW_LESS"
+					}
 				}
 			}
 		}
@@ -405,6 +442,10 @@ types pops_overview
 	type culture_population_piechart = chart {
 		blockoverride "datamodel" {
 			datamodel = "[AccessPlayer.AccessPopCulturesSortedByPopulation]"
+		}
+
+		blockoverride "show_more_button_visibility" {
+			visible = "[GreaterThan_int32(GetDataModelSize(AccessPlayer.AccessPopCulturesSortedByPopulation), '(int32)3')]"
 		}
 
 		empty_state = {
@@ -458,6 +499,10 @@ types pops_overview
 			datamodel = "[AccessPlayer.AccessPopCulturesSortedByPolStr]"
 		}
 
+		blockoverride "show_more_button_visibility" {
+			visible = "[GreaterThan_int32(GetDataModelSize(AccessPlayer.AccessPopCulturesSortedByPolStr), '(int32)3')]"
+		}
+
 		#empty_state = {
 		#	blockoverride "visible" {
 		#		visible = "[IsDataModelEmpty(AccessPlayer.AccessPopCulturesSortedByPolStr)]"
@@ -507,6 +552,10 @@ types pops_overview
 	type religion_population_piechart = chart {
 		blockoverride "datamodel" {
 			datamodel = "[AccessPlayer.AccessPopReligionsSortedByPopulation]"
+		}
+
+		blockoverride "show_more_button_visibility" {
+			visible = "[GreaterThan_int32(GetDataModelSize(AccessPlayer.AccessPopReligionsSortedByPopulation), '(int32)3')]"
 		}
 
 		empty_state = {
@@ -561,6 +610,10 @@ types pops_overview
 			datamodel = "[AccessPlayer.AccessPopReligionsSortedByPolStr]"
 		}
 
+		blockoverride "show_more_button_visibility" {
+			visible = "[GreaterThan_int32(GetDataModelSize(AccessPlayer.AccessPopReligionsSortedByPolStr), '(int32)3')]"
+		}
+
 		empty_state = {
 			blockoverride "visible" {
 				visible = "[IsDataModelEmpty(AccessPlayer.AccessPopReligionsSortedByPolStr)]"
@@ -613,6 +666,10 @@ types pops_overview
 			datamodel = "[AccessPlayer.AccessPopTypesSortedOnPopulation]"
 		}
 
+		blockoverride "show_more_button_visibility" {
+			visible = "[GreaterThan_int32(GetDataModelSize(AccessPlayer.AccessPopTypesSortedOnPopulation), '(int32)3')]"
+		}
+
 		empty_state = {
 			blockoverride "visible" {
 				visible = "[IsDataModelEmpty(AccessPlayer.AccessPopTypesSortedOnPopulation)]"
@@ -655,6 +712,10 @@ types pops_overview
 	type pop_type_pol_str_piechart = chart {
 		blockoverride "datamodel" {
 			datamodel = "[AccessPlayer.AccessPopTypesSortedOnPolStr]"
+		}
+
+		blockoverride "show_more_button_visibility" {
+			visible = "[GreaterThan_int32(GetDataModelSize(AccessPlayer.AccessPopTypesSortedOnPolStr), '(int32)3')]"
 		}
 
 		empty_state = {
@@ -717,9 +778,51 @@ types pops_overview
 			blockoverride "animation_leave" {
 				name = pop_overview_poptype_leave
 			}
+
+			blockoverride "show_more_onclick" {
+				onclick = "[GetVariableSystem.Toggle( 'population_labels' )]"
+			}
+
+			blockoverride "show_more_button_text_visibility" {
+				visible = "[Not(GetVariableSystem.Exists( 'population_labels' ))]"
+			}
+
+			blockoverride "show_less_button_text_visibility" {
+				visible = "[GetVariableSystem.Exists( 'population_labels' )]"
+			}
+
 			blockoverride "piecharts" {
-				pop_type_population_piechart = {}
-				pop_type_pol_str_piechart = {}
+				pop_type_population_piechart = {
+					visible = "[GetVariableSystem.Exists('population_labels')]"
+
+					blockoverride "maxverticalslots" {
+						maxverticalslots = 14
+					}
+				}
+
+				pop_type_population_piechart = {
+					visible = "[Not(GetVariableSystem.Exists('population_labels'))]"
+
+					blockoverride "maxverticalslots" {
+						maxverticalslots = 3
+					}
+				}
+
+				pop_type_pol_str_piechart = {
+					visible = "[GetVariableSystem.Exists('population_labels')]"
+
+					blockoverride "maxverticalslots" {
+						maxverticalslots = 14
+					}
+				}
+
+				pop_type_pol_str_piechart = {
+					visible = "[Not(GetVariableSystem.Exists('population_labels'))]"
+
+					blockoverride "maxverticalslots" {
+						maxverticalslots = 3
+					}
+				}
 			}
 			blockoverride "icon" {
 				texture = "gfx/interface/population/pop_type.dds"
@@ -741,9 +844,51 @@ types pops_overview
 			blockoverride "animation_leave" {
 				name = pop_overview_culture_leave
 			}
+
+			blockoverride "show_more_onclick" {
+				onclick = "[GetVariableSystem.Toggle( 'culture_population_labels' )]"
+			}
+
+			blockoverride "show_more_button_text_visibility" {
+				visible = "[Not(GetVariableSystem.Exists( 'culture_population_labels' ))]"
+			}
+
+			blockoverride "show_less_button_text_visibility" {
+				visible = "[GetVariableSystem.Exists( 'culture_population_labels' )]"
+			}
+
 			blockoverride "piecharts" {
-				culture_population_piechart = {}
-				culture_pol_str_piechart = {}
+				culture_population_piechart = {
+					visible = "[GetVariableSystem.Exists('culture_population_labels')]"
+
+					blockoverride "maxverticalslots" {
+						maxverticalslots = 30
+					}
+				}
+
+				culture_population_piechart = {
+					visible = "[Not(GetVariableSystem.Exists('culture_population_labels'))]"
+
+					blockoverride "maxverticalslots" {
+						maxverticalslots = 3
+					}
+				}
+
+				culture_pol_str_piechart = {
+					visible = "[GetVariableSystem.Exists('culture_population_labels')]"
+
+					blockoverride "maxverticalslots" {
+						maxverticalslots = 30
+					}
+				}
+
+				culture_pol_str_piechart = {
+					visible = "[Not(GetVariableSystem.Exists('culture_population_labels'))]"
+
+					blockoverride "maxverticalslots" {
+						maxverticalslots = 3
+					}
+				}
 			}
 			blockoverride "icon" {
 				texture = "gfx/interface/population/pop_culture.dds"
@@ -764,9 +909,51 @@ types pops_overview
 			blockoverride "animation_leave" {
 				name = pop_overview_religion_leave
 			}
+
+			blockoverride "show_more_onclick" {
+				onclick = "[GetVariableSystem.Toggle( 'religion_population_labels' )]"
+			}
+
+			blockoverride "show_more_button_text_visibility" {
+				visible = "[Not(GetVariableSystem.Exists( 'religion_population_labels' ))]"
+			}
+
+			blockoverride "show_less_button_text_visibility" {
+				visible = "[GetVariableSystem.Exists( 'religion_population_labels' )]"
+			}
+
 			blockoverride "piecharts" {
-				religion_population_piechart = {}
-				religion_pol_str_piechart = {}
+				religion_population_piechart = {
+					visible = "[GetVariableSystem.Exists('religion_population_labels')]"
+
+					blockoverride "maxverticalslots" {
+						maxverticalslots = 14
+					}
+				}
+
+				religion_population_piechart = {
+					visible = "[Not(GetVariableSystem.Exists('religion_population_labels'))]"
+
+					blockoverride "maxverticalslots" {
+						maxverticalslots = 3
+					}
+				}
+
+				religion_pol_str_piechart = {
+					visible = "[GetVariableSystem.Exists('religion_population_labels')]"
+
+					blockoverride "maxverticalslots" {
+						maxverticalslots = 14
+					}
+				}
+
+				religion_pol_str_piechart = {
+					visible = "[Not(GetVariableSystem.Exists('religion_population_labels'))]"
+
+					blockoverride "maxverticalslots" {
+						maxverticalslots = 3
+					}
+				}
 			}
 			blockoverride "icon" {
 				texture = "gfx/interface/population/pop_religion.dds"
@@ -985,6 +1172,7 @@ types pops_overview
 					maximumsize = { @panel_width -1 }
 					using = expanded_list_bg
 					visible = "[PopListItem.IsExpanded]"
+					using = default_content_fade
 					datamodel = "[PopListItem.GetPops]"
 
 					textbox = {
