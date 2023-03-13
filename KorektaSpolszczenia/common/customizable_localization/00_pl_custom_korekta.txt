@@ -7918,6 +7918,38 @@ PL_COUNTRY_DEF = {
 	
 	text = {
 		trigger = {
+			exists = cd:KZH
+			this = cd:KZH
+		}
+		localization_key = KZH
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:OZH
+			this = cd:OZH
+		}
+		localization_key = OZH
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:UZH
+			this = cd:UZH
+		}
+		localization_key = UZH
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:CAU
+			this = cd:CAU
+		}
+		localization_key = CAU
+	} 
+
+	text = {
+		trigger = {
 			exists = cd:KNG
 			this = cd:KNG
 		}
@@ -11121,6 +11153,12 @@ PL_CULTURE = {
 	}
 	text = {  
 		trigger = {
+			this = cu:circassian
+		}
+		localization_key = circassian
+	}
+	text = {  
+		trigger = {
 			this = cu:cherokee
 		}
 		localization_key = cherokee
@@ -12815,6 +12853,18 @@ PL_BUILDING = {
 			is_building_type = building_subsistence_pastures
 		}
 		localization_key = building_subsistence_pastures
+	}
+	text = {
+		trigger = {
+			is_building_type = building_subsistence_fishing_villages
+		}
+		localization_key = building_subsistence_fishing_villages
+	}
+	text = {
+		trigger = {
+			is_building_type = building_subsistence_rice_paddies
+		}
+		localization_key = building_subsistence_rice_paddies
 	}
 	text = {
 		trigger = {
