@@ -22,7 +22,7 @@ types pop_details_panel
 		blockoverride "window_header_name"
 		{
 			# text = "[Pop.GetCulture.GetNameNoFormatting] [Pop.GetReligion.GetNameNoFormatting] [Pop.GetNameNoIcon]" ZMIANA
-			text = "[Pop.GetNameNoIcon] ([Pop.GetReligion.GetCustom('PL_RELIGION_POP_ADJ_PLURAL')|U] [Pop.GetCulture.GetCustom('PL_CULTURE_COLLECTIVE_PLURAL')|U])"
+			raw_text = "[Pop.GetNameNoIcon] ([Pop.GetReligion.GetCustom('PL_RELIGION_POP_ADJ_PLURAL')|U] [Pop.GetCulture.GetCustom('PL_CULTURE_COLLECTIVE_PLURAL')|U])"
 			tooltipwidget = {
 				FancyTooltip_Pop = {}
 			}

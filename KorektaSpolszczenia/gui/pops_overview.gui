@@ -299,8 +299,10 @@ types pops_overview
 								text = "LOWER_NO_ICON"
 							}
 
-							blockoverride "sol_summary" {
+							blockoverride "sol_summary" { # ZMIANA
 								text = "COUNTRY_SOL_LOW_LABEL"
+								fontsize = 14
+								align = center|nobaseline
 							}
 
 							blockoverride "population_summary" {
@@ -354,8 +356,10 @@ types pops_overview
 								text = "MIDDLE_NO_ICON"
 							}
 
-							blockoverride "sol_summary" {
+							blockoverride "sol_summary" { # ZMIANA
 								text = "COUNTRY_SOL_MIDDLE_LABEL"
+								fontsize = 14
+								align = center|nobaseline
 							}
 
 							blockoverride "population_summary" {
@@ -409,8 +413,10 @@ types pops_overview
 								text = "UPPER_NO_ICON"
 							}
 
-							blockoverride "sol_summary" {
+							blockoverride "sol_summary" { # ZMIANA
 								text = "COUNTRY_SOL_UPPER_LABEL"
+								fontsize = 14
+								align = center|nobaseline
 							}
 
 							blockoverride "population_summary" {
