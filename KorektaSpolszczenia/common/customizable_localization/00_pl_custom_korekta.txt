@@ -11687,12 +11687,6 @@ PL_CULTURE = {
 	}
 	text = {  
 		trigger = {
-			this = cu:maures
-		}
-		localization_key = maures
-	}
-	text = {  
-		trigger = {
 			this = cu:mayan
 		}
 		localization_key = mayan
