@@ -3,7 +3,7 @@
  # pops_overview.gui
 
  concept_politically_involved_POP_GUI:0 "Politycznie aktywni"
- concept_politically_inactive_POP_GUI:0 "Politycznie nieaktywni"
+ concept_politically_unaligned_POP_GUI:0 "Politycznie bierni"
 
  # market_panel.gui
 
