@@ -10967,7 +10967,7 @@ PL_RELIGION_ACC = {
 }
 
 
-PL_CULTURE = {
+PL_culture = {
 	type = culture
 
 	text = {  
@@ -10975,18 +10975,6 @@ PL_CULTURE = {
 			this = cu:aborigine
 		}
 		localization_key = aborigine
-	}
-	text = {  
-		trigger = {
-			this = cu:occitan
-		}
-		localization_key = occitan
-	}
-	text = {  
-		trigger = {
-			this = cu:moro
-		}
-		localization_key = moro
 	}
 	text = {  
 		trigger = {
@@ -11293,24 +11281,6 @@ PL_CULTURE = {
 			this = cu:central_american
 		}
 		localization_key = central_american
-	}
-	text = {  
-		trigger = {
-			this = cu:circassian
-		}
-		localization_key = circassian
-	}
-	text = {  
-		trigger = {
-			this = cu:francoprovencal
-		}
-		localization_key = francoprovencal
-	}
-	text = {  
-		trigger = {
-			this = cu:alemannic
-		}
-		localization_key = alemannic
 	}
 	text = {  
 		trigger = {
@@ -11830,12 +11800,6 @@ PL_CULTURE = {
 	}
 	text = {  
 		trigger = {
-			this = cu:yuanzhumin
-		}
-		localization_key = yuanzhumin
-	}
-	text = {  
-		trigger = {
 			this = cu:marathi
 		}
 		localization_key = marathi
@@ -11845,6 +11809,12 @@ PL_CULTURE = {
 			this = cu:mashriqi
 		}
 		localization_key = mashriqi
+	}
+	text = {  
+		trigger = {
+			this = cu:bidan
+		}
+		localization_key = bidan
 	}
 	text = {  
 		trigger = {
@@ -11929,12 +11899,6 @@ PL_CULTURE = {
 			this = cu:mongol
 		}
 		localization_key = mongol
-	}
-	text = {  
-		trigger = {
-			this = cu:bidan
-		}
-		localization_key = bidan
 	}
 	text = {  
 		trigger = {
@@ -12334,7 +12298,7 @@ PL_CULTURE = {
 	}
 	text = {  
 		trigger = {
-			this = cu:swiss
+			this = cu:alemannic
 		}
 		localization_key = swiss
 	}
@@ -12556,9 +12520,33 @@ PL_CULTURE = {
 	}
 	text = {  
 		trigger = {
-			this = cu:sumatran
+			this = cu:occitan
 		}
-		localization_key = sumatran
+		localization_key = occitan
+	}
+	text = {  
+		trigger = {
+			this = cu:moro
+		}
+		localization_key = moro
+	}
+	text = {  
+		trigger = {
+			this = cu:circassian
+		}
+		localization_key = circassian
+	}
+	text = {  
+		trigger = {
+			this = cu:francoprovencal
+		}
+		localization_key = francoprovencal
+	}
+	text = {  
+		trigger = {
+			this = cu:yuanzhumin
+		}
+		localization_key = yuanzhumin
 	}
 	text = {  
 		trigger = {
@@ -12578,12 +12566,6 @@ PL_CULTURE = {
 		}
 		localization_key = yemenite
 	}
- #	text = {  
- #		trigger = {
- #			this = cu:malay_culture
- #		} 
- #		localization_key = malay_culture
- #	}
 	text = {
 		fallback = yes
 		localization_key = PL_CULTURE_fallback
