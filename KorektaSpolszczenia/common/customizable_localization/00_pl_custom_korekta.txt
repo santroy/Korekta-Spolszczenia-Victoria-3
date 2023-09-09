@@ -10967,7 +10967,7 @@ PL_RELIGION_ACC = {
 }
 
 
-PL_culture = {
+PL_CULTURE = {
 	type = culture
 
 	text = {  
