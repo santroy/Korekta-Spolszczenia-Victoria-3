@@ -757,7 +757,7 @@ types TooltipTypes
 		}
 
 		blockoverride "name" {
-			text = "[Culture.GetNameNoFormatting|U]" # zmiana U
+			text = "[Culture.GetNameNoFormatting|U]" # zmiana u
 		}
 
 		blockoverride "type" {
@@ -981,6 +981,7 @@ types TooltipTypes
 
 				button = {
 					using = default_button
+					enabled = "[Not(Character.IsRetired)]"
 					text = "BUTTON_DETAILS"
 					size = { 300 40 }
 					input_action = "go_to_details"
