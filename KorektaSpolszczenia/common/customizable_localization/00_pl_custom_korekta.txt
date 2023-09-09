@@ -6370,6 +6370,21 @@ PL_COUNTRY_PLURAL = {
 				} # dyn_c_united_netherlands
 
 				AND = {
+					exists = c:CAL
+					this = c:CAL
+					c:CAL = {
+						owns_entire_state_region = STATE_CALIFORNIA
+						owns_entire_state_region = STATE_BAJA_CALIFORNIA
+					}
+				} # dyn_c_two_californias
+
+				AND = {
+					exists = c:CAL
+					this = c:CAL
+					coa_def_communist_flag_trigger = yes
+				} # dyn_c_ussr_californias
+
+				AND = {
 					exists = c:BEL
 					this = c:BEL
 					coa_republic_trigger = yes
