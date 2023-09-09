@@ -1526,10 +1526,10 @@ PL_STATE = {
 	
 	 text = {
 		trigger = { 
-			exists = s:STATE_TLEMCEN
-			state_region = s:STATE_TLEMCEN
+			exists = s:STATE_ORAN
+			state_region = s:STATE_ORAN
 		}
-		localization_key = STATE_TLEMCEN
+		localization_key = STATE_ORAN
 	 }
 	
 	 text = {
@@ -1870,10 +1870,10 @@ PL_STATE = {
 	
 	 text = {
 		trigger = { 
-			exists = s:STATE_LOIRE
-			state_region = s:STATE_LOIRE
+			exists = s:STATE_FRENCH_LOW_COUNTRIES
+			state_region = s:STATE_FRENCH_LOW_COUNTRIES
 		}
-		localization_key = STATE_LOIRE
+		localization_key = STATE_FRENCH_LOW_COUNTRIES
 	 }
 	
 	 text = {
@@ -1918,18 +1918,18 @@ PL_STATE = {
 	
 	 text = {
 		trigger = { 
-			exists = s:STATE_ARMAGNAC
-			state_region = s:STATE_ARMAGNAC
+			exists = s:STATE_GUYENNE
+			state_region = s:STATE_GUYENNE
 		}
-		localization_key = STATE_ARMAGNAC
+		localization_key = STATE_GUYENNE
 	 }
 	
 	 text = {
 		trigger = { 
-			exists = s:STATE_LIMOUSIN
-			state_region = s:STATE_LIMOUSIN
+			exists = s:STATE_AUVERGNE_LIMOUSIN
+			state_region = s:STATE_AUVERGNE_LIMOUSIN
 		}
-		localization_key = STATE_LIMOUSIN
+		localization_key = STATE_AUVERGNE_LIMOUSIN
 	 }
 	
 	 text = {
@@ -1966,10 +1966,10 @@ PL_STATE = {
 	
 	 text = {
 		trigger = { 
-			exists = s:STATE_AUVERGNE
-			state_region = s:STATE_AUVERGNE
+			exists = s:STATE_LORRAINE
+			state_region = s:STATE_LORRAINE
 		}
-		localization_key = STATE_AUVERGNE
+		localization_key = STATE_LORRAINE
 	 }
 	
 	 text = {
@@ -5843,6 +5843,22 @@ PL_STATE = {
 		}
 		localization_key = STATE_JETISY
 	 }
+
+	 text = {
+		trigger = { 
+			exists = s:STATE_RUHR
+			state_region = s:STATE_RUHR
+		}
+		localization_key = STATE_RUHR
+	 }
+
+	 text = {
+		trigger = { 
+			exists = s:STATE_MAINE_ANJOU
+			state_region = s:STATE_MAINE_ANJOU
+		}
+		localization_key = STATE_MAINE_ANJOU
+	 }
 	
 	 text = {
 		fallback = yes
@@ -7571,7 +7587,119 @@ PL_COUNTRY_DEF = {
 		}
 		localization_key = HAU
 	} 
+
+	text = {
+		trigger = {
+			exists = cd:KAU
+			this = cd:KAU
+		}
+		localization_key = KAU
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:PNS
+			this = cd:PNS
+		}
+		localization_key = PNS
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:YUZ
+			this = cd:YUZ
+		}
+		localization_key = YUZ
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:SAV
+			this = cd:SAV
+		}
+		localization_key = SAV
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:CON
+			this = cd:CON
+		}
+		localization_key = CON
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:TUG
+			this = cd:TUG
+		}
+		localization_key = TUG
+	} 
 	
+	text = {
+		trigger = {
+			exists = cd:AIT
+			this = cd:AIT
+		}
+		localization_key = AIT
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:MAS
+			this = cd:MAS
+		}
+		localization_key = MAS
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:RHE
+			this = cd:RHE
+		}
+		localization_key = RHE
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:PRC
+			this = cd:PRC
+		}
+		localization_key = PRC
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:GZA
+			this = cd:GZA
+		}
+		localization_key = GZA
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:MRV
+			this = cd:MRV
+		}
+		localization_key = MRV
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:BRG
+			this = cd:BRG
+		}
+		localization_key = BRG
+	} 
+
+	text = {
+		trigger = {
+			exists = cd:BMM
+			this = cd:BMM
+		}
+		localization_key = BMM
+	} 
+
 	text = {
 		trigger = {
 			exists = cd:HAW
@@ -11159,6 +11287,18 @@ PL_CULTURE = {
 	}
 	text = {  
 		trigger = {
+			this = cu:francoprovencal
+		}
+		localization_key = francoprovencal
+	}
+	text = {  
+		trigger = {
+			this = cu:alemannic
+		}
+		localization_key = alemannic
+	}
+	text = {  
+		trigger = {
 			this = cu:cherokee
 		}
 		localization_key = cherokee
@@ -11675,6 +11815,12 @@ PL_CULTURE = {
 	}
 	text = {  
 		trigger = {
+			this = cu:yuanzhumin
+		}
+		localization_key = yuanzhumin
+	}
+	text = {  
+		trigger = {
 			this = cu:marathi
 		}
 		localization_key = marathi
@@ -11768,6 +11914,12 @@ PL_CULTURE = {
 			this = cu:mongol
 		}
 		localization_key = mongol
+	}
+	text = {  
+		trigger = {
+			this = cu:bidan
+		}
+		localization_key = bidan
 	}
 	text = {  
 		trigger = {
