@@ -6217,6 +6217,11 @@ PL_GOODS_ACCUSATIVE = {
 	suffix = _PL_ACCUSATIVE
 }
 
+PL_GOODS_INSTRUMENTAL = { 
+	parent = PL_GOODS
+	suffix = _PL_INSTRUMENTAL
+}
+
 
 PL_COUNTRY_PLURAL = {
 	type = country
