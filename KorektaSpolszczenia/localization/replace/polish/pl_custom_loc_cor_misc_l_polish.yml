@@ -15,6 +15,7 @@
 
  fallback_good_PL_GENITIVE:0 "[ROOT.GetGoods.GetName]"
  fallback_good_PL_ACCUSATIVE:0 "[ROOT.GetGoods.GetName]"
+ fallback_good_PL_INSTRUMENTAL:0 "[ROOT.GetGoods.GetName]"
  fallback_good:0 "[ROOT.GetGoods.GetName]"
 
  empty_fallback:0 ""
