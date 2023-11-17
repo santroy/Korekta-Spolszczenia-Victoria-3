@@ -15,6 +15,18 @@
  CW_DATE_October:0 "października"
  CW_DATE_September:0 "września"
 
+# agitators_2_l_polish.yml
+ algeria_events.5.t:0 "[ROOT.GetCountry.GetAltAdjectiveNoFormatting('PL_FEM')|U] napaść na region administracyjny [SCOPE.sState('algerian_raided_state_scope').GetStateRegion.GetName]"
+ land_ownership_law_events.2.a:0 "[ROOT.GetCountry.GetAltAdjectiveNoFormatting('PL_FEM')|U] ludność musi się zjednoczyć, a wspólny duch – odżyć."
+
+# agitators_3_l_polish.yml
+ algeria_events.9.d:0 "[SCOPE.sState('algeria_state_scope').GetName] – w tym obszarze administracyjnym utworzono permanentne struktury ([SCOPE.sBuilding('legion_barracks').GetName|l]) dla legionistów, które ochrzczono mianem Quartier Viénot. Tym samym [ROOT.GetCountry.GetAltAdjectiveNoFormatting('PL_FEM')|U] Legia Cudzoziemska stała się główną siłą militarną w Afryce."
+
+# agitators_4_l_polish.yml
+ exiles_events.1.f:0 "– Bardziej wnikliwa analiza przekonała mnie, że jest wprost przeciwnie. [ROOT.GetCountry.GetAltAdjectiveNoFormatting('PL_FEM')|U] klasa robotnicza nigdy niczego nie osiągnie."
+ agitators_election_events.29.f:0 "– Chodzi tylko o to, że jeśli [ROOT.GetCountry.GetAltAdjectiveNoFormatting('PL_FEM')] struktura społeczna nie ulegnie zmianom, czeka nas rewolucja. Nie akceptuję tego, a właściwie gardzę tym jak grzechem, ale taka jest rzeczywistość – na pewno też to dostrzegacie. Należy zatem zapytać: jak tego uniknąć?"
+ single_party_state.1.t:0 "Partia [ROOT.GetCountry.GetAltAdjectiveNoFormatting('PL_FEM')|U]"
+
 # alerts_l_polish.yml
  alert_stockpiling_gold_alert_name:0 "Gromadzenie [GetGoods('gold').GetTextIcon] #tooltippable_name #tooltip:[GetGoods('gold').GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip złota#!#!"
  alert_low_market_access_alert_name:0 "[concept_market_access] [SCOPE.GetRootScope.GetState.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[SCOPE.GetRootScope.GetState.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [SCOPE.GetRootScope.GetState.GetCustom('PL_STATE_LOCATIVE')]#!#! wynosi [SCOPE.GetRootScope.GetState.GetMarketAccess|%0v]"
@@ -87,30 +99,10 @@
  skyscraper.2.b:0 "Architektura [ROOT.GetCountry.GetAltAdjective('PL_FEM')] nie ma sobie równych."
  communist_elections.2.t:0 "Wybory do rady"
  communist_elections.2.d:0 "W obliczu zbliżających się wyborów do rady państwa robotnicy w całym narodzie wyrażają zdecydowane poparcie względem następującej partii: [SCOPE.sParty('unions_party').GetName]."
- generic_revolt_peasant:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt chłopów"
- generic_revolt_peasant_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt chłopów"
- generic_revolt_landowner:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt arystokratów"
- generic_revolt_landowner_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt arystokratów"
- generic_revolt_intelligentsia:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt liberałów"
- generic_revolt_intelligentsia_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt liberałów"
- generic_revolt_industrialists:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt kapitalistów"
- generic_revolt_industrialists_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt kapitalistów"
- generic_revolt_military:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt wojskowych"
- generic_revolt_military_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt wojskowych"
- generic_revolt_religious:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt religijnych"
- generic_revolt_religious_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt religijnych"
- generic_revolt_bourgeoisie:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt burżuazji"
- generic_revolt_bourgeoisie_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt burżuazji"
- generic_revolt_unions:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt proletariatu"
- generic_revolt_unions_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt proletariatu"
- generic_revolt_1_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] rewolucjonizm"
- generic_revolt_2_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] ruch powstańczy"
- generic_revolt_3:0 "[COUNTRY.GetDefinition.GetAdjective|U] bunt"
- generic_revolt_3_adj:0 "Bunt [COUNTRY.GetDefinition.GetAdjective]"
- generic_revolt_radical_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] radykalizm"
- generic_revolt_fascist_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] faszyzm"
- generic_revolt_communist_adj:0 "[COUNTRY.GetDefinition.GetAdjective|U] komunizm"
  dyn_c_welsh_patagonia_adj:0 "walijsko-patagoński"
+
+# content_2_l_polish.yml
+ notification_santa_anna_captured_notification_desc:0 "Państwo [SCOPE.sCountry('texas_scope').GetName] schwytało generała Santa Annę, obywatela państwa [SCOPE.sCountry('mexico_scope').GetName], który wykorzystał swoją pozycję do wynegocjowania pokoju po wojnie o niepodległość Teksasu."
 
 # content_3_l_polish.yml
  generic_laws.9.d:0 "Agitatorzy, których kulturą macierzystą jest kultura [SCOPE.sCulture('non_accepted_culture_scope').GetName], podżegają swoje społeczności, twierdząc, że proponowane aktualnie prawo ([SCOPE.sLaw('current_law_scope').GetName|l]) w nieproporcjonalnie negatywny sposób wpłynie na przedstawicieli ich kultury w naszym państwie."
@@ -118,7 +110,6 @@
 
 # content_4_l_polish.yml
  dyn_c_south_africa_adj:0 "Kolonii Przylądkowej"
- dyn_c_spanish_philippines_adj:0 "Filipin Hiszpańskich"
  KUR_ADJ:0 "kurdyjski"
  GLI_ADJ:0 "galisyjski"
  PRA_ADJ:0 "grãoparáński"
@@ -127,7 +118,6 @@
  dyn_c_scandinavia_kalmar_union_adj:0 "skandynawski"
 
 # core_l_polish.yml
- HOVER_STATE_TOOLTIP_NON_COLONIZABLE:0 "[concept_attitude] [STATE.GetCountry.GetAltNameNoFormatting('PL_GENITIVE')] wobec nas: #tooltippable #tooltip:[STATE.GetCountry.GetTooltipTag],COUNTRY_ATTITUDE_TOOLTIP [STATE.GetCountry.GetAttitudeTowards(GetPlayer.Self).GetName|l]#!#! (#tooltippable #tooltip:[STATE.GetCountry.GetTooltipTag],COUNTRY_ATTITUDE_SCORE_TOOLTIP [STATE.GetCountry.GetAttitudeTowards(GetPlayer.Self).CalcScore|+0]#!#!)"
  SPLIT_STATE_FORMAT:0 "Region $OWNER|l$, $REGION$"
  MARKET_NAME:0 "Rynek $NAME$"
 
@@ -166,7 +156,6 @@
  BGM_ADJ:0 "begemderski"
  BHO_ADJ:0 "bhopalski"
  BHU_ADJ:0 "bhutański"
- BIC_ADJ:0 "Kompanii Wschodnioindyjskiej"
  BIK_ADJ:0 "bikanerski"
  BLG_ADJ:0 "bulungański"
  BOH_ADJ:0 "czeski"
@@ -293,7 +282,6 @@
  KOR_ADJ:0 "koreański"
  KRA_ADJ:0 "krakowski"
  KRT_ADJ:0 "kaartański"
- KUK_ADJ:0 "danubiański"
  KZH_ADJ:0 "młodożuzański"
  LAO_ADJ:0 "laotański"
  LAT_ADJ:0 "łotewski"
@@ -510,7 +498,6 @@
  SIH_ADJ:0 "syczuański"
  SHA_ADJ:0 "szantungański"
  AFS_ADJ:0 "wolnopaństwowy"
- DEI_ADJ:0 "Holenderskich Indii Wschodnich"
  PWN_ADJ:0 "pauniski"
  BLF_ADJ:0 "Czarnych Stóp"
  TRH_ADJ:0 "turkiestański"
@@ -573,7 +560,6 @@
  dyn_c_bechuanaland_adj:0 "beczuański"
  dyn_c_hereroland_adj:0 "hererolandzki"
  dyn_c_british_raj_adj:0 "anglo-indyjski"
- dyn_c_east_india_adj:0 "wschodnioindyjski"
  dyn_c_sicily_adj:0 "sycylijski"
  dyn_c_naples_adj:0 "neapolitański"
  dyn_c_free_territory_adj:0 "wolnoterytorialny"
@@ -613,7 +599,6 @@
  dyn_c_french_empire_adj:0 "francuski"
  dyn_c_french_republic_adj:0 "francuski"
  dyn_c_french_kingdom_adj:0 "francuski"
- dyn_c_french_commune_adj:0 "komunardzki"
  dyn_c_north_american_technate_adj:0 "technacki"
 
 # country_flavor_text_l_polish.yml
@@ -869,10 +854,10 @@
  alemannic:0 "alemańska"
 
 # customized_tooltips_l_polish.yml
+ GOODS_LEADERBOARD_HEADER_TOP_PRODUCER:0 "#v [Goods.GetLeaderboardSpot(Goods.GetMarket.GetOwner)]#!. producent światowy[Goods.GetPrestigeAwardForSpotDesc( Goods.GetLeaderboardSpot(Goods.GetMarket.GetOwner.Self) )]"
  GOODS_LEADERBOARD_HEADER_INSIGNIFICANT_PRODUCER:0 "Mało istotny producent #tooltippable_name #tooltip:[Goods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [Goods.GetCustom('PL_GOODS_GENITIVE')|l]#!#!"
  GOODS_PRESTIGE_AWARD:0 "#v $VAL|=+$#! – [concept_prestige|l] od #v $SPOT|v$. producenta#! [Goods.GetTextIcon]#tooltippable_name #tooltip:[Goods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [Goods.GetCustom('PL_GOODS_GENITIVE')|l]#!#!"
  DATA_RELIGION_NAME_TOOLTIP_INGAME_ADDED:0 "[Religion.GetCountryDiscriminationStatus(GetPlayer.Self)][AddLocalizationIf(NotEqualTo_int64(Religion.GetPopulation(GetPlayer.Self),'(int64)0'),'RELIGION_IN_COUNTRY_DESC')]"
- DATA_STATE_NAME_TOOLTIP:0 "[SelectLocalization(State.IsIncorporated, 'STATE_IS_INCORPORATED', 'STATE_IS_UNINCORPORATED')]\n[State.GetMarketAccessStatus]\n$STATE_URBANIZATION$\n[Concept('concept_pop', '$concept_population$')]: [State.GetPopulationSize|kv]\n$STATE_AVAILABLE_LABOR$\n\nUśredniony [concept_sol|l]: [State.GetFormattedStandardOfLivingLabelAll|v] ([State.GetFormattedStandardOfLivingAll|v])\n[concept_gdp]: [State.GetGDPContributionPercentage|%1v] PKB [State.GetOwner.GetAltName( 'PL_GENITIVE' )]\n[Concept('concept_taxes', '$concept_taxation$')]: #variable [State.GetTaxationRevenue|+=K]#![SelectLocalization( State.IsSplitState, 'SPLIT_STATE_REGION_LINEBREAK_FIRST', '' )]"
 
 # diplomacy_l_polish.yml
  DIPLO_PACT_RELATIONS_CHANGE_POS_EFFECT:0 "[DiplomaticPact.GetName|b]: [DiplomaticPact.GetFirstCountry.GetName] [Select_CString( StringIsEmpty( DiplomaticPact.GetFirstCountry.GetCustom('PL_COUNTRY_PLURAL') ) , 'ociepla', 'ocieplają' )] każdego dnia swoje [concept_relations|l] o #tooltippable #tooltip:[GetRawTextTooltipTag('$BREAKDOWN$')] #variable $PROGRESS_DAILY|%=2$#!#!#!$MAXDESC$"
@@ -883,8 +868,6 @@
 
 # diplomatic_plays_l_polish.yml
  JOIN_DIPLO_PLAY_FACTOR_OWN_SECESSION_RISK:0 "[COUNTRY.GetAltAdjective('PL_FEM')|U] [concept_secession|l] – ryzyko rozprzestrzenienia się do państwa o nazwie [COUNTRY_THIRD_PARTY.GetName]: #bold $VALUE|+=$#!"
- DIPLO_PLAY_CONFIDENCE_OR_NEUTRALITY_FACTOR_WEAK_ARMY:0 "Armia [Country.GetAltAdjective('PL_FEM')] – słabość: #bold $VALUE|+=$#!"
- DIPLO_PLAY_CONFIDENCE_OR_NEUTRALITY_FACTOR_STRONG_ARMY:0 "Armia [Country.GetAltAdjective('PL_FEM')] – siła: #bold $VALUE|+=$#!"
  war_goal_conquer_state:0 "Podbij obszar administracyjny: [WAR_GOAL.GetTargetState.GetName]"
  war_goal_return_state:0 "Zwróć obszar administracyjny: [WAR_GOAL.GetTargetState.GetName]"
  war_goal_revoke_claim:0 "Wycofaj roszczenie dotyczące regionu administracyjnego: [WAR_GOAL.GetTargetState.GetStateRegion.GetName]"
@@ -898,6 +881,12 @@
  CHANGE_INFAMY_FIRST_NEG:0 "[concept_infamy|U] [COUNTRY.GetAltNameNoFormatting( 'PL_GENITIVE' )] zmniejsza się o #variable $VALUE$#!"
  CHANGE_INFAMY_THIRD:0 "[concept_infamy|U] [COUNTRY.GetAltName( 'PL_GENITIVE' )] zwiększa się o #variable $VALUE$#!"
  CHANGE_INFAMY_THIRD_NEG:0 "[concept_infamy|U] [COUNTRY.GetAltName( 'PL_GENITIVE' )] zmniejsza się o #variable $VALUE$#!"
+ ADD_MODIFIER:0 "$SUBJECT_NAME$ – otrzymuje(-ą) następujące modyfikatory: #tooltippable #tooltip:[GetRawTextTooltipTag('$ADD_MODIFIER_BREAKDOWN$')] $MODIFIER_NAME$#!#! $MAYBE_DECAYING_WITH_SPACE_AFTER$$DURATION$\n$TAB$#indent_newline:3 $MODIFIER_DESC$#!"
+ ADD_MODIFIER_FIRST:0 "$SUBJECT_NAME$ – otrzymuje(-ą) następujące modyfikatory: #tooltippable #tooltip:[GetRawTextTooltipTag('$ADD_MODIFIER_BREAKDOWN$')] $MODIFIER_NAME$#!#! $MAYBE_DECAYING_WITH_SPACE_AFTER$$DURATION$\n$TAB$#indent_newline:3 $MODIFIER_DESC$#!"
+ ADD_MODIFIER_THIRD:0 "$SUBJECT_NAME$ – otrzymuje(-ą) następujące modyfikatory: #tooltippable #tooltip:[GetRawTextTooltipTag('$ADD_MODIFIER_BREAKDOWN$')] $MODIFIER_NAME$#!#! $MAYBE_DECAYING_WITH_SPACE_AFTER$$DURATION$\n$TAB$#indent_newline:3 $MODIFIER_DESC$#!"
+ REMOVE_MODIFIER:0 "$SUBJECT_NAME$ – traci(-ą) następujące modyfikatory: #tooltippable #tooltip:[GetRawTextTooltipTag('$REMOVE_MODIFIER_BREAKDOWN$')] #variable $MODIFIER_NAME$#!#!#!\n$TAB$#indent_newline:3 $MODIFIER_DESC$#!"
+ REMOVE_MODIFIER_FIRST:0 "$SUBJECT_NAME$ – traci(-ą) następujące modyfikatory: #tooltippable #tooltip:[GetRawTextTooltipTag('$REMOVE_MODIFIER_BREAKDOWN$')] #variable $MODIFIER_NAME$#!#!#!\n$TAB$#indent_newline:3 $MODIFIER_DESC$#!"
+ REMOVE_MODIFIER_THIRD:0 "$SUBJECT_NAME$ – traci(-ą) następujące modyfikatory: #tooltippable #tooltip:[GetRawTextTooltipTag('$REMOVE_MODIFIER_BREAKDOWN$')] #variable $MODIFIER_NAME$#!#!#!\n$TAB$#indent_newline:3 $MODIFIER_DESC$#!"
 
 # government_l_polish.yml
  gov_council_dictatorship_desc:0 "Jeden z [Concept('concept_government_type', 'rodzajów rządu')]. Polega na tym, że [Concept('concept_country', 'państwem')] włada niewybieralna rada.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
@@ -927,7 +916,6 @@
  BUILDING_TYPE_COUNTRY_BREAKDOWN_EMPTY:0 "Brak budynków rodzaju [BuildingType.GetNameNoFormatting|l] [GetPlayer.GetAltNameNoFormatting('PL_IN')] [GetPlayer.GetAltName('PL_LOCATIVE')]"
  CULTURE_IN_COUNTRY_DESC:0 "\nPopulacja [GetPlayer.GetAltNameNoFormatting('PL_IN')] [GetPlayer.GetAltName('PL_LOCATIVE')]: [Culture.GetPopulation(GetPlayer.Self)|Kv] [SelectLocalization(NotEqualTo_int64(Culture.GetPopulationChange(GetPlayer.Self),'(int64)0'),'CULTURE_POPULATION_CHANGE_IN_COUNTRY','')]\n[Concept('concept_primary_cultures', '$concept_primary_culture$')] [GetPlayer.GetAltNameNoFormatting('PL_IN')] [GetPlayer.GetAltName('PL_LOCATIVE')]: [Culture.IsPrimaryCultureInYesNo(GetPlayer.Self)|v]\n[concept_migration_target]: [Culture.GetMigrationTargetsDesc]\nKultura [Culture.GetName] – [concept_turmoil|l] wśród przynależnych zbiorowości:\n$TAB$#variable [GetPlayer.CalcCulturalTurmoil( Culture.Self )|-0%]#! [GetPlayer.GetAltNameNoFormatting('PL_IN')] [GetPlayer.GetAltName('PL_LOCATIVE')]\n$TAB$#variable [Culture.GetTurmoil|-0%]#! na całym świecie"
  NO_TRADE_ROUTES:0 "Brak szlaków handlowych dla #tooltippable_name #tooltip:[MarketGoods.GetGoods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [MarketGoods.GetGoods.GetCustom('PL_GOODS_GENITIVE')|l]#!#!"
- LITERACY_TOOLTIP:0 "#header [concept_literacy]\n#!#variable [Country.GetNumIncorporatedLiteratePops|*]#! z #variable [Country.GetIncorporatedPopulation|*]#! zbiorowości zamieszkujących [Concept('concept_unincorporated_state', '$concept_unincorporated_states$')|l] [Country.GetAltNameNoFormatting('PL_IN')] #variable [Country.GetAltName('PL_LOCATIVE')]#! to zbiorowości piśmienne, w efekcie czego wskaźnik piśmienności wynosi [Country.GetIncorporatedLiteracyRate|%v] [Country.GetIncorporatedLiteracyRanking]\n$TOOLTIP_DELIMITER$\nTaki stan rzeczy powoduje ustawienie limitu punktów [Concept('concept_innovation', 'innowacji')] na poziomie #tooltippable #tooltip:[GetPlayer.GetTooltipTag],INNOVATION_POINTS_MAX_BREAKDOWN [Country.GetWeeklyMaxInnovation|1] @innovation!#!#!\nObecnie generujemy #tooltippable #tooltip:[GetPlayer.GetTooltipTag],INNOVATION_POINTS_CURRENT_BREAKDOWN #v [Country.GetWeeklyInnovation|+=1] @innovation!#!#!#! w każdym tygodniu ([Country.GetWeeklyRawInnovation|+=1] @innovation! bez limitu)\n\nPonadto obecny wskaźnik [Concept('concept_literacy', 'piśmienności')] przekłada się na wskaźnik [Concept('concept_technology_spread', 'rozpowszechniania technologii')] na poziomie #P #tooltippable #tooltip:[GetPlayer.GetTooltipTag],TECHNOLOGY_SPREAD_RATE_BREAKDOWN od [Country.GetMinWeeklyTechnologySpread|1] do [Country.GetMaxWeeklyTechnologySpread|1]#!#!#! liczby punktów @innovation! [Concept('concept_innovation', 'innowacji')] w każdym tygodniu[SelectLocalization(EqualTo_int64(GetPlayer.GetTotalPopulation,GetPlayer.GetIncorporatedPopulation),'','LITERACY_UNINCORPORATED_TOOLTIP')]"
  LITERACY_UNINCORPORATED_TOOLTIP:0 "\n$TOOLTIP_DELIMITER$\nJeśli wziąć pod uwagę również [Concept('concept_unincorporated_state', '$concept_unincorporated_states$')|l] #variable [Country.GetAltName('PL_GENITIVE')]#!, wówczas #variable [Country.GetNumTotalLiteratePops|*]#! z #variable [Country.GetTotalPopulation|*]#! zbiorowości ([Country.GetTotalLiteracyRate|%v]) to [Concept('concept_pop', '$concept_pops$')|l] piśmienne [Country.GetTotalLiteracyRanking]"
  CUL_DISCRIMINATED_IN_COUNTRY:0 "#tooltippable_name #tooltip:[CULTURE.GetTooltipTag],DATA_CULTURE_NAME_TOOLTIP,CultureTooltip [CULTURE.GetCustom('PL_CULTURE_COLLECTIVE_PLURAL')]#!#! są dyskryminowani [COUNTRY.GetAltNameNoFormatting('PL_IN')] [COUNTRY.GetAltName('PL_LOCATIVE')]"
  CUL_NOT_DISCRIMINATED_IN_COUNTRY:0 "#tooltippable_name #tooltip:[CULTURE.GetTooltipTag],DATA_CULTURE_NAME_TOOLTIP,CultureTooltip [CULTURE.GetCustom('PL_CULTURE_COLLECTIVE_PLURAL')]#!#! nie są dyskryminowani [COUNTRY.GetAltNameNoFormatting('PL_IN')] [COUNTRY.GetAltName('PL_LOCATIVE')]"
@@ -942,10 +930,7 @@
  FORM_COUNTRY_STATE_REGIONS_REQUIRED:0 "Utworzenie [CountryFormation.GetDefinition.GetCustom('PL_COUNTRY_DEF_GENITIVE')] wymaga [CountryFormation.GetNumRequiredStates|v] [Concept('concept_state_region', 'reg. administracyjnych')]"
  FORM_COUNTRY_CULTURE_COUNTRIES_HEADER:0 "[Concept('concept_country', '$concept_countries$')], w których dominuje kultura [CountryFormation.ListCultures]"
  FORM_COUNTRY_LAUNCH_UNIFICATION_PLAY:0 "Zjednocz ([Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$ dyp.')|l])"
- WAR_LEFT_SIDE_NUM_BATTALIONS_TOOLTIP:0 "#HEADER [concept_fully_mobilized_battalions]: #variable [WarPanel.GetLeftMobilizedBattalionsRaw]#! @battalions!#!\n$TOOLTIP_DELIMITER$\nJest to całkowita liczba zmobilizowanych batalionów, którymi strona [WarPanel.GetLeftLeader.GetAltAdjective('PL_FEM')] dysponuje w tej [Concept('concept_war', 'wojnie')].\n\n[concept_fully_mobilized_battalions]: #variable [WarPanel.GetLeftMobilizedBattalionsRaw]#! @battalions! ([WarPanel.GetLeftMobilizationRatioRaw|0%])\n[concept_available_battalions]: #variable [WarPanel.GetLeftAvailableBattalionsRaw]#! @battalions!\n[concept_potential_battalions]: #variable [WarPanel.GetLeftPotentialBattalionsRaw]#! @battalions!"
- WAR_RIGHT_SIDE_NUM_BATTALIONS_TOOLTIP:0 "#HEADER [concept_fully_mobilized_battalions]: #variable [WarPanel.GetRightMobilizedBattalionsRaw]#! @battalions!#!\n$TOOLTIP_DELIMITER$\nJest to całkowita liczba zmobilizowanych batalionów, którymi strona [WarPanel.GetRightLeader.GetAltAdjective('PL_FEM')] dysponuje w tej [Concept('concept_war', 'wojnie')].\n\n[concept_fully_mobilized_battalions]: #variable [WarPanel.GetRightMobilizedBattalionsRaw]#! @battalions! ([WarPanel.GetRightMobilizationRatioRaw|0%])\n[concept_available_battalions]: #variable [WarPanel.GetRightAvailableBattalionsRaw]#! @battalions!\n[concept_potential_battalions]: #variable [WarPanel.GetRightPotentialBattalionsRaw]#! @battalions!"
- WAR_LEFT_SIDE_NUM_FLOTILLAS_TOOLTIP:0 "#HEADER [Concept('concept_flotilla', '$concept_flotillas$')]: #variable [WarPanel.GetLeftFlotillasRaw]#! @combat_unit_flotilla!#!\n$TOOLTIP_DELIMITER$\nJest to całkowita liczba flotylli, którymi strona [WarPanel.GetLeftLeader.GetAltAdjective('PL_FEM')] dysponuje w tej [Concept('concept_war', 'wojnie')]."
- WAR_RIGHT_SIDE_NUM_FLOTILLAS_TOOLTIP:0 "#HEADER [Concept('concept_flotilla', '$concept_flotillas$')]: #variable [WarPanel.GetRightFlotillasRaw]#! @combat_unit_flotilla!#!\n$TOOLTIP_DELIMITER$\nJest to całkowita liczba flotylli, którymi strona [WarPanel.GetRightLeader.GetAltAdjective('PL_FEM')] dysponuje w tej [Concept('concept_war', 'wojnie')]."
+ SUPPLY_NETWORK_MAPMARKER_HEADER:0 "[GetPlayer.GetAltAdjectiveNoFormatting('PL_FEM')|U] [concept_supply_network|l] – szczegóły:"
  WAR_TARGET_ALLIES:0 "Strona [Country.GetAltAdjectiveNoFlag('PL_FEM')] – sojusznicy"
  WAR_INITIATOR_ALLIES:0 "Strona [Country.GetAltAdjectiveNoFlag('PL_FEM')] – sojusznicy"
  FRONT_LEFT_ADJECTIVE_SIDE:0 "Strona [WarPanel.GetLeftLeader.GetAltAdjectiveNoFlag('PL_FEM')]"
@@ -970,21 +955,20 @@
  RESEARCHING:0 "[GetPlayer.GetName] [Select_CString( StringIsEmpty( GetPlayer.GetCustom('PL_COUNTRY_PLURAL') ) , 'prowadzi', 'prowadzą' )] aktualnie badania nad technologią: #variable [Technology.GetName|l]#!\nPostęp: $TECHNOLOGY_PROGRESS_WITH_GAIN_AND_TIME_LEFT$"
  NOT_RESEARCHING:0 "[GetPlayer.GetName] nie [Select_CString( StringIsEmpty( GetPlayer.GetCustom('PL_COUNTRY_PLURAL') ) , 'prowadzi', 'prowadzą' )] aktualnie żadnych badań."
  CONSTRUCTION_QUEUE_BUILDING_IN_STATE:0 "[ConstructionQueueElement.GetBuilding.GetName] [ConstructionQueueElement.GetBuilding.GetState.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[ConstructionQueueElement.GetBuilding.GetState.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [ConstructionQueueElement.GetBuilding.GetState.GetCustom('PL_STATE_LOCATIVE')]#!#!"
- CONSTRUCTION_QUEUE_ITEM_VALID:0 "#header Rozbudowa #tooltippable_name #tooltip:[Building.GetTooltipTag],DATA_BUILDING_NAME_TOOLTIP,BuildingTooltip [Building.GetCustom('PL_BUILDING_GENITIVE')|l]#!#! [State.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[State.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [State.GetCustom('PL_STATE_LOCATIVE')]#!#!#!\n[AddTextIf( ConstructionQueueElement.IsCurrentlyUnderConstruction, 'Liczba tygodni do zakończenia: $WEEKS|v$\n')]$TOOLTIP_DELIMITER$\nPostęp [Concept('concept_construction', 'budowy')]: #v $PROGRESS|0$#!/#v $REQUIRED|0$#! (#v $PERCENT_COMPLETE|%$#!)\nTempo budowy wynoszące #v [ConstructionQueueElement.GetBaseConstructionSpeed|2]#! (źródło: [Building.GetOwner.GetName]) każdego tygodnia przekłada się na łączne postępy wynoszące #v #tooltippable #tooltip:[ConstructionQueueElement.GetTooltipTag],CONSTRUCTION_QUEUE_SPEED_TOOLTIP $SPEED$#!#!#! [SelectLocalization( NotEqualTo_CFixedPoint(State.GetConstructionEfficiency, '(CFixedPoint)0'), 'CONSTRUCTION_QUEUE_STATE_CONSTRUCTION_EFFICIENCY_LINE_BREAK', '')]"
  CONSTRUCTION_QUEUE_STATE_CONSTRUCTION_EFFICIENCY:0 "#tooltippable #tooltip:[State.GetTooltipTag],STATE_CONSTRUCTION_EFFICIENCY_TOOLTIP #v [State.GetConstructionEfficiency|%1+=]#!#!#! wydajność budowy [State.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[State.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [State.GetCustom('PL_STATE_LOCATIVE')]#!#!"
  CONSTRUCTION_QUEUE_DESC:0 "#header [concept_construction]#! [Country.GetAltNameNoFormatting('PL_IN')] [Country.GetAltName('PL_LOCATIVE')][AddLocalizationIf(Country.IsConstructionPaused, '$CONSTRUCTION_IS_PAUSED$')]\n$TOOLTIP_DELIMITER$\nKażdego tygodnia [Country.GetName] [Select_CString( StringIsEmpty( Country.GetCustom('PL_COUNTRY_PLURAL') ) , 'zapewnia', 'zapewniają' )] nam określony potencjał budowlany (#v #tooltippable #tooltip:[Country.GetTooltipTag],CONSTRUCTION_SPEED_BASE_TOOLTIP [Country.CalcBaseConstructionSpeed|1]#!#!#! @construction!).\n[SelectLocalization(Country.ShouldShowPrivateConstructionQueue,'CONSTRUCTION_PRIVATE_ALLOCATION_DESC','')]\n$CONSTRUCTION_GOVERNMENT_PROJECTS_DESC$\n[SelectLocalization(Country.ShouldShowPrivateConstructionQueue,'CONSTRUCTION_PRIVATE_PROJECTS_DESC','')]"
  CONSTRUCTION_QUEUE_DESC_ITEM:0 "[BUILDING.GetName] [STATE.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[STATE.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [STATE.GetCustom('PL_STATE_LOCATIVE')]#!#!: #v $BASE_SPEED$#! (maksymalnie #v $MAX_BASE_SPEED$#!)[AddTextIf( $IS_UNDER_CONSTRUCTION$ ,' – liczba tygodni do zakończenia: #v $WEEKS_LEFT$#!' )]"
  CONSTRUCTION_QUEUE_DESC_BACKLOG_ITEM:0 "[BUILDING.GetName] [STATE.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[STATE.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [STATE.GetCustom('PL_STATE_LOCATIVE')]#!#! (w kolejce)[AddTextIf( $IS_UNDER_CONSTRUCTION$ , ' – liczba tygodni do zakończenia: #v $WEEKS_LEFT$#!' )]"
  CONSTRUCTION_QUEUE_DESC_INVALID_ITEM:0 "[BUILDING.GetName] [STATE.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[STATE.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [STATE.GetCustom('PL_STATE_LOCATIVE')]#!#! #N (budynek niedziałający)#!"
+ COIN_STACK_TOOLTIP:0 "Ikona ceny pokazuje, jak drogi (lub tani) jest dany [concept_good|l] w stosunku do jego [Concept('concept_base_price', 'ceny bazowej')]. Zakres obejmuje ceny od skrajnie niskich (@coin1!) aż po skrajnie wysokie (@coin13!) – z uwzględnieniem cen porównywalnych do ceny bazowej (@coin7!)."
  GOODS_PRICE_DESC_IN_MARKET:0 "#header [Goods.GetTextIcon][Nbsp][Goods.GetName] ([Goods.GetMarket.GetName|l])#!\n$TOOLTIP_DELIMITER$\n$DATA_GOODS_NAME_TOOLTIP$"
- GOODS_PRICE_MARKET_SELL_ORDER_HEADER:0 "#header [concept_sell_orders] #tooltippable_name #tooltip:[GOODS.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [GOODS.GetCustom('PL_GOODS_GENITIVE')|l]#!#! ([MARKET.GetName|l]): $ORDERS|vD$#!\n$TOOLTIP_DELIMITER$"
- GOODS_PRICE_MARKET_BUY_ORDER_HEADER:0 "#header [concept_buy_orders] #tooltippable_name #tooltip:[GOODS.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [GOODS.GetCustom('PL_GOODS_GENITIVE')|l]#!#! ([MARKET.GetName|l]): $ORDERS|vD$#!\n$TOOLTIP_DELIMITER$"
+ GOODS_PRICE_MARKET_PRODUCTION_HEADER:0 "#header [GOODS.GetName] – produkcja ([MARKET.GetName|l])#!\n$TOOLTIP_DELIMITER$"
+ GOODS_PRICE_MARKET_CONSUMPTION_HEADER:0 "#header [GOODS.GetName] – konsumpcja ([MARKET.GetName|l])#!\n$TOOLTIP_DELIMITER$"
  GOODS_POP_CONSUMPTION_MARKET_ORDERS:0 "Konsumpcja przez [concept_pop|l]: #tooltippable #tooltip:$BREAKDOWN_TAG$ $ORDERS|=vD$#!#!"
  TOOLTIP_UNINCORPORATED_STATE_INSTITUTIONS_EFFECT:0 "[Concept('concept_institution', '$concept_institutions$')], które kontroluje ludność [State.GetOwner.GetAltAdjectiveNoFormatting('PL_FEM')], nie wpływają w żaden sposób na obszar administracyjny [State.GetName], gdyż jest to [concept_unincorporated_state|l].\n[Concept('concept_incorporated_state', 'Wcielenie')] obszaru administracyjnego [State.GetName] przyniosłoby następujące efekty:\n[State.GetOwner.GetInstitutionsSummary]"
  TOOLTIP_BUILDING_EMPLOYMENT:0 "#BOLD #V Poziom zatrudnienia [Building.GetCustom('PL_BUILDING_IN')] #tooltippable_name #tooltip:[Building.GetTooltipTag],DATA_BUILDING_NAME_TOOLTIP,BuildingTooltip [Building.GetCustom('PL_BUILDING_LOCATIVE')|l]#!#!#!#!\nPoziom zatrudnienia: #variable [Building.GetNoOfEmployed|1*]#!/#maximum [Building.GetEmployeeCap|1*] pracowników#! (#BOLD #V [Building.GetEmploymentPercentage|0%]#!#!)\n$TOOLTIP_DELIMITER$\n[Building.GetEmployeesBreakdown][Building.GetAllEmployeesTransferDesc][Building.GetAllFailedHiresDesc]"
  TOOLTIP_BUILDING_HEADER:0 "[Building.GetBuildingType.GetName] [Building.GetState.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[Building.GetState.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [Building.GetState.GetCustom('PL_STATE_LOCATIVE')]#!#!"
  TOOLTIP_STATE_POPULATION:0 "#header [Concept('concept_pop', '$concept_population$')] [State.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[State.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [State.GetCustom('PL_STATE_LOCATIVE')]#!#!: #v [State.GetPopulationSize|*]#!#!\n$TOOLTIP_DELIMITER$\n[State.GetPopGrowthDesc]\n[State.GetMigrationDesc]\n\n$STATE_AVAILABLE_LABOR$\n[Concept('concept_pop_growth', '$concept_pop_growth_birthrate$')]: #v [State.GetPopBirthrate|+%1]#! rocznie\n[Concept('concept_pop_growth', '$concept_pop_growth_mortality$')]: #v [State.GetPopMortality|-%1]#! rocznie\n\n$STATE_AVAILABLE_LABOR$"
- STATE_AVAILABLE_LABOR_TOOLTIP:0 "#header Dostępna siła robocza [State.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[State.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [State.GetCustom('PL_STATE_LOCATIVE')]#!#!#!\n$STATE_UNEMPLOYED$\n$STATE_PEASANTS$\n$STATE_QUALIFICATIONS$"
  GOODS_EMBARGO_INACTIVE:0 "Nie nałożyliśmy [Concept('concept_embargo', 'embarga')] na [Goods.GetTextIcon][Nbsp]#tooltippable_name #tooltip:[Goods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [Goods.GetCustom('PL_GOODS_ACCUSATIVE')|l]#!#!"
  GOODS_EMBARGO_ACTIVE:0 "Nałożyliśmy [Concept('concept_embargo', 'embargo')] na [Goods.GetTextIcon][Nbsp]#tooltippable_name #tooltip:[Goods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [Goods.GetCustom('PL_GOODS_ACCUSATIVE')|l]#!#!"
  GOODS_ENCOURAGE_CONSUMPTION_INACTIVE:0 "Nie [Concept('concept_encourage_consumption', 'zachęcamy do konsumpcji')] [Goods.GetTextIcon][Nbsp]#tooltippable_name #tooltip:[Goods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [Goods.GetCustom('PL_GOODS_GENITIVE')|l]#!#!"
@@ -1021,21 +1005,21 @@
  MARKET_GOODS_BALANCE_TOOLTIP_IMBALANCE:0 "#header Saldo #tooltippable_name #tooltip:[Goods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [Goods.GetCustom('PL_GOODS_GENITIVE')|l]#!#!#!\nBieżący brak równowagi: #v [FixedPointToInt(Goods.GetMarketBuyAndSellOrdersBalance)|=Du]#!\n$TOOLTIP_DELIMITER$\n[concept_sell_orders]: [Goods.GetMarketSellOrdersWithTooltip]\n[concept_buy_orders]: [Goods.GetMarketBuyOrdersWithTooltip]\n\nPasek wskazuje, jak bardzo bieżący brak równowagi [Goods.GetTextIcon] #tooltippable_name #tooltip:[Goods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [Goods.GetCustom('PL_GOODS_GENITIVE')|l]#!#! [Concept('concept_market_impact', 'oddziałuje')] na [Goods.GetMarket.GetName|l]. Im bardziej #blue niebieski#! lub #gold złoty#! jest pasek, tym oddziaływanie na rynek jest większe."
  POP_WORK_INFO:0 "[Pop.GetBuilding.GetCustom('PL_BUILDING_FROM')] #tooltippable_name #tooltip:[Pop.GetBuilding.GetTooltipTag],DATA_BUILDING_NAME_TOOLTIP,BuildingTooltip [Pop.GetBuilding.GetCustom('PL_BUILDING_GENITIVE')]#!#!"
  DEPENDENT_WAGE_SOURCES:0 "z: $BREAKDOWN$"
- CAN_EXPAND_BUILDING_TOOLTIP:0 "#header $BUILD_OR_EXPAND$ [BUILDING_TYPE.GetName|l] [STATE.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[STATE.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [STATE.GetCustom('PL_STATE_LOCATIVE')]#!#!#! (poziom: [BUILDING.GetExpansionLevelBreakdownDesc])\n#tooltippable #tooltip:[GetRawTextTooltipTag('$PROFIT_IMPACT_DESC$')] #v $PROFIT_IMPACT|K+=$ @money!#!#!#! [SelectLocalization(Or(ObjectsEqual(BUILDING.GetBuildingType, GetBuildingType('building_government_administration').Self), ObjectsEqual(BUILDING.GetBuildingType, GetBuildingType('building_construction_sector').Self)), 'BUILDING_UPKEEP_HEADER', 'BUILDING_EARNINGS_HEADER')] – prognoza na tydzień:\n[ConcatIfNeitherEmpty('$QUALIFICATIONS$', '\n')][SelectLocalization( LessThan_CFixedPoint(State.GetConstructionEfficiency, '(CFixedPoint)0'), 'CONSTRUCTION_QUEUE_STATE_CONSTRUCTION_EFFICIENCY_WARNING', '')]$TOOLTIP_DELIMITER$\n[concept_construction] ($CONSTRUCTION_COST_CHANGE$): $REQUIRED_CONSTRUCTION|v0$ @construction!\n[ConcatIfNeitherEmpty('$INVESTMENT_FUND$', '\n')]\n[STATE.GetMarketAccessStatus]\nDostępna siła robocza: [State.GetNumSubsistenceWorkingAdults|Dv] – [GetPopType('peasants').GetName|l] [SelectLocalization( GreaterThan_int64(State.GetNumUnemployedWorkingAdults, '(int64)0'), 'AND_UNEMPLOYED', '' )][ConcatIfNeitherEmpty('$MILITARY_INFO$', '\n')][ConcatIfNeitherEmpty('$PORT_INFO$', '\n')]\n\n$KEY_MODIFIER_INSTRUCTIONS$"
+ establish_trade_route_behavior_select_other_import_market_tooltip:0 "#header [GOODS.GetTextIcon] #v [GOODS.GetName]#! – eksportuj ten towar na [MARKET.GetName|l]#!\n$TOOLTIP_DELIMITER$\n[GOODS.GetMarket.GetName] – zlecenia sprzedaży: #variable $SELL|D$#!\n[MARKET.GetName] – [concept_buy_orders|l]: #variable $BUY|D$#!\nPrzewidywana skala eksportu: $TRADE|vD$"
  INFAMY_TOOLTIP:0 "#header Ludność [COUNTRY.GetAltAdjective('PL_FEM')] – [concept_infamy|l]: #BOLD $INFAMY_LABEL$#! (#variable $INFAMY|-1$#!)#!\n$TOOLTIP_DELIMITER$\n$INFAMY_DECAY$[ConcatIfNeitherEmpty('\n\nEfekty:\n','$INFAMY_EFFECTS$')]"
  INVESTMENT_POOL_NEXT_BUILDING_WITH_POP_TYPE:0 "[POP_TYPE.GetName] inwestują w [BUILDING_TYPE.GetName|l] [STATE.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[STATE.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [STATE.GetCustom('PL_STATE_LOCATIVE')]#!#!\n$STATUS$"
  TRADE_ROUTE_EXPORT_DESCRIPTION:0 "[Goods.GetTextIcon][Nbsp][Goods.GetName] – eksport na [Market.GetName|l]"
  TRADE_ROUTE_TOOLTIP:0 "#header [concept_trade_route] – [TradeRoute.GetDirectionName] [TradeRoute.GetGoods.GetTextIcon] #tooltippable_name #tooltip:[TradeRoute.GetGoods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [TradeRoute.GetGoods.GetCustom('PL_GOODS_GENITIVE')|l]#!#!#!\n$TOOLTIP_DELIMITER$\n[Concept('concept_market', '$concept_markets$')]: [TradeRoute.GetActingMarket.GetName] i [TradeRoute.GetRemoteMarket.GetName]\nTrasa: [TradeRoute.GetExitPortState.GetName]-[TradeRoute.GetEntryPortState.GetName]\nZarządzanie: [TradeRoute.GetTradeCenterBuilding.GetName|l], [TradeRoute.GetTradeCenterState.GetName] ([TradeRoute.GetOwner.GetName])\n\n[TradeRoute.GetTradeQuantityDesc]\n[TradeRoute.GetRevenueAfterTariffDesc]\n[TradeRoute.GetPriceImpactDesc][ConcatIfNeitherEmpty('\n',TradeRoute.GetNumUsedConvoysDesc)]\n[TradeRoute.GetCostDesc]\n\n[TradeRoute.GetPredictedFinalLevelDesc]"
  TRADE_ROUTE_COMPETITION_ENTRY_EXPORTS:0 "Ludność [Country.GetAltAdjectiveNoFormatting('PL_FEM')] domaga się, aby jej [Concept('concept_trade_route', 'szlakiem handlowym')] eksportowano następującą liczbę towarów: #v #tooltippable #tooltip:$QUANTITY_BREAKDOWN_TAG$ $DESIRED_QUANTITY|0$#!#!#!. Konkurencyjność tego szlaku powinna zaś wynosić #v #tooltippable #tooltip:$COMPETITIVENESS_BREAKDOWN_TAG$ $COMPETITIVENESS|0$#!#!#!."
  TRADE_ROUTE_COMPETITION_ENTRY_IMPORTS:0 "Ludność [Country.GetAltAdjectiveNoFormatting('PL_FEM')] domaga się, aby jej [Concept('concept_trade_route', 'szlakiem handlowym')] importowano następującą liczbę towarów: #v #tooltippable #tooltip:$QUANTITY_BREAKDOWN_TAG$ $DESIRED_QUANTITY|0$#!#!#!. Konkurencyjność tego szlaku powinna zaś wynosić #v #tooltippable #tooltip:$COMPETITIVENESS_BREAKDOWN_TAG$ $COMPETITIVENESS|0$#!#!#!."
+ TRADE_ROUTE_PRICE_CHANGE:0 "[Goods.GetName] – wpływ ceny na towar ([Market.GetName|l]): $BEFORE_PRICE|1v$ @money! $PRICE_CUR_ICON$ @arrow_right! $AFTER_PRICE|1v$ @money! $PRICE_NEW_ICON$"
+ TRADE_ROUTE_PREDICTED_PRICE_CHANGE:0 "[Goods.GetName] – przewidywany wpływ ceny na towar ([Market.GetName|l]): $BEFORE_PRICE|1v$ @money! $PRICE_CUR_ICON$ @arrow_right! $AFTER_PRICE|1v$ @money! $PRICE_NEW_ICON$"
  OTHER_COUNTRIES_TRADE_ROUTES:0 "Szlaki handlowe innych państw [MarketGoods.GetMarket.GetOwner.GetAltNameNoFormatting('PL_Z')|l] [MarketGoods.GetMarket.GetOwner.GetAltName('PL_INSTRUMENTAL')] ([MarketGoods.GetNumOthersOwnedTradeRoutes]):"
  TRADE_ROUTE_CANCEL:0 "Przestań handlować #variable [TradeRoute.GetGoods.GetTextIcon] #tooltippable_name #tooltip:[TradeRoute.GetGoods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [TradeRoute.GetGoods.GetCustom('PL_GOODS_INSTRUMENTAL')|l]#!#!#! z: #variable [TradeRoute.GetExportingMarket.GetName|l]#!"
  CIVIL_WAR_MAX_PROGRESS_BREAKDOWN:0 "Postęp maksymalny: #v [Multiply_CFixedPoint('(CFixedPoint)$TOTAL_MAX$','(CFixedPoint)100'))|0]#!\nGenerowany wskutek [Concept('concept_political_movement_radicalism', 'radykalizmu')]: #v [Multiply_CFixedPoint('(CFixedPoint)$MAX_FROM_RADICALISM$','(CFixedPoint)100')|0]#!"
  CIVIL_WAR_MAX_UNSUPPORTED_PROGRESS:0 "Utrzymanie postępu rewolucji wynoszącego więcej niż [Multiply_CFixedPoint('(CFixedPoint)$PROGRESS_LIMIT$','(CFixedPoint)100')|0v] nie jest możliwe, ponieważ [Concept('concept_political_movement', 'ruchowi politycznemu')] brakuje poparcia jednej z [Concept('concept_interest_group', 'grup interesu')]."
  CIVIL_WAR_PROGRESS_ABOVE_MAX_PROGRESS:0 "#header Postęp w ujęciu tygodniowym\n$TOOLTIP_DELIMITER$\nPostęp [Concept('concept_revolution', 'rewolucji')] aktualnie przekracza wartość maksymalną #tooltippable #tooltip:$BREAKDOWN_TAG$ [Multiply_CFixedPoint('(CFixedPoint)$MAX_PROGRESS$','(CFixedPoint)100')|0]#!#!"
- SECESSION_NO_PRIMARY_CULTURE_COUNTRY_NAME:0 "Kultura [COUNTRY.GetAltAdjectiveNoFormatting('PL_FEM')] – powstanie"
  INTERACTION_NOT_ALLOWED_FOR:0 "To działanie jest niedozwolone dla państwa o nazwie $COUNTRY$"
- COMBAT_UNIT_INACTIVE_MODIFIER_GARRISONED:0 "Nieaktywne (w [Concept('concept_garrison', 'garnizonach')])"
  DEAD_TOOLTIP_ATTACKER:0 "Strona [Battle.GetAttacker.GetAltAdjective('PL_FEM')] poniosła następującą liczbę [Concept('concept_dead', 'ofiar śmiertelnych')]: [Battle.GetAttackerTotalDead|0v]"
  DEAD_TOOLTIP_DEFENDER:0 "Strona [Battle.GetDefender.GetAltAdjective('PL_FEM')] poniosła następującą liczbę [Concept('concept_dead', 'ofiar śmiertelnych')]: [Battle.GetDefenderTotalDead|0v]"
  WOUNDED_TOOLTIP_ATTACKER:0 "Strona [Battle.GetAttacker.GetAltAdjective('PL_FEM')] ma następującą liczbę [Concept('concept_wounded', 'rannych')]: [Battle.GetAttackerTotalWounded|0v]"
@@ -1045,6 +1029,7 @@
  NO_ACTIVE_DIPLOMATIC_PLAYS:0 "Brak aktywnych [Concept('concept_diplomatic_play', 'posunięć dyplomatycznych')]"
  DIPLO_ACTIONS:0 "[Concept('concept_diplomatic_action', '$concept_diplomatic_actions$')] skierowane [Country.GetAltNameNoFormatting('PL_IN_B')] [Country.GetAltName('PL_ACCUSATIVE')]"
  DIPLOMATIC_PLAYS_TARGETING_COUNTRY:0 "[Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')] skierowane [Country.GetAltNameNoFormatting('PL_IN_B')] [Country.GetAltName('PL_ACCUSATIVE')]"
+ OH_DEER:0 "„#italic O nie, błędny jeleń wykrył tyle#! #italic błędów:#! #bold [ErrorDeer.NumberOrErrors|v]#!!”"
  ACTIVE_PRODUCTION_METHODS_PRODUCING:0 "[Concept('concept_production_method', '$concept_production_methods$')] [Goods.GetTextIcon][Nbsp]#tooltippable_name #tooltip:[Goods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [Goods.GetCustom('PL_GOODS_GENITIVE')|l]#!#! [GetPlayer.GetAltNameNoFormatting('PL_IN')] [GetPlayer.GetAltName('PL_LOCATIVE')]"
  ACTIVE_PRODUCTION_METHODS_CONSUMING:0 "[Concept('concept_production_method', '$concept_production_methods$')] wykorzystujące [Goods.GetTextIcon][Nbsp]#tooltippable_name #tooltip:[Goods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [Goods.GetCustom('PL_GOODS_ACCUSATIVE')|l]#!#! [GetPlayer.GetAltNameNoFormatting('PL_IN')] [GetPlayer.GetAltName('PL_LOCATIVE')]"
  ENACTING_LAW:0 "[GetPlayer.GetName] aktualnie [Select_CString( StringIsEmpty( GetPlayer.GetCustom('PL_COUNTRY_PLURAL') ) , 'ustanawia', 'ustanawiają' )] prawo #variable [GetPlayer.GetLawBeingEnacted.GetName|l]#!"
@@ -1052,7 +1037,10 @@
  POP_TYPE_INFORMATION:0 "[Pop.GetPopType.GetName] [Pop.GetState.GetOwner.GetAltNameNoFormatting('PL_IN')] [Pop.GetState.GetOwner.GetAltName('PL_LOCATIVE')]"
  CULTURALLY_ACCEPTED_TOOLTIP:0 "#header Kultura zbiorowości#!\n#tooltippable_name #tooltip:[Culture.GetTooltipTag],DATA_CULTURE_NAME_TOOLTIP,CultureTooltip [Culture.GetCustom('PL_CULTURE_COLLECTIVE_PLURAL')]#!#! są [Concept('concept_accepted_culture', 'akceptowani')] [Pop.GetCountry.GetAltNameNoFormatting('PL_IN')] [Pop.GetCountry.GetAltName('PL_LOCATIVE')]\nPrzyczyną jest [concept_law|l] [Pop.GetCountry.GetActiveLawFromGroup('lawgroup_citizenship').GetName|l] z kategorii [Pop.GetCountry.GetActiveLawFromGroup('lawgroup_citizenship').GetGroup.GetName|l]"
  CULTURALLY_DISCRIMINATED_TOOLTIP:0 "#header Kultura zbiorowości#!\n#tooltippable_name #tooltip:[Culture.GetTooltipTag],DATA_CULTURE_NAME_TOOLTIP,CultureTooltip [Culture.GetCustom('PL_CULTURE_COLLECTIVE_PLURAL')]#!#! są [Concept('concept_discrimination', 'dyskryminowani')] [Pop.GetCountry.GetAltNameNoFormatting('PL_IN')] [Pop.GetCountry.GetAltName('PL_LOCATIVE')]\nPrzyczyną jest [concept_law|l] [Pop.GetCountry.GetActiveLawFromGroup('lawgroup_citizenship').GetName|l] z kategorii [Pop.GetCountry.GetActiveLawFromGroup('lawgroup_citizenship').GetGroup.GetName|l]"
+ notification_interest_activated_third_party_name:0 "Stosunki dyplomatyczne [SCOPE.sCountry('actor').GetAltNameNoFormatting('PL_Z')] [SCOPE.sCountry('actor').GetAltName('PL_INSTRUMENTAL')]"
+ notification_interest_deactivated_third_party_name:0 "Utracone stosunki dyplomatyczne [SCOPE.sCountry('actor').GetAltNameNoFormatting('PL_Z')] [SCOPE.sCountry('actor').GetAltName('PL_INSTRUMENTAL')]"
  BUILDING_RIGHT_CLICK_MENU_EXPAND:0 "Rozbuduj [State.GetCustom('PL_STATE_IN')] #tooltippable_name #tooltip:[State.GetTooltipTag],DATA_STATE_NAME_TOOLTIP,StateTooltip [State.GetCustom('PL_STATE_LOCATIVE')]#!#!"
+ MAP_LIST_PANEL_TITLE:0 "[GetSelectedMapModeName][SelectLocalization( MapListPanelManager.HasCurrentInteraction, '', ' - Księga rachunkowa')]"
  MAP_MODE_ATTITUDE_COUNTRY:0 "Pokaż na mapie [concept_attitude|l] wobec [CountryPanel.GetCountry.GetAltName('PL_GENITIVE')]"
  MAP_MODE_RELATIONS_COUNTRY:0 "Pokaż na mapie [concept_relations|l] [CountryPanel.GetCountry.GetAltNameNoFormatting('PL_Z')] [CountryPanel.GetCountry.GetAltName('PL_INSTRUMENTAL')]"
  TRADED_GOODS_IMPORTED_TOOLTIP:0 "[SelectLocalization( And(EqualTo_int32( MarketGoods.GetNumImportTradeRoutes, '(int32)0'), EqualTo_CFixedPoint( MarketGoods.GetImportAmount, '(CFixedPoint)0')) , 'TRADED_GOODS_IMPORTED_TOOLTIP_NOT_IMPORTING', 'TRADED_GOODS_IMPORTED_TOOLTIP_IMPORTING')]"
@@ -1070,6 +1058,8 @@
  POP_TYPE_IN_STATE:0 "#b [PopType.GetName] [State.GetCountry.GetAltNameNoFormatting('PL_IN')] [State.GetCountry.GetAltName('PL_LOCATIVE')]#!:\n$TAB$$TAB$Populacja: [PopType.GetPopulation(State.GetCountry)|kv]\n$TAB$$TAB$$TAB$$TAB$[concept_workforce]: [PopType.GetWorkforce(State.GetCountry)|kv]\n$TAB$$TAB$$TAB$$TAB$[concept_dependents]: [PopType.GetDependents(State.GetCountry)|kv]\n$TAB$$TAB$[concept_political_strength]: [PopType.GetPolStr(State.GetCountry)|kv][SelectLocalization(State.GetCountry.IsPlayer, 'POP_TYPE_IN_STATE_SUPPORT', '')]"
  POP_TYPE_IN_RELIGION_NO_PLAYER_POPULATION:0 "[GetPlayer.GetAltNameNoFormatting('PL_IN')|U] [GetPlayer.GetAltName('PL_LOCATIVE')] nie ma żadnych [Concept('concept_pop', '$concept_pops$')|l] wyznających #tooltippable_name #tooltip:[Religion.GetTooltipTag],DATA_RELIGION_NAME_TOOLTIP,ReligionTooltip [Religion.GetCustom('PL_RELIGION_ACC')|l]#!#!"
  POP_TYPE_STRATA:0 "[PopType.GetName] to #tooltippable #tooltip:[PopType.GetTooltipTag],POP_TYPE_BREAKDOWN [PopType.GetStrata]#!#!"
+ notification_new_trade_route_name:0 "[SCOPE.GetRootScope.GetTradeRoute.GetOwner.GetFlagTextIcon] – szlak [Select_CString(EqualTo_string(SCOPE.GetRootScope.GetTradeRoute.GetDirectionName, 'Import'), 'importu', 'eksportu'))] [SCOPE.GetRootScope.GetTradeRoute.GetGoods.GetTextIcon] #tooltippable_name #tooltip:[SCOPE.GetRootScope.GetTradeRoute.GetGoods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [SCOPE.GetRootScope.GetTradeRoute.GetGoods.GetCustom('PL_GOODS_GENITIVE')|l]#!#!"
+ notification_canceled_trade_route_name:0 "[SCOPE.GetRootScope.GetTradeRoute.GetOwner.GetFlagTextIcon] – wycofany szlak [Select_CString(EqualTo_string(SCOPE.GetRootScope.GetTradeRoute.GetDirectionName, 'Import'), 'importu', 'eksportu'))] [SCOPE.GetRootScope.GetTradeRoute.GetGoods.GetTextIcon] #tooltippable_name #tooltip:[SCOPE.GetRootScope.GetTradeRoute.GetGoods.GetTooltipTag],DATA_GOODS_NAME_TOOLTIP,GoodsTooltip [SCOPE.GetRootScope.GetTradeRoute.GetGoods.GetCustom('PL_GOODS_GENITIVE')|l]#!#!"
  notification_unification_candidate_added_desc:0 "[SCOPE.sCountry('actor').GetName] – to państwo jest teraz [Concept('concept_unification_candidate', 'kandydatem do zjednoczenia')] następującego państwa: [SCOPE.sCountryFormation('country_formation').GetName]. Może zyskać poparcie mniejszych [Concept('concept_country', 'państw')], w których mieszka ludność [SCOPE.sCountryFormation('country_formation').GetAltAdjective('PL_FEM')]"
  BUILDING_KIND_USES_GOVERNMENT_SLAVES:0 "Wykorzystuje [Concept('concept_budget_government_slaves', 'niewolników państwowych')][SelectLocalization( ObjectsEqual(Country.Self, GetPlayer.Self), '', 'IN_COUNTRY' )]"
  BUILDING_KIND_USES_MILITARY_SLAVES:0 "Wykorzystuje [Concept('concept_budget_military_slaves', 'niewolników wojskowych')][SelectLocalization( ObjectsEqual(Country.Self, GetPlayer.Self), '', 'IN_COUNTRY' )]"
@@ -1140,6 +1130,10 @@
  modifier_state_radicals_from_sol_change_accepted_religion_mult:0 "[Concept('concept_radical', '$concept_radicals$')] po obniżeniu [Concept('concept_sol', 'poziomu życia')] przedstawicieli [Concept('concept_accepted_religion', 'religii akceptowanych')]"
  modifier_state_loyalists_from_sol_change_accepted_religion_mult:0 "[Concept('concept_loyalist', '$concept_loyalists$')] po podniesieniu [Concept('concept_sol', 'poziomu życia')] przedstawicieli [Concept('concept_accepted_religion', 'religii akceptowanych')]"
 
+# parties_l_polish.yml
+ party_anarchist:0 "Stowarzyszenie anarchistów"
+ party_blue_shirts_society:0 "Stowarzyszenie Błękitnych Koszul"
+
 # pop_types_l_polish.yml
  ACADEMICS_QUALIFICATIONS_DESC:0 "Do #v @academics! pracowników akademickich#! mogą dołączyć tylko zbiorowości o odpowiednim poziomie [Concept('concept_literacy', 'piśmienności')], a ich potencjał w tym aspekcie jest proporcjonalny do stopnia ich [Concept('concept_literacy', 'piśmienności')] i [Concept('concept_wealth', 'zamożności')]. Podczas gdy zbiorowościom z [Concept('concept_culture', 'kultur')] [Concept('concept_discrimination', 'dyskryminowanych')] zajmuje to znacznie więcej czasu, #v @clerks! urzędnicy#! i #v @aristocrats! arystokraci#! mogą łatwo dołączyć do #v @academics! pracowników akademickich#!."
  ARISTOCRATS_QUALIFICATIONS_DESC:0 "Do #v @aristocrats! arystokratów#! mogą dołączyć tylko zbiorowości o odpowiednim poziomie [Concept('concept_wealth', 'zamożności')], a ich potencjał w tym aspekcie jest proporcjonalny do stopnia ich [Concept('concept_wealth', 'zamożności')] i w mniejszym stopniu uzależniony od poziomu ich [Concept('concept_literacy', 'piśmienności')]. Podczas gdy zbiorowościom z [Concept('concept_culture', 'kultur')] [Concept('concept_discrimination', 'dyskryminowanych')] zajmuje to znacznie więcej czasu, #v @officers! oficerowie#! i #v @bureaucrats! biurokraci#! mogą łatwo dołączyć do #v @aristocrats! arystokratów#!."
@@ -1154,6 +1148,26 @@
  SHOPKEEPERS_QUALIFICATIONS_DESC:0 "Do #v @shopkeepers! właścicieli sklepów#! mogą dołączyć zbiorowości o pewnym poziomie [Concept('concept_wealth', 'zamożności')], a ich potencjał w tym aspekcie jest proporcjonalny do stopnia ich [Concept('concept_wealth', 'zamożności')]. #v @clerks! Urzędnicy#! i #v @farmers! rolnicy#! mogą łatwo dołączyć do #v @shopkeepers! właścicieli sklepów#!."
 
 # triggers_l_polish.yml
+ TRIGGER_MARKET_GOODS_BUY_ORDERS:0 "[GOODS.GetName] – liczba zleceń kupna tego towaru ([MARKET.GetName|l]) wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_BUY_ORDERS_NOT:0 "[GOODS.GetName] – liczba zleceń kupna tego towaru ([MARKET.GetName|l]) #bold nie #!wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_SELL_ORDERS:0 "[GOODS.GetName] – liczba zleceń sprzedaży tego towaru [MARKET.GetName|l]) wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_SELL_ORDERS_NOT:0 "[GOODS.GetName] – liczba zleceń sprzedaży tego towaru ([MARKET.GetName|l]) #bold nie #!wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_CONSUMPTION:0 "[GOODS.GetName] – wartość konsumpcji tego towaru ([MARKET.GetName|l]) wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_CONSUMPTION_NOT:0 "[GOODS.GetName] – wartość konsumpcji tego towaru ([MARKET.GetName|l]) #bold nie #!wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_PRODUCTION:0 "[GOODS.GetName] – wartość produkcji tego towaru ([MARKET.GetName|l]) wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_PRODUCTION_NOT:0 "[GOODS.GetName] – wartość produkcji tego towaru ([MARKET.GetName|l]) #bold nie #!wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_LEADING_PRODUCER_OF:0 "[COUNTRY.GetName] to główny producent towaru: [TARGET_GOODS.GetName]"
+ TRIGGER_LEADING_PRODUCER_OF_NOT:0 "[COUNTRY.GetName] to #bold nie #!główny producent towaru: [TARGET_GOODS.GetName]"
+ TRIGGER_MARKET_GOODS_IMPORTS:0 "[GOODS.GetName] – wartość importu tego towaru ([MARKET.GetName|l]) wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_IMPORTS_NOT:0 "[GOODS.GetName] – wartość importu tego towaru ([MARKET.GetName|l]) #bold nie #!wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_IMPORTS_FIRST:0 "[GOODS.GetName] – wartość importu tego towaru ([MARKET.GetName|l]) wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_IMPORTS_FIRST_NOT:0 "[GOODS.GetName] – wartość importu tego towaru ([MARKET.GetName|l]) NIE wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_IMPORTS_THIRD:0 "[GOODS.GetName] – wartość importu tego towaru ([MARKET.GetName|l]) wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_IMPORTS_THIRD_NOT:0 "[GOODS.GetName] – wartość importu tego towaru ([MARKET.GetName|l]) NIE wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_EXPORTS:0 "[GOODS.GetName] – wartość eksportu tego towaru ([MARKET.GetName|l]) wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_EXPORTS_NOT:0 "[GOODS.GetName] – wartość eksportu tego towaru ([MARKET.GetName|l]) #bold nie #!wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_DELTA:0 "[GOODS.GetName] – przyrost ilości tego towaru ([MARKET.GetName|l]) wynosi $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_DELTA_NOT:0 "[GOODS.GetName] – przyrost ilości tego towaru ([MARKET.GetName|l]) #bold nie #!wynosi $COMPARATOR$ #variable $NUM$#!"
  TRIGGER_IS_VIOLATING_SOVEREIGNTY_OF:0 "[TARGET_COUNTRY.GetAltAdjectiveNoFormatting('PL_FEM')|U] [concept_sovereignty|l] została naruszona przez następujące państwo: [COUNTRY.GetName]"
  TRIGGER_IS_VIOLATING_SOVEREIGNTY_OF_NOT:0 "[TARGET_COUNTRY.GetAltAdjectiveNoFormatting('PL_FEM')|U] [concept_sovereignty|l] #bold nie #!została naruszona przez następujące państwo: [COUNTRY.GetName]"
 
